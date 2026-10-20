@@ -1,0 +1,57 @@
+volet,T,D,N,C,method,s,WL,OT,cpu,bb_nodes,nb_vars,nb_constrs,YN_size,max_gap,status
+4red,150,6,2,2,baseline,,22595,677.0,0.0011,,,,,,optimal
+4red,150,6,2,2,base_model,,25200.0,720.0,10.7106,39395,1056,468,,,optimal
+4red,150,6,2,2,reinforced,,25198.0,719.5,8.4382,19222,600,474,,,optimal
+4red,150,6,2,2,eps,20,,,5.4467,,,,20,20.5,optimal
+4red,150,6,2,2,eps,10,,,10.9333,,,,38,11.0,optimal
+4red,150,6,2,2,hybrid,20,,,4.7496,,,,25,28.0,optimal
+4red,150,6,2,2,hybrid,10,,,10.2555,,,,53,13.5,optimal
+4red,150,6,2,3,baseline,,32249,577.0,0.0025,,,,,,optimal
+4red,150,6,2,3,base_model,,37797.0,719.333333,64.9923,450781,1056,468,,,optimal
+4red,150,6,2,3,reinforced,,37798.0,719.666667,9.0611,25753,600,474,,,optimal
+4red,150,6,2,3,eps,20,,,0.7398,,,,10,22.0,optimal
+4red,150,6,2,3,eps,10,,,1.7606,,,,19,11.333333,optimal
+4red,150,6,2,3,hybrid,20,,,0.5842,,,,13,27.666667,optimal
+4red,150,6,2,3,hybrid,10,,,1.2506,,,,26,14.333333,optimal
+4red,150,6,3,2,baseline,,22595,677.0,0.001,,,,,,optimal
+4red,150,6,3,2,base_model,,25200.0,720.0,9.8091,39395,1056,468,,,optimal
+4red,150,6,3,2,reinforced,,25198.0,719.5,7.0033,19222,600,474,,,optimal
+4red,150,6,3,2,eps,20,,,5.0873,,,,20,20.5,optimal
+4red,150,6,3,2,eps,10,,,10.073,,,,38,11.0,optimal
+4red,150,6,3,2,hybrid,20,,,4.6883,,,,25,28.0,optimal
+4red,150,6,3,2,hybrid,10,,,8.9628,,,,53,13.5,optimal
+4red,150,6,3,3,baseline,,32249,577.0,0.0013,,,,,,optimal
+4red,150,6,3,3,base_model,,37797.0,719.333333,70.0136,450781,1056,468,,,optimal
+4red,150,6,3,3,reinforced,,37798.0,719.666667,88.5038,403592,600,474,,,optimal
+4red,150,6,3,3,eps,20,,,0.715,,,,10,22.0,optimal
+4red,150,6,3,3,eps,10,,,2.179,,,,19,11.333333,optimal
+4red,150,6,3,3,hybrid,20,,,0.6695,,,,13,27.666667,optimal
+4red,150,6,3,3,hybrid,10,,,1.2517,,,,26,14.333333,optimal
+4red,300,6,2,2,baseline,,22595,684.0,0.0018,,,,,,optimal
+4red,300,6,2,2,base_model,,,,,,,,,,error: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+4red,300,6,2,2,reinforced,,25198.0,719.5,376.929,852079,1142,924,,,optimal
+4red,300,6,2,2,eps,20,,,233.0741,,,,34,26.0,optimal
+4red,300,6,2,2,eps,10,,,240.3298,,,,65,17.5,optimal
+4red,300,6,2,2,hybrid,20,,,171.5987,,,,49,30.5,optimal
+4red,300,6,2,2,hybrid,10,,,284.3082,,,,99,17.5,optimal
+4red,300,6,2,3,baseline,,32502,670.0,0.005,,,,,,optimal
+4red,300,6,2,3,base_model,,,,,,,,,,error: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+4red,300,6,2,3,reinforced,,37800.0,720.0,21.6766,30832,1142,924,,,optimal
+4red,300,6,2,3,eps,20,,,10.13,,,,23,21.0,optimal
+4red,300,6,2,3,eps,10,,,24.522,,,,44,11.000001,optimal
+4red,300,6,2,3,hybrid,20,,,22.0699,,,,41,26.0,optimal
+4red,300,6,2,3,hybrid,10,,,24.8569,,,,75,12.333333,optimal
+4red,300,6,3,2,baseline,,22595,684.0,0.0022,,,,,,optimal
+4red,300,6,3,2,base_model,,,,,,,,,,error: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+4red,300,6,3,2,reinforced,,25198.0,719.0,246.0127,477701,1142,924,,,optimal
+4red,300,6,3,2,eps,20,,,147.5459,,,,34,26.0,optimal
+4red,300,6,3,2,eps,10,,,412.2647,,,,65,17.5,optimal
+4red,300,6,3,2,hybrid,20,,,114.0728,,,,48,30.5,optimal
+4red,300,6,3,2,hybrid,10,,,374.8481,,,,99,17.5,optimal
+4red,300,6,3,3,baseline,,32502,670.0,0.0022,,,,,,optimal
+4red,300,6,3,3,base_model,,,,,,,,,,error: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+4red,300,6,3,3,reinforced,,37800.0,720.0,19.0228,30832,1142,924,,,optimal
+4red,300,6,3,3,eps,20,,,10.8218,,,,23,21.0,optimal
+4red,300,6,3,3,eps,10,,,22.6977,,,,44,11.000001,optimal
+4red,300,6,3,3,hybrid,20,,,12.3275,,,,41,26.0,optimal
+4red,300,6,3,3,hybrid,10,,,20.344,,,,75,12.333333,optimal
