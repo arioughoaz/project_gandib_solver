@@ -1,0 +1,1826 @@
+================================================================
+  OCP Experiment Pipeline — Volet 4 RÉDUIT
+  2026-10-20 15:14:20
+  IMPL_DIR    : /home/fk/vie/fac/M2/UES/MULTI_OBJECTIVE SOLVERS/Project 2/IMPLEMENTATION
+  RESULTS_DIR : /home/fk/vie/fac/M2/UES/MULTI_OBJECTIVE SOLVERS/Project 2/IMPLEMENTATION/results
+================================================================
+
+────────────────────────────────────────────────────────────────────────
+  [1/8]  V4red_T150_D6_N2_C2  (seed=42  time_limit=600s)
+────────────────────────────────────────────────────────────────────────
+[V4red |  1/8] T=150 D=6  N=2  C=2   — baseline                DONE (cpu=0.00s  WL=22595.0  OT=677.0)
+Restricted license - for non-production use only - expires 2027-11-29
+[V4red |  1/8] T=150 D=6  N=2  C=2   — base_model              DONE (cpu=10.71s  nodes=39395  vars=1056  constrs=468)
+[V4red |  1/8] T=150 D=6  N=2  C=2   — reinforced              DONE (cpu=8.44s  nodes=19222  vars=600  constrs=474)
+[ε-constraint]  s = 20 min | solving first point (unconstrained WL)…
+  k=0 : WL=22073.0  OT=392.0  t=0.13s
+  k=1 : ε=372.0 min … WL=22033.0  OT=372.0  t=0.12s
+  k=2 : ε=352.0 min … WL=21992.0  OT=351.5  t=0.21s
+  k=3 : ε=331.5 min … WL=21952.0  OT=331.5  t=0.31s
+  k=4 : ε=311.5 min … WL=21912.0  OT=311.5  t=0.38s
+  k=5 : ε=291.5 min … WL=21782.0  OT=291.0  t=0.18s
+  k=6 : ε=271.0 min … WL=21742.0  OT=271.0  t=0.13s
+  k=7 : ε=251.0 min … WL=21545.0  OT=251.0  t=0.22s
+  k=8 : ε=231.0 min … WL=21410.0  OT=231.0  t=0.39s
+  k=9 : ε=211.0 min … WL=21290.0  OT=211.0  t=0.24s
+  k=10 : ε=191.0 min … WL=21193.0  OT=191.0  t=0.21s
+  k=11 : ε=171.0 min … WL=21053.0  OT=171.0  t=0.31s
+  k=12 : ε=151.0 min … WL=20918.0  OT=151.0  t=0.29s
+  k=13 : ε=131.0 min … WL=20744.0  OT=131.0  t=0.36s
+  k=14 : ε=111.0 min … WL=20622.0  OT=110.5  t=0.25s
+  k=15 : ε=90.5 min … WL=20457.0  OT=90.0  t=0.22s
+  k=16 : ε=70.0 min … WL=20298.0  OT=70.0  t=0.24s
+  k=17 : ε=50.0 min … WL=20163.0  OT=50.0  t=0.27s
+  k=18 : ε=30.0 min … WL=19896.0  OT=30.0  t=0.42s
+  k=19 : ε=10.0 min … WL=19650.0  OT=10.0  t=0.24s
+
+[ε-constraint]  20 total points → 20 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=5.12s  avg/solve=0.26s  min=0.12s  max=0.42s
+[V4red |  1/8] T=150 D=6  N=2  C=2   — eps s=20                DONE (|YN|=20  max_gap=20.500  cpu=5.45s)
+[ε-constraint]  s = 10 min | solving first point (unconstrained WL)…
+  k=0 : WL=22073.0  OT=392.0  t=0.10s
+  k=1 : ε=382.0 min … WL=22052.0  OT=381.5  t=0.17s
+  k=2 : ε=371.5 min … WL=22032.0  OT=371.5  t=0.11s
+  k=3 : ε=361.5 min … WL=22011.0  OT=361.0  t=0.14s
+  k=4 : ε=351.0 min … WL=21990.0  OT=350.5  t=0.33s
+  k=5 : ε=340.5 min … WL=21969.0  OT=340.0  t=0.40s
+  k=6 : ε=330.0 min … WL=21948.0  OT=329.5  t=0.21s
+  k=7 : ε=319.5 min … WL=21927.0  OT=319.0  t=0.09s
+  k=8 : ε=309.0 min … WL=21906.0  OT=308.5  t=0.30s
+  k=9 : ε=298.5 min … WL=21821.0  OT=298.0  t=0.49s
+  k=10 : ε=288.0 min … WL=21774.0  OT=287.0  t=0.37s
+  k=11 : ε=277.0 min … WL=21753.0  OT=276.5  t=0.19s
+  k=12 : ε=266.5 min … WL=21733.0  OT=266.5  t=0.24s
+  k=13 : ε=256.5 min … WL=21654.0  OT=255.5  t=0.27s
+  k=14 : ε=245.5 min … WL=21532.0  OT=244.5  t=0.25s
+  k=15 : ε=234.5 min … WL=21416.0  OT=234.0  t=0.38s
+  k=16 : ε=224.0 min … WL=21395.0  OT=223.5  t=0.30s
+  k=17 : ε=213.5 min … WL=21301.0  OT=212.5  t=0.33s
+  k=18 : ε=202.5 min … WL=21273.0  OT=202.5  t=0.32s
+  k=19 : ε=192.5 min … WL=21195.0  OT=192.0  t=0.25s
+  k=20 : ε=182.0 min … WL=21104.0  OT=182.0  t=0.32s
+  k=21 : ε=172.0 min … WL=21053.0  OT=171.0  t=0.24s
+  k=22 : ε=161.0 min … WL=20936.0  OT=160.0  t=0.26s
+  k=23 : ε=150.0 min … WL=20915.0  OT=149.5  t=0.28s
+  k=24 : ε=139.5 min … WL=20760.0  OT=139.0  t=0.26s
+  k=25 : ε=129.0 min … WL=20734.0  OT=129.0  t=0.54s
+  k=26 : ε=119.0 min … WL=20638.0  OT=118.0  t=0.22s
+  k=27 : ε=108.0 min … WL=20588.0  OT=108.0  t=0.24s
+  k=28 : ε=98.0 min … WL=20471.0  OT=97.0  t=0.32s
+  k=29 : ε=87.0 min … WL=20451.0  OT=87.0  t=0.21s
+  k=30 : ε=77.0 min … WL=20312.0  OT=77.0  t=0.27s
+  k=31 : ε=67.0 min … WL=20292.0  OT=67.0  t=0.19s
+  k=32 : ε=57.0 min … WL=20214.0  OT=56.5  t=0.25s
+  k=33 : ε=46.5 min … WL=20099.0  OT=46.5  t=0.36s
+  k=34 : ε=36.5 min … WL=19919.0  OT=36.0  t=0.29s
+  k=35 : ε=26.0 min … WL=19821.0  OT=26.0  t=0.20s
+  k=36 : ε=16.0 min … WL=19705.0  OT=15.5  t=0.24s
+  k=37 : ε=5.5 min … WL=19425.0  OT=5.5  t=0.31s
+
+[ε-constraint]  38 total points → 38 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=10.24s  avg/solve=0.27s  min=0.09s  max=0.54s
+[V4red |  1/8] T=150 D=6  N=2  C=2   — eps s=10                DONE (|YN|=38  max_gap=11.000  cpu=10.93s)
+[Chalmet]  Phase 1: extreme points  (s=20) …
+  p_A  max-WL extreme : WL=22073.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+20  OT≤720-20  λ=(720.0,22073.0) … WL=19359.0  OT=0.0  t=0.20s
+  rect   2 : WL≥19359+20  OT≤720-20  λ=(720.0,2714.0) … WL=21899.0  OT=305.5  t=0.05s
+  rect   3 : WL≥21899+20  OT≤720-20  λ=(414.5,174.0) … WL=22073.0  OT=392.0  t=0.05s
+  rect   4 : WL≥19359+20  OT≤306-20  λ=(305.5,2540.0) … WL=20429.0  OT=77.5  t=0.27s
+  rect   5 : WL≥21899+20  OT≤392-20  λ=(86.5,174.0) … WL=21962.0  OT=336.5  t=0.01s
+  rect   6 : WL≥20429+20  OT≤306-20  λ=(228.0,1470.0) … WL=21723.0  OT=263.0  t=0.05s
+  rect   7 : WL≥19359+20  OT≤78-20  λ=(77.5,1070.0) … WL=19648.0  OT=9.5  t=0.13s
+  rect   8 : WL≥21962+20  OT≤392-20  λ=(55.5,111.0) … WL=21996.0  OT=354.0  t=0.05s
+  rect   9 : WL≥21899+20  OT≤336-20  λ=(31.0,63.0) … WL=21919.0  OT=315.5  t=0.16s
+  rect  10 : WL≥21723+20  OT≤306-20  λ=(42.5,176.0) … WL=21743.0  OT=271.5  t=0.05s
+  rect  11 : WL≥20429+20  OT≤263-20  λ=(185.5,1294.0) … WL=21261.0  OT=196.5  t=0.12s
+  rect  12 : WL≥19648+20  OT≤78-20  λ=(68.0,781.0) … WL=20163.0  OT=50.0  t=0.10s
+  rect  13 : WL≥21996+20  OT≤392-20  λ=(38.0,77.0) … WL=22016.0  OT=364.0  t=0.07s
+  rect  14 : WL≥21919+20  OT≤336-20  λ=(21.0,43.0) … infeasible (empty).
+  rect  15 : WL≥21743+20  OT≤306-20  λ=(34.0,156.0) … WL=21763.0  OT=281.5  t=0.10s
+  rect  16 : WL≥21261+20  OT≤263-20  λ=(66.5,462.0) … WL=21373.0  OT=214.5  t=0.32s
+  rect  17 : WL≥20429+20  OT≤196-20  λ=(119.0,832.0) … WL=20894.0  OT=144.0  t=0.15s
+  rect  18 : WL≥20163+20  OT≤78-20  λ=(27.5,266.0) … WL=20213.0  OT=56.0  t=0.12s
+  rect  19 : WL≥19648+20  OT≤50-20  λ=(40.5,515.0) … WL=19872.0  OT=26.5  t=0.13s
+  rect  20 : WL≥22016+20  OT≤392-20  λ=(28.0,57.0) … infeasible (empty).
+  rect  21 : WL≥21763+20  OT≤306-20  λ=(24.0,136.0) … infeasible (empty).
+  rect  22 : WL≥21373+20  OT≤263-20  λ=(48.5,350.0) … WL=21518.0  OT=237.5  t=0.12s
+  rect  23 : WL≥20894+20  OT≤196-20  λ=(52.5,367.0) … WL=21038.0  OT=167.0  t=0.12s
+  rect  24 : WL≥20429+20  OT≤144-20  λ=(66.5,465.0) … WL=20576.0  OT=102.0  t=0.14s
+  rect  25 : WL≥20213+20  OT≤78-20  λ=(21.5,216.0) … infeasible (empty).
+  rect  26 : WL≥19872+20  OT≤50-20  λ=(23.5,291.0) … WL=19896.0  OT=30.0  t=0.20s
+  rect  27 : WL≥21518+20  OT≤263-20  λ=(25.5,205.0) … infeasible (empty).
+  rect  28 : WL≥21373+20  OT≤238-20  λ=(23.0,145.0) … infeasible (empty).
+  rect  29 : WL≥21038+20  OT≤196-20  λ=(29.5,223.0) … WL=21058.0  OT=173.5  t=0.10s
+  rect  30 : WL≥20894+20  OT≤167-20  λ=(23.0,144.0) … infeasible (empty).
+  rect  31 : WL≥20576+20  OT≤144-20  λ=(42.0,318.0) … WL=20622.0  OT=110.5  t=0.17s
+  rect  32 : WL≥20429+20  OT≤102-20  λ=(24.5,147.0) … infeasible (empty).
+  rect  33 : WL≥19896+20  OT≤50-20  λ=(20.0,267.0) … infeasible (empty).
+  rect  34 : WL≥21058+20  OT≤196-20  λ=(23.0,203.0) … infeasible (empty).
+  rect  35 : WL≥20622+20  OT≤144-20  λ=(33.5,272.0) … WL=20642.0  OT=120.0  t=0.11s
+  rect  36 : WL≥20642+20  OT≤144-20  λ=(24.0,252.0) … infeasible (empty).
+
+[Chalmet]  Done.  36 rectangles explored  ·  25 new points found  ·  25 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=3.12s  avg/solve=0.12s  min=0.00s  max=0.32s
+[V4red |  1/8] T=150 D=6  N=2  C=2   — hybrid s=20             DONE (|YN|=25  max_gap=28.000  cpu=4.75s)
+[Chalmet]  Phase 1: extreme points  (s=10) …
+  p_A  max-WL extreme : WL=22073.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+10  OT≤720-10  λ=(720.0,22073.0) … WL=19359.0  OT=0.0  t=0.19s
+  rect   2 : WL≥19359+10  OT≤720-10  λ=(720.0,2714.0) … WL=21899.0  OT=305.5  t=0.04s
+  rect   3 : WL≥21899+10  OT≤720-10  λ=(414.5,174.0) … WL=22073.0  OT=392.0  t=0.03s
+  rect   4 : WL≥19359+10  OT≤306-10  λ=(305.5,2540.0) … WL=20429.0  OT=77.5  t=0.23s
+  rect   5 : WL≥21899+10  OT≤392-10  λ=(86.5,174.0) … WL=21919.0  OT=315.5  t=0.03s
+  rect   6 : WL≥20429+10  OT≤306-10  λ=(228.0,1470.0) … WL=21724.0  OT=263.0  t=0.04s
+  rect   7 : WL≥19359+10  OT≤78-10  λ=(77.5,1070.0) … WL=19648.0  OT=9.5  t=0.10s
+  rect   8 : WL≥21919+10  OT≤392-10  λ=(76.5,154.0) … WL=22025.0  OT=368.0  t=0.01s
+  rect   9 : WL≥21724+10  OT≤306-10  λ=(42.5,175.0) … WL=21734.0  OT=267.0  t=0.09s
+  rect  10 : WL≥20429+10  OT≤263-10  λ=(185.5,1295.0) … WL=21261.0  OT=196.5  t=0.29s
+  rect  11 : WL≥19648+10  OT≤78-10  λ=(68.0,781.0) … WL=20162.0  OT=50.0  t=0.13s
+  rect  12 : WL≥22025+10  OT≤392-10  λ=(24.0,48.0) … WL=22045.0  OT=378.5  t=0.05s
+  rect  13 : WL≥21919+10  OT≤368-10  λ=(52.5,106.0) … WL=21954.0  OT=332.5  t=0.03s
+  rect  14 : WL≥21734+10  OT≤306-10  λ=(38.5,165.0) … WL=21744.0  OT=272.0  t=0.10s
+  rect  15 : WL≥21261+10  OT≤263-10  λ=(66.5,463.0) … WL=21648.0  OT=253.0  t=0.13s
+  rect  16 : WL≥20429+10  OT≤196-10  λ=(119.0,832.0) … WL=20894.0  OT=144.0  t=0.21s
+  rect  17 : WL≥20162+10  OT≤78-10  λ=(27.5,267.0) … WL=20280.0  OT=61.0  t=0.12s
+  rect  18 : WL≥19648+10  OT≤50-10  λ=(40.5,514.0) … WL=19872.0  OT=26.5  t=0.10s
+  rect  19 : WL≥22045+10  OT≤392-10  λ=(13.5,28.0) … infeasible (empty).
+  rect  20 : WL≥21954+10  OT≤368-10  λ=(35.5,71.0) … WL=21967.0  OT=339.0  t=0.05s
+  rect  21 : WL≥21919+10  OT≤332-10  λ=(17.0,35.0) … WL=21930.0  OT=321.0  t=0.04s
+  rect  22 : WL≥21744+10  OT≤306-10  λ=(33.5,155.0) … WL=21754.0  OT=277.0  t=0.08s
+  rect  23 : WL≥21648+10  OT≤263-10  λ=(10.0,76.0) … infeasible (empty).
+  rect  24 : WL≥21261+10  OT≤253-10  λ=(56.5,387.0) … WL=21373.0  OT=214.5  t=0.24s
+  rect  25 : WL≥20894+10  OT≤196-10  λ=(52.5,367.0) … WL=21183.0  OT=186.5  t=0.12s
+  rect  26 : WL≥20429+10  OT≤144-10  λ=(66.5,465.0) … WL=20439.0  OT=81.0  t=0.11s
+  rect  27 : WL≥20280+10  OT≤78-10  λ=(16.5,149.0) … WL=20290.0  OT=66.0  t=0.11s
+  rect  28 : WL≥20162+10  OT≤61-10  λ=(11.0,118.0) … infeasible (empty).
+  rect  29 : WL≥19872+10  OT≤50-10  λ=(23.5,290.0) … WL=19896.0  OT=30.0  t=0.09s
+  rect  30 : WL≥19648+10  OT≤26-10  λ=(17.0,224.0) … WL=19703.0  OT=14.5  t=0.17s
+  rect  31 : WL≥21967+10  OT≤368-10  λ=(29.0,58.0) … WL=21991.0  OT=352.0  t=0.10s
+  rect  32 : WL≥21930+10  OT≤332-10  λ=(11.5,24.0) … infeasible (empty).
+  rect  33 : WL≥21754+10  OT≤306-10  λ=(28.5,145.0) … WL=21764.0  OT=282.0  t=0.17s
+  rect  34 : WL≥21373+10  OT≤253-10  λ=(38.5,275.0) … WL=21383.0  OT=217.5  t=0.14s
+  rect  35 : WL≥21261+10  OT≤214-10  λ=(18.0,112.0) … WL=21271.0  OT=201.5  t=0.13s
+  rect  36 : WL≥21183+10  OT≤196-10  λ=(10.0,78.0) … infeasible (empty).
+  rect  37 : WL≥20894+10  OT≤186-10  λ=(42.5,289.0) … WL=20910.0  OT=148.0  t=0.15s
+  rect  38 : WL≥20439+10  OT≤144-10  λ=(63.0,455.0) … WL=20576.0  OT=102.0  t=0.16s
+  rect  39 : WL≥20290+10  OT≤78-10  λ=(11.5,139.0) … infeasible (empty).
+  rect  40 : WL≥19896+10  OT≤50-10  λ=(20.0,266.0) … WL=19911.0  OT=33.5  t=0.43s
+  rect  41 : WL≥19703+10  OT≤26-10  λ=(12.0,169.0) … infeasible (empty).
+  rect  42 : WL≥21991+10  OT≤368-10  λ=(16.0,34.0) … WL=22003.0  OT=357.5  t=0.32s
+  rect  43 : WL≥21967+10  OT≤352-10  λ=(13.0,24.0) … infeasible (empty).
+  rect  44 : WL≥21764+10  OT≤306-10  λ=(23.5,135.0) … WL=21774.0  OT=287.0  t=0.13s
+  rect  45 : WL≥21383+10  OT≤253-10  λ=(35.5,265.0) … WL=21518.0  OT=237.5  t=0.22s
+  rect  46 : WL≥21271+10  OT≤214-10  λ=(13.0,102.0) … infeasible (empty).
+  rect  47 : WL≥20910+10  OT≤186-10  λ=(38.5,273.0) … WL=21038.0  OT=167.0  t=0.14s
+  rect  48 : WL≥20576+10  OT≤144-10  λ=(42.0,318.0) … WL=20623.0  OT=110.5  t=0.22s
+  rect  49 : WL≥20439+10  OT≤102-10  λ=(21.0,137.0) … WL=20449.0  OT=86.0  t=0.11s
+  rect  50 : WL≥19911+10  OT≤50-10  λ=(16.5,251.0) … WL=19921.0  OT=37.0  t=0.25s
+  rect  51 : WL≥22003+10  OT≤368-10  λ=(10.5,22.0) … infeasible (empty).
+  rect  52 : WL≥21774+10  OT≤306-10  λ=(18.5,125.0) … WL=21816.0  OT=295.5  t=0.15s
+  rect  53 : WL≥21518+10  OT≤253-10  λ=(15.5,130.0) … WL=21528.0  OT=242.5  t=0.13s
+  rect  54 : WL≥21383+10  OT≤238-10  λ=(20.0,135.0) … WL=21393.0  OT=222.5  t=0.09s
+  rect  55 : WL≥21038+10  OT≤186-10  λ=(19.5,145.0) … WL=21053.0  OT=171.0  t=0.12s
+  rect  56 : WL≥20910+10  OT≤167-10  λ=(19.0,128.0) … WL=20920.0  OT=152.0  t=0.10s
+  rect  57 : WL≥20623+10  OT≤144-10  λ=(33.5,271.0) … WL=20633.0  OT=115.5  t=0.15s
+  rect  58 : WL≥20449+10  OT≤102-10  λ=(16.0,127.0) … WL=20459.0  OT=91.0  t=0.11s
+  rect  59 : WL≥19921+10  OT≤50-10  λ=(13.0,241.0) … infeasible (empty).
+  rect  60 : WL≥21816+10  OT≤306-10  λ=(10.0,83.0) … infeasible (empty).
+  rect  61 : WL≥21528+10  OT≤253-10  λ=(10.5,120.0) … infeasible (empty).
+  rect  62 : WL≥21393+10  OT≤238-10  λ=(15.0,125.0) … WL=21403.0  OT=227.5  t=0.12s
+  rect  63 : WL≥21053+10  OT≤186-10  λ=(15.5,130.0) … WL=21063.0  OT=176.0  t=0.19s
+  rect  64 : WL≥20920+10  OT≤167-10  λ=(15.0,118.0) … WL=20930.0  OT=157.0  t=0.18s
+  rect  65 : WL≥20633+10  OT≤144-10  λ=(28.5,261.0) … WL=20733.0  OT=128.5  t=0.17s
+  rect  66 : WL≥20459+10  OT≤102-10  λ=(11.0,117.0) … infeasible (empty).
+  rect  67 : WL≥21403+10  OT≤238-10  λ=(10.0,115.0) … infeasible (empty).
+  rect  68 : WL≥21063+10  OT≤186-10  λ=(10.5,120.0) … infeasible (empty).
+  rect  69 : WL≥20930+10  OT≤167-10  λ=(10.0,108.0) … infeasible (empty).
+  rect  70 : WL≥20733+10  OT≤144-10  λ=(15.5,161.0) … WL=20743.0  OT=130.5  t=0.13s
+  rect  71 : WL≥20633+10  OT≤128-10  λ=(13.0,100.0) … infeasible (empty).
+  rect  72 : WL≥20743+10  OT≤144-10  λ=(13.5,151.0) … infeasible (empty).
+
+[Chalmet]  Done.  72 rectangles explored  ·  53 new points found  ·  53 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=7.25s  avg/solve=0.13s  min=0.00s  max=0.43s
+[V4red |  1/8] T=150 D=6  N=2  C=2   — hybrid s=10             DONE (|YN|=53  max_gap=13.500  cpu=10.26s)
+
+────────────────────────────────────────────────────────────────────────
+  [2/8]  V4red_T150_D6_N2_C3  (seed=42  time_limit=600s)
+────────────────────────────────────────────────────────────────────────
+[V4red |  2/8] T=150 D=6  N=2  C=3   — baseline                DONE (cpu=0.00s  WL=32249.0  OT=577.0)
+[V4red |  2/8] T=150 D=6  N=2  C=3   — base_model              DONE (cpu=64.99s  nodes=450781  vars=1056  constrs=468)
+[V4red |  2/8] T=150 D=6  N=2  C=3   — reinforced              DONE (cpu=9.06s  nodes=25753  vars=600  constrs=474)
+[ε-constraint]  s = 20 min | solving first point (unconstrained WL)…
+  k=0 : WL=24534.0  OT=192.0  t=0.04s
+  k=1 : ε=172.0 min … WL=24468.0  OT=170.0  t=0.05s
+  k=2 : ε=150.0 min … WL=24406.0  OT=149.3  t=0.11s
+  k=3 : ε=129.3 min … WL=24346.0  OT=129.3  t=0.05s
+  k=4 : ε=109.3 min … WL=24286.0  OT=109.3  t=0.04s
+  k=5 : ε=89.3 min … WL=24226.0  OT=89.3  t=0.10s
+  k=6 : ε=69.3 min … WL=24164.0  OT=68.7  t=0.06s
+  k=7 : ε=48.7 min … WL=24104.0  OT=48.7  t=0.04s
+  k=8 : ε=28.7 min … WL=24043.0  OT=28.3  t=0.06s
+  k=9 : ε=8.3 min … WL=23981.0  OT=7.7  t=0.04s
+
+[ε-constraint]  10 total points → 10 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=0.58s  avg/solve=0.06s  min=0.04s  max=0.11s
+[V4red |  2/8] T=150 D=6  N=2  C=3   — eps s=20                DONE (|YN|=10  max_gap=22.000  cpu=0.74s)
+[ε-constraint]  s = 10 min | solving first point (unconstrained WL)…
+  k=0 : WL=24534.0  OT=192.0  t=0.04s
+  k=1 : ε=182.0 min … WL=24500.0  OT=180.7  t=0.06s
+  k=2 : ε=170.7 min … WL=24468.0  OT=170.0  t=0.05s
+  k=3 : ε=160.0 min … WL=24437.0  OT=159.7  t=0.06s
+  k=4 : ε=149.7 min … WL=24405.0  OT=149.0  t=0.07s
+  k=5 : ε=139.0 min … WL=24375.0  OT=139.0  t=0.05s
+  k=6 : ε=129.0 min … WL=24344.0  OT=128.7  t=0.12s
+  k=7 : ε=118.7 min … WL=24313.0  OT=118.3  t=0.09s
+  k=8 : ε=108.3 min … WL=24281.0  OT=107.7  t=0.08s
+  k=9 : ε=97.7 min … WL=24251.0  OT=97.7  t=0.08s
+  k=10 : ε=87.7 min … WL=24221.0  OT=87.7  t=0.08s
+  k=11 : ε=77.7 min … WL=24191.0  OT=77.7  t=0.09s
+  k=12 : ε=67.7 min … WL=24159.0  OT=67.0  t=0.09s
+  k=13 : ε=57.0 min … WL=24129.0  OT=57.0  t=0.06s
+  k=14 : ε=47.0 min … WL=24099.0  OT=47.0  t=0.11s
+  k=15 : ε=37.0 min … WL=24069.0  OT=37.0  t=0.10s
+  k=16 : ε=27.0 min … WL=24037.0  OT=26.3  t=0.11s
+  k=17 : ε=16.3 min … WL=24006.0  OT=16.0  t=0.05s
+  k=18 : ε=6.0 min … WL=23976.0  OT=6.0  t=0.07s
+
+[ε-constraint]  19 total points → 19 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=1.45s  avg/solve=0.08s  min=0.04s  max=0.12s
+[V4red |  2/8] T=150 D=6  N=2  C=3   — eps s=10                DONE (|YN|=19  max_gap=11.333  cpu=1.76s)
+[Chalmet]  Phase 1: extreme points  (s=20) …
+  p_A  max-WL extreme : WL=24534.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+20  OT≤720-20  λ=(720.0,24534.0) … WL=23954.0  OT=0.0  t=0.03s
+  rect   2 : WL≥23954+20  OT≤720-20  λ=(720.0,580.0) … WL=24534.0  OT=192.0  t=0.01s
+  rect   3 : WL≥23954+20  OT≤192-20  λ=(192.0,580.0) … WL=24015.0  OT=19.0  t=0.01s
+  rect   4 : WL≥24015+20  OT≤192-20  λ=(173.0,519.0) … WL=24232.0  OT=91.3  t=0.01s
+  rect   5 : WL≥24232+20  OT≤192-20  λ=(100.7,302.0) … WL=24272.0  OT=104.7  t=0.01s
+  rect   6 : WL≥24015+20  OT≤91-20  λ=(72.3,217.0) … WL=24064.0  OT=35.3  t=0.01s
+  rect   7 : WL≥24272+20  OT≤192-20  λ=(87.3,262.0) … WL=24314.0  OT=118.7  t=0.01s
+  rect   8 : WL≥24064+20  OT≤91-20  λ=(56.0,168.0) … WL=24158.0  OT=66.7  t=0.01s
+  rect   9 : WL≥24314+20  OT≤192-20  λ=(73.3,220.0) … WL=24419.0  OT=153.7  t=0.01s
+  rect  10 : WL≥24158+20  OT≤91-20  λ=(24.7,74.0) … infeasible (empty).
+  rect  11 : WL≥24064+20  OT≤67-20  λ=(31.3,94.0) … WL=24090.0  OT=44.0  t=0.03s
+  rect  12 : WL≥24419+20  OT≤192-20  λ=(38.3,115.0) … WL=24451.0  OT=164.3  t=0.01s
+  rect  13 : WL≥24314+20  OT≤154-20  λ=(35.0,105.0) … WL=24337.0  OT=126.3  t=0.01s
+  rect  14 : WL≥24090+20  OT≤67-20  λ=(22.7,68.0) … infeasible (empty).
+  rect  15 : WL≥24451+20  OT≤192-20  λ=(27.7,83.0) … infeasible (empty).
+  rect  16 : WL≥24337+20  OT≤154-20  λ=(27.3,82.0) … WL=24357.0  OT=133.0  t=0.03s
+  rect  17 : WL≥24357+20  OT≤154-20  λ=(20.7,62.0) … infeasible (empty).
+
+[Chalmet]  Done.  17 rectangles explored  ·  13 new points found  ·  13 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=0.20s  avg/solve=0.01s  min=0.00s  max=0.03s
+[V4red |  2/8] T=150 D=6  N=2  C=3   — hybrid s=20             DONE (|YN|=13  max_gap=27.667  cpu=0.58s)
+[Chalmet]  Phase 1: extreme points  (s=10) …
+  p_A  max-WL extreme : WL=24534.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+10  OT≤720-10  λ=(720.0,24534.0) … WL=23954.0  OT=0.0  t=0.03s
+  rect   2 : WL≥23954+10  OT≤720-10  λ=(720.0,580.0) … WL=24534.0  OT=192.0  t=0.01s
+  rect   3 : WL≥23954+10  OT≤192-10  λ=(192.0,580.0) … WL=24015.0  OT=19.0  t=0.01s
+  rect   4 : WL≥24015+10  OT≤192-10  λ=(173.0,519.0) … WL=24232.0  OT=91.3  t=0.01s
+  rect   5 : WL≥23954+10  OT≤19-10  λ=(19.0,61.0) … WL=23974.0  OT=5.3  t=0.01s
+  rect   6 : WL≥24232+10  OT≤192-10  λ=(100.7,302.0) … WL=24272.0  OT=104.7  t=0.01s
+  rect   7 : WL≥24015+10  OT≤91-10  λ=(72.3,217.0) … WL=24064.0  OT=35.3  t=0.01s
+  rect   8 : WL≥23974+10  OT≤19-10  λ=(13.7,41.0) … WL=23985.0  OT=9.0  t=0.01s
+  rect   9 : WL≥24272+10  OT≤192-10  λ=(87.3,262.0) … WL=24314.0  OT=118.7  t=0.01s
+  rect  10 : WL≥24232+10  OT≤105-10  λ=(13.3,40.0) … WL=24242.0  OT=94.7  t=0.03s
+  rect  11 : WL≥24064+10  OT≤91-10  λ=(56.0,168.0) … WL=24173.0  OT=71.7  t=0.01s
+  rect  12 : WL≥24015+10  OT≤35-10  λ=(16.3,49.0) … WL=24032.0  OT=24.7  t=0.02s
+  rect  13 : WL≥23985+10  OT≤19-10  λ=(10.0,30.0) … infeasible (empty).
+  rect  14 : WL≥24314+10  OT≤192-10  λ=(73.3,220.0) … WL=24419.0  OT=153.7  t=0.01s
+  rect  15 : WL≥24272+10  OT≤119-10  λ=(14.0,42.0) … WL=24284.0  OT=108.7  t=0.05s
+  rect  16 : WL≥24242+10  OT≤105-10  λ=(10.0,30.0) … infeasible (empty).
+  rect  17 : WL≥24173+10  OT≤91-10  λ=(19.7,59.0) … WL=24192.0  OT=78.0  t=0.01s
+  rect  18 : WL≥24064+10  OT≤72-10  λ=(36.3,109.0) … WL=24096.0  OT=46.0  t=0.01s
+  rect  19 : WL≥24032+10  OT≤35-10  λ=(10.7,32.0) … infeasible (empty).
+  rect  20 : WL≥24419+10  OT≤192-10  λ=(38.3,115.0) … WL=24437.0  OT=159.7  t=0.01s
+  rect  21 : WL≥24314+10  OT≤154-10  λ=(35.0,105.0) … WL=24360.0  OT=134.0  t=0.01s
+  rect  22 : WL≥24284+10  OT≤119-10  λ=(10.0,30.0) … infeasible (empty).
+  rect  23 : WL≥24192+10  OT≤91-10  λ=(13.3,40.0) … WL=24202.0  OT=81.3  t=0.02s
+  rect  24 : WL≥24096+10  OT≤72-10  λ=(25.7,77.0) … WL=24123.0  OT=55.0  t=0.02s
+  rect  25 : WL≥24064+10  OT≤46-10  λ=(10.7,32.0) … infeasible (empty).
+  rect  26 : WL≥24437+10  OT≤192-10  λ=(32.3,97.0) … WL=24462.0  OT=168.0  t=0.01s
+  rect  27 : WL≥24360+10  OT≤154-10  λ=(19.7,59.0) … WL=24379.0  OT=140.3  t=0.01s
+  rect  28 : WL≥24314+10  OT≤134-10  λ=(15.3,46.0) … WL=24325.0  OT=122.3  t=0.04s
+  rect  29 : WL≥24202+10  OT≤91-10  λ=(10.0,30.0) … infeasible (empty).
+  rect  30 : WL≥24123+10  OT≤72-10  λ=(16.7,50.0) … WL=24139.0  OT=60.3  t=0.04s
+  rect  31 : WL≥24462+10  OT≤192-10  λ=(24.0,72.0) … WL=24491.0  OT=177.7  t=0.01s
+  rect  32 : WL≥24379+10  OT≤154-10  λ=(13.3,40.0) … WL=24389.0  OT=143.7  t=0.01s
+  rect  33 : WL≥24325+10  OT≤134-10  λ=(11.7,35.0) … infeasible (empty).
+  rect  34 : WL≥24139+10  OT≤72-10  λ=(11.3,34.0) … infeasible (empty).
+  rect  35 : WL≥24491+10  OT≤192-10  λ=(14.3,43.0) … infeasible (empty).
+  rect  36 : WL≥24389+10  OT≤154-10  λ=(10.0,30.0) … infeasible (empty).
+
+[Chalmet]  Done.  36 rectangles explored  ·  26 new points found  ·  26 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=0.44s  avg/solve=0.02s  min=0.00s  max=0.05s
+[V4red |  2/8] T=150 D=6  N=2  C=3   — hybrid s=10             DONE (|YN|=26  max_gap=14.333  cpu=1.25s)
+
+────────────────────────────────────────────────────────────────────────
+  [3/8]  V4red_T150_D6_N3_C2  (seed=42  time_limit=600s)
+────────────────────────────────────────────────────────────────────────
+[V4red |  3/8] T=150 D=6  N=3  C=2   — baseline                DONE (cpu=0.00s  WL=22595.0  OT=677.0)
+[V4red |  3/8] T=150 D=6  N=3  C=2   — base_model              DONE (cpu=9.81s  nodes=39395  vars=1056  constrs=468)
+[V4red |  3/8] T=150 D=6  N=3  C=2   — reinforced              DONE (cpu=7.00s  nodes=19222  vars=600  constrs=474)
+[ε-constraint]  s = 20 min | solving first point (unconstrained WL)…
+  k=0 : WL=22073.0  OT=392.0  t=0.11s
+  k=1 : ε=372.0 min … WL=22033.0  OT=372.0  t=0.11s
+  k=2 : ε=352.0 min … WL=21992.0  OT=351.5  t=0.21s
+  k=3 : ε=331.5 min … WL=21952.0  OT=331.5  t=0.25s
+  k=4 : ε=311.5 min … WL=21912.0  OT=311.5  t=0.31s
+  k=5 : ε=291.5 min … WL=21782.0  OT=291.0  t=0.18s
+  k=6 : ε=271.0 min … WL=21742.0  OT=271.0  t=0.12s
+  k=7 : ε=251.0 min … WL=21545.0  OT=251.0  t=0.20s
+  k=8 : ε=231.0 min … WL=21410.0  OT=231.0  t=0.33s
+  k=9 : ε=211.0 min … WL=21290.0  OT=211.0  t=0.23s
+  k=10 : ε=191.0 min … WL=21193.0  OT=191.0  t=0.20s
+  k=11 : ε=171.0 min … WL=21053.0  OT=171.0  t=0.31s
+  k=12 : ε=151.0 min … WL=20918.0  OT=151.0  t=0.29s
+  k=13 : ε=131.0 min … WL=20744.0  OT=131.0  t=0.34s
+  k=14 : ε=111.0 min … WL=20622.0  OT=110.5  t=0.24s
+  k=15 : ε=90.5 min … WL=20457.0  OT=90.0  t=0.21s
+  k=16 : ε=70.0 min … WL=20298.0  OT=70.0  t=0.23s
+  k=17 : ε=50.0 min … WL=20163.0  OT=50.0  t=0.27s
+  k=18 : ε=30.0 min … WL=19896.0  OT=30.0  t=0.39s
+  k=19 : ε=10.0 min … WL=19650.0  OT=10.0  t=0.23s
+
+[ε-constraint]  20 total points → 20 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=4.76s  avg/solve=0.24s  min=0.11s  max=0.39s
+[V4red |  3/8] T=150 D=6  N=3  C=2   — eps s=20                DONE (|YN|=20  max_gap=20.500  cpu=5.09s)
+[ε-constraint]  s = 10 min | solving first point (unconstrained WL)…
+  k=0 : WL=22073.0  OT=392.0  t=0.14s
+  k=1 : ε=382.0 min … WL=22052.0  OT=381.5  t=0.18s
+  k=2 : ε=371.5 min … WL=22032.0  OT=371.5  t=0.11s
+  k=3 : ε=361.5 min … WL=22011.0  OT=361.0  t=0.10s
+  k=4 : ε=351.0 min … WL=21990.0  OT=350.5  t=0.22s
+  k=5 : ε=340.5 min … WL=21969.0  OT=340.0  t=0.36s
+  k=6 : ε=330.0 min … WL=21948.0  OT=329.5  t=0.25s
+  k=7 : ε=319.5 min … WL=21927.0  OT=319.0  t=0.09s
+  k=8 : ε=309.0 min … WL=21906.0  OT=308.5  t=0.30s
+  k=9 : ε=298.5 min … WL=21821.0  OT=298.0  t=0.33s
+  k=10 : ε=288.0 min … WL=21774.0  OT=287.0  t=0.22s
+  k=11 : ε=277.0 min … WL=21753.0  OT=276.5  t=0.14s
+  k=12 : ε=266.5 min … WL=21733.0  OT=266.5  t=0.15s
+  k=13 : ε=256.5 min … WL=21654.0  OT=255.5  t=0.13s
+  k=14 : ε=245.5 min … WL=21532.0  OT=244.5  t=0.19s
+  k=15 : ε=234.5 min … WL=21416.0  OT=234.0  t=0.39s
+  k=16 : ε=224.0 min … WL=21395.0  OT=223.5  t=0.29s
+  k=17 : ε=213.5 min … WL=21301.0  OT=212.5  t=0.35s
+  k=18 : ε=202.5 min … WL=21273.0  OT=202.5  t=0.22s
+  k=19 : ε=192.5 min … WL=21195.0  OT=192.0  t=0.22s
+  k=20 : ε=182.0 min … WL=21104.0  OT=182.0  t=0.31s
+  k=21 : ε=172.0 min … WL=21053.0  OT=171.0  t=0.23s
+  k=22 : ε=161.0 min … WL=20936.0  OT=160.0  t=0.27s
+  k=23 : ε=150.0 min … WL=20915.0  OT=149.5  t=0.28s
+  k=24 : ε=139.5 min … WL=20760.0  OT=139.0  t=0.26s
+  k=25 : ε=129.0 min … WL=20734.0  OT=129.0  t=0.58s
+  k=26 : ε=119.0 min … WL=20638.0  OT=118.0  t=0.22s
+  k=27 : ε=108.0 min … WL=20588.0  OT=108.0  t=0.25s
+  k=28 : ε=98.0 min … WL=20471.0  OT=97.0  t=0.33s
+  k=29 : ε=87.0 min … WL=20451.0  OT=87.0  t=0.20s
+  k=30 : ε=77.0 min … WL=20312.0  OT=77.0  t=0.27s
+  k=31 : ε=67.0 min … WL=20292.0  OT=67.0  t=0.20s
+  k=32 : ε=57.0 min … WL=20214.0  OT=56.5  t=0.25s
+  k=33 : ε=46.5 min … WL=20099.0  OT=46.5  t=0.36s
+  k=34 : ε=36.5 min … WL=19919.0  OT=36.0  t=0.29s
+  k=35 : ε=26.0 min … WL=19821.0  OT=26.0  t=0.21s
+  k=36 : ε=16.0 min … WL=19705.0  OT=15.5  t=0.25s
+  k=37 : ε=5.5 min … WL=19425.0  OT=5.5  t=0.31s
+
+[ε-constraint]  38 total points → 38 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=9.46s  avg/solve=0.25s  min=0.09s  max=0.58s
+[V4red |  3/8] T=150 D=6  N=3  C=2   — eps s=10                DONE (|YN|=38  max_gap=11.000  cpu=10.07s)
+[Chalmet]  Phase 1: extreme points  (s=20) …
+  p_A  max-WL extreme : WL=22073.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+20  OT≤720-20  λ=(720.0,22073.0) … WL=19359.0  OT=0.0  t=0.21s
+  rect   2 : WL≥19359+20  OT≤720-20  λ=(720.0,2714.0) … WL=21899.0  OT=305.5  t=0.05s
+  rect   3 : WL≥21899+20  OT≤720-20  λ=(414.5,174.0) … WL=22073.0  OT=392.0  t=0.04s
+  rect   4 : WL≥19359+20  OT≤306-20  λ=(305.5,2540.0) … WL=20429.0  OT=77.5  t=0.27s
+  rect   5 : WL≥21899+20  OT≤392-20  λ=(86.5,174.0) … WL=21962.0  OT=336.5  t=0.02s
+  rect   6 : WL≥20429+20  OT≤306-20  λ=(228.0,1470.0) … WL=21723.0  OT=263.0  t=0.05s
+  rect   7 : WL≥19359+20  OT≤78-20  λ=(77.5,1070.0) … WL=19648.0  OT=9.5  t=0.13s
+  rect   8 : WL≥21962+20  OT≤392-20  λ=(55.5,111.0) … WL=21996.0  OT=354.0  t=0.04s
+  rect   9 : WL≥21899+20  OT≤336-20  λ=(31.0,63.0) … WL=21919.0  OT=315.5  t=0.16s
+  rect  10 : WL≥21723+20  OT≤306-20  λ=(42.5,176.0) … WL=21743.0  OT=271.5  t=0.04s
+  rect  11 : WL≥20429+20  OT≤263-20  λ=(185.5,1294.0) … WL=21261.0  OT=196.5  t=0.12s
+  rect  12 : WL≥19648+20  OT≤78-20  λ=(68.0,781.0) … WL=20163.0  OT=50.0  t=0.10s
+  rect  13 : WL≥21996+20  OT≤392-20  λ=(38.0,77.0) … WL=22016.0  OT=364.0  t=0.06s
+  rect  14 : WL≥21919+20  OT≤336-20  λ=(21.0,43.0) … infeasible (empty).
+  rect  15 : WL≥21743+20  OT≤306-20  λ=(34.0,156.0) … WL=21763.0  OT=281.5  t=0.10s
+  rect  16 : WL≥21261+20  OT≤263-20  λ=(66.5,462.0) … WL=21373.0  OT=214.5  t=0.32s
+  rect  17 : WL≥20429+20  OT≤196-20  λ=(119.0,832.0) … WL=20894.0  OT=144.0  t=0.15s
+  rect  18 : WL≥20163+20  OT≤78-20  λ=(27.5,266.0) … WL=20213.0  OT=56.0  t=0.12s
+  rect  19 : WL≥19648+20  OT≤50-20  λ=(40.5,515.0) … WL=19872.0  OT=26.5  t=0.13s
+  rect  20 : WL≥22016+20  OT≤392-20  λ=(28.0,57.0) … infeasible (empty).
+  rect  21 : WL≥21763+20  OT≤306-20  λ=(24.0,136.0) … infeasible (empty).
+  rect  22 : WL≥21373+20  OT≤263-20  λ=(48.5,350.0) … WL=21518.0  OT=237.5  t=0.12s
+  rect  23 : WL≥20894+20  OT≤196-20  λ=(52.5,367.0) … WL=21038.0  OT=167.0  t=0.12s
+  rect  24 : WL≥20429+20  OT≤144-20  λ=(66.5,465.0) … WL=20576.0  OT=102.0  t=0.14s
+  rect  25 : WL≥20213+20  OT≤78-20  λ=(21.5,216.0) … infeasible (empty).
+  rect  26 : WL≥19872+20  OT≤50-20  λ=(23.5,291.0) … WL=19896.0  OT=30.0  t=0.19s
+  rect  27 : WL≥21518+20  OT≤263-20  λ=(25.5,205.0) … infeasible (empty).
+  rect  28 : WL≥21373+20  OT≤238-20  λ=(23.0,145.0) … infeasible (empty).
+  rect  29 : WL≥21038+20  OT≤196-20  λ=(29.5,223.0) … WL=21058.0  OT=173.5  t=0.10s
+  rect  30 : WL≥20894+20  OT≤167-20  λ=(23.0,144.0) … infeasible (empty).
+  rect  31 : WL≥20576+20  OT≤144-20  λ=(42.0,318.0) … WL=20622.0  OT=110.5  t=0.17s
+  rect  32 : WL≥20429+20  OT≤102-20  λ=(24.5,147.0) … infeasible (empty).
+  rect  33 : WL≥19896+20  OT≤50-20  λ=(20.0,267.0) … infeasible (empty).
+  rect  34 : WL≥21058+20  OT≤196-20  λ=(23.0,203.0) … infeasible (empty).
+  rect  35 : WL≥20622+20  OT≤144-20  λ=(33.5,272.0) … WL=20642.0  OT=120.0  t=0.11s
+  rect  36 : WL≥20642+20  OT≤144-20  λ=(24.0,252.0) … infeasible (empty).
+
+[Chalmet]  Done.  36 rectangles explored  ·  25 new points found  ·  25 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=3.08s  avg/solve=0.11s  min=0.00s  max=0.32s
+[V4red |  3/8] T=150 D=6  N=3  C=2   — hybrid s=20             DONE (|YN|=25  max_gap=28.000  cpu=4.69s)
+[Chalmet]  Phase 1: extreme points  (s=10) …
+  p_A  max-WL extreme : WL=22073.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+10  OT≤720-10  λ=(720.0,22073.0) … WL=19359.0  OT=0.0  t=0.20s
+  rect   2 : WL≥19359+10  OT≤720-10  λ=(720.0,2714.0) … WL=21899.0  OT=305.5  t=0.05s
+  rect   3 : WL≥21899+10  OT≤720-10  λ=(414.5,174.0) … WL=22073.0  OT=392.0  t=0.04s
+  rect   4 : WL≥19359+10  OT≤306-10  λ=(305.5,2540.0) … WL=20429.0  OT=77.5  t=0.23s
+  rect   5 : WL≥21899+10  OT≤392-10  λ=(86.5,174.0) … WL=21919.0  OT=315.5  t=0.04s
+  rect   6 : WL≥20429+10  OT≤306-10  λ=(228.0,1470.0) … WL=21724.0  OT=263.0  t=0.05s
+  rect   7 : WL≥19359+10  OT≤78-10  λ=(77.5,1070.0) … WL=19648.0  OT=9.5  t=0.10s
+  rect   8 : WL≥21919+10  OT≤392-10  λ=(76.5,154.0) … WL=22025.0  OT=368.0  t=0.02s
+  rect   9 : WL≥21724+10  OT≤306-10  λ=(42.5,175.0) … WL=21734.0  OT=267.0  t=0.09s
+  rect  10 : WL≥20429+10  OT≤263-10  λ=(185.5,1295.0) … WL=21261.0  OT=196.5  t=0.30s
+  rect  11 : WL≥19648+10  OT≤78-10  λ=(68.0,781.0) … WL=20162.0  OT=50.0  t=0.13s
+  rect  12 : WL≥22025+10  OT≤392-10  λ=(24.0,48.0) … WL=22045.0  OT=378.5  t=0.05s
+  rect  13 : WL≥21919+10  OT≤368-10  λ=(52.5,106.0) … WL=21954.0  OT=332.5  t=0.04s
+  rect  14 : WL≥21734+10  OT≤306-10  λ=(38.5,165.0) … WL=21744.0  OT=272.0  t=0.10s
+  rect  15 : WL≥21261+10  OT≤263-10  λ=(66.5,463.0) … WL=21648.0  OT=253.0  t=0.13s
+  rect  16 : WL≥20429+10  OT≤196-10  λ=(119.0,832.0) … WL=20894.0  OT=144.0  t=0.21s
+  rect  17 : WL≥20162+10  OT≤78-10  λ=(27.5,267.0) … WL=20280.0  OT=61.0  t=0.13s
+  rect  18 : WL≥19648+10  OT≤50-10  λ=(40.5,514.0) … WL=19872.0  OT=26.5  t=0.11s
+  rect  19 : WL≥22045+10  OT≤392-10  λ=(13.5,28.0) … infeasible (empty).
+  rect  20 : WL≥21954+10  OT≤368-10  λ=(35.5,71.0) … WL=21967.0  OT=339.0  t=0.05s
+  rect  21 : WL≥21919+10  OT≤332-10  λ=(17.0,35.0) … WL=21930.0  OT=321.0  t=0.05s
+  rect  22 : WL≥21744+10  OT≤306-10  λ=(33.5,155.0) … WL=21754.0  OT=277.0  t=0.09s
+  rect  23 : WL≥21648+10  OT≤263-10  λ=(10.0,76.0) … infeasible (empty).
+  rect  24 : WL≥21261+10  OT≤253-10  λ=(56.5,387.0) … WL=21373.0  OT=214.5  t=0.23s
+  rect  25 : WL≥20894+10  OT≤196-10  λ=(52.5,367.0) … WL=21183.0  OT=186.5  t=0.11s
+  rect  26 : WL≥20429+10  OT≤144-10  λ=(66.5,465.0) … WL=20439.0  OT=81.0  t=0.11s
+  rect  27 : WL≥20280+10  OT≤78-10  λ=(16.5,149.0) … WL=20290.0  OT=66.0  t=0.11s
+  rect  28 : WL≥20162+10  OT≤61-10  λ=(11.0,118.0) … infeasible (empty).
+  rect  29 : WL≥19872+10  OT≤50-10  λ=(23.5,290.0) … WL=19896.0  OT=30.0  t=0.09s
+  rect  30 : WL≥19648+10  OT≤26-10  λ=(17.0,224.0) … WL=19703.0  OT=14.5  t=0.17s
+  rect  31 : WL≥21967+10  OT≤368-10  λ=(29.0,58.0) … WL=21991.0  OT=352.0  t=0.09s
+  rect  32 : WL≥21930+10  OT≤332-10  λ=(11.5,24.0) … infeasible (empty).
+  rect  33 : WL≥21754+10  OT≤306-10  λ=(28.5,145.0) … WL=21764.0  OT=282.0  t=0.12s
+  rect  34 : WL≥21373+10  OT≤253-10  λ=(38.5,275.0) … WL=21383.0  OT=217.5  t=0.11s
+  rect  35 : WL≥21261+10  OT≤214-10  λ=(18.0,112.0) … WL=21271.0  OT=201.5  t=0.13s
+  rect  36 : WL≥21183+10  OT≤196-10  λ=(10.0,78.0) … infeasible (empty).
+  rect  37 : WL≥20894+10  OT≤186-10  λ=(42.5,289.0) … WL=20910.0  OT=148.0  t=0.14s
+  rect  38 : WL≥20439+10  OT≤144-10  λ=(63.0,455.0) … WL=20576.0  OT=102.0  t=0.10s
+  rect  39 : WL≥20290+10  OT≤78-10  λ=(11.5,139.0) … infeasible (empty).
+  rect  40 : WL≥19896+10  OT≤50-10  λ=(20.0,266.0) … WL=19911.0  OT=33.5  t=0.24s
+  rect  41 : WL≥19703+10  OT≤26-10  λ=(12.0,169.0) … infeasible (empty).
+  rect  42 : WL≥21991+10  OT≤368-10  λ=(16.0,34.0) … WL=22003.0  OT=357.5  t=0.17s
+  rect  43 : WL≥21967+10  OT≤352-10  λ=(13.0,24.0) … infeasible (empty).
+  rect  44 : WL≥21764+10  OT≤306-10  λ=(23.5,135.0) … WL=21774.0  OT=287.0  t=0.11s
+  rect  45 : WL≥21383+10  OT≤253-10  λ=(35.5,265.0) … WL=21518.0  OT=237.5  t=0.11s
+  rect  46 : WL≥21271+10  OT≤214-10  λ=(13.0,102.0) … infeasible (empty).
+  rect  47 : WL≥20910+10  OT≤186-10  λ=(38.5,273.0) … WL=21038.0  OT=167.0  t=0.13s
+  rect  48 : WL≥20576+10  OT≤144-10  λ=(42.0,318.0) … WL=20623.0  OT=110.5  t=0.21s
+  rect  49 : WL≥20439+10  OT≤102-10  λ=(21.0,137.0) … WL=20449.0  OT=86.0  t=0.10s
+  rect  50 : WL≥19911+10  OT≤50-10  λ=(16.5,251.0) … WL=19921.0  OT=37.0  t=0.25s
+  rect  51 : WL≥22003+10  OT≤368-10  λ=(10.5,22.0) … infeasible (empty).
+  rect  52 : WL≥21774+10  OT≤306-10  λ=(18.5,125.0) … WL=21816.0  OT=295.5  t=0.14s
+  rect  53 : WL≥21518+10  OT≤253-10  λ=(15.5,130.0) … WL=21528.0  OT=242.5  t=0.12s
+  rect  54 : WL≥21383+10  OT≤238-10  λ=(20.0,135.0) … WL=21393.0  OT=222.5  t=0.09s
+  rect  55 : WL≥21038+10  OT≤186-10  λ=(19.5,145.0) … WL=21053.0  OT=171.0  t=0.12s
+  rect  56 : WL≥20910+10  OT≤167-10  λ=(19.0,128.0) … WL=20920.0  OT=152.0  t=0.10s
+  rect  57 : WL≥20623+10  OT≤144-10  λ=(33.5,271.0) … WL=20633.0  OT=115.5  t=0.15s
+  rect  58 : WL≥20449+10  OT≤102-10  λ=(16.0,127.0) … WL=20459.0  OT=91.0  t=0.11s
+  rect  59 : WL≥19921+10  OT≤50-10  λ=(13.0,241.0) … infeasible (empty).
+  rect  60 : WL≥21816+10  OT≤306-10  λ=(10.0,83.0) … infeasible (empty).
+  rect  61 : WL≥21528+10  OT≤253-10  λ=(10.5,120.0) … infeasible (empty).
+  rect  62 : WL≥21393+10  OT≤238-10  λ=(15.0,125.0) … WL=21403.0  OT=227.5  t=0.09s
+  rect  63 : WL≥21053+10  OT≤186-10  λ=(15.5,130.0) … WL=21063.0  OT=176.0  t=0.14s
+  rect  64 : WL≥20920+10  OT≤167-10  λ=(15.0,118.0) … WL=20930.0  OT=157.0  t=0.11s
+  rect  65 : WL≥20633+10  OT≤144-10  λ=(28.5,261.0) … WL=20733.0  OT=128.5  t=0.13s
+  rect  66 : WL≥20459+10  OT≤102-10  λ=(11.0,117.0) … infeasible (empty).
+  rect  67 : WL≥21403+10  OT≤238-10  λ=(10.0,115.0) … infeasible (empty).
+  rect  68 : WL≥21063+10  OT≤186-10  λ=(10.5,120.0) … infeasible (empty).
+  rect  69 : WL≥20930+10  OT≤167-10  λ=(10.0,108.0) … infeasible (empty).
+  rect  70 : WL≥20733+10  OT≤144-10  λ=(15.5,161.0) … WL=20743.0  OT=130.5  t=0.11s
+  rect  71 : WL≥20633+10  OT≤128-10  λ=(13.0,100.0) … infeasible (empty).
+  rect  72 : WL≥20743+10  OT≤144-10  λ=(13.5,151.0) … infeasible (empty).
+
+[Chalmet]  Done.  72 rectangles explored  ·  53 new points found  ·  53 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=6.48s  avg/solve=0.12s  min=0.00s  max=0.30s
+[V4red |  3/8] T=150 D=6  N=3  C=2   — hybrid s=10             DONE (|YN|=53  max_gap=13.500  cpu=8.96s)
+
+────────────────────────────────────────────────────────────────────────
+  [4/8]  V4red_T150_D6_N3_C3  (seed=42  time_limit=600s)
+────────────────────────────────────────────────────────────────────────
+[V4red |  4/8] T=150 D=6  N=3  C=3   — baseline                DONE (cpu=0.00s  WL=32249.0  OT=577.0)
+[V4red |  4/8] T=150 D=6  N=3  C=3   — base_model              DONE (cpu=70.01s  nodes=450781  vars=1056  constrs=468)
+[V4red |  4/8] T=150 D=6  N=3  C=3   — reinforced              DONE (cpu=88.50s  nodes=403592  vars=600  constrs=474)
+[ε-constraint]  s = 20 min | solving first point (unconstrained WL)…
+  k=0 : WL=24534.0  OT=192.0  t=0.04s
+  k=1 : ε=172.0 min … WL=24468.0  OT=170.0  t=0.05s
+  k=2 : ε=150.0 min … WL=24406.0  OT=149.3  t=0.10s
+  k=3 : ε=129.3 min … WL=24346.0  OT=129.3  t=0.05s
+  k=4 : ε=109.3 min … WL=24286.0  OT=109.3  t=0.04s
+  k=5 : ε=89.3 min … WL=24226.0  OT=89.3  t=0.10s
+  k=6 : ε=69.3 min … WL=24164.0  OT=68.7  t=0.05s
+  k=7 : ε=48.7 min … WL=24104.0  OT=48.7  t=0.04s
+  k=8 : ε=28.7 min … WL=24043.0  OT=28.3  t=0.05s
+  k=9 : ε=8.3 min … WL=23981.0  OT=7.7  t=0.04s
+
+[ε-constraint]  10 total points → 10 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=0.55s  avg/solve=0.06s  min=0.04s  max=0.10s
+[V4red |  4/8] T=150 D=6  N=3  C=3   — eps s=20                DONE (|YN|=10  max_gap=22.000  cpu=0.72s)
+[ε-constraint]  s = 10 min | solving first point (unconstrained WL)…
+  k=0 : WL=24534.0  OT=192.0  t=0.03s
+  k=1 : ε=182.0 min … WL=24500.0  OT=180.7  t=0.06s
+  k=2 : ε=170.7 min … WL=24468.0  OT=170.0  t=0.05s
+  k=3 : ε=160.0 min … WL=24437.0  OT=159.7  t=0.06s
+  k=4 : ε=149.7 min … WL=24405.0  OT=149.0  t=0.08s
+  k=5 : ε=139.0 min … WL=24375.0  OT=139.0  t=0.04s
+  k=6 : ε=129.0 min … WL=24344.0  OT=128.7  t=0.17s
+  k=7 : ε=118.7 min … WL=24313.0  OT=118.3  t=0.11s
+  k=8 : ε=108.3 min … WL=24281.0  OT=107.7  t=0.25s
+  k=9 : ε=97.7 min … WL=24251.0  OT=97.7  t=0.11s
+  k=10 : ε=87.7 min … WL=24221.0  OT=87.7  t=0.09s
+  k=11 : ε=77.7 min … WL=24191.0  OT=77.7  t=0.11s
+  k=12 : ε=67.7 min … WL=24159.0  OT=67.0  t=0.11s
+  k=13 : ε=57.0 min … WL=24129.0  OT=57.0  t=0.07s
+  k=14 : ε=47.0 min … WL=24099.0  OT=47.0  t=0.10s
+  k=15 : ε=37.0 min … WL=24069.0  OT=37.0  t=0.09s
+  k=16 : ε=27.0 min … WL=24037.0  OT=26.3  t=0.09s
+  k=17 : ε=16.3 min … WL=24006.0  OT=16.0  t=0.05s
+  k=18 : ε=6.0 min … WL=23976.0  OT=6.0  t=0.08s
+
+[ε-constraint]  19 total points → 19 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=1.77s  avg/solve=0.09s  min=0.03s  max=0.25s
+[V4red |  4/8] T=150 D=6  N=3  C=3   — eps s=10                DONE (|YN|=19  max_gap=11.333  cpu=2.18s)
+[Chalmet]  Phase 1: extreme points  (s=20) …
+  p_A  max-WL extreme : WL=24534.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+20  OT≤720-20  λ=(720.0,24534.0) … WL=23954.0  OT=0.0  t=0.04s
+  rect   2 : WL≥23954+20  OT≤720-20  λ=(720.0,580.0) … WL=24534.0  OT=192.0  t=0.01s
+  rect   3 : WL≥23954+20  OT≤192-20  λ=(192.0,580.0) … WL=24015.0  OT=19.0  t=0.01s
+  rect   4 : WL≥24015+20  OT≤192-20  λ=(173.0,519.0) … WL=24232.0  OT=91.3  t=0.02s
+  rect   5 : WL≥24232+20  OT≤192-20  λ=(100.7,302.0) … WL=24272.0  OT=104.7  t=0.02s
+  rect   6 : WL≥24015+20  OT≤91-20  λ=(72.3,217.0) … WL=24064.0  OT=35.3  t=0.01s
+  rect   7 : WL≥24272+20  OT≤192-20  λ=(87.3,262.0) … WL=24314.0  OT=118.7  t=0.01s
+  rect   8 : WL≥24064+20  OT≤91-20  λ=(56.0,168.0) … WL=24158.0  OT=66.7  t=0.01s
+  rect   9 : WL≥24314+20  OT≤192-20  λ=(73.3,220.0) … WL=24419.0  OT=153.7  t=0.01s
+  rect  10 : WL≥24158+20  OT≤91-20  λ=(24.7,74.0) … infeasible (empty).
+  rect  11 : WL≥24064+20  OT≤67-20  λ=(31.3,94.0) … WL=24090.0  OT=44.0  t=0.03s
+  rect  12 : WL≥24419+20  OT≤192-20  λ=(38.3,115.0) … WL=24451.0  OT=164.3  t=0.01s
+  rect  13 : WL≥24314+20  OT≤154-20  λ=(35.0,105.0) … WL=24337.0  OT=126.3  t=0.01s
+  rect  14 : WL≥24090+20  OT≤67-20  λ=(22.7,68.0) … infeasible (empty).
+  rect  15 : WL≥24451+20  OT≤192-20  λ=(27.7,83.0) … infeasible (empty).
+  rect  16 : WL≥24337+20  OT≤154-20  λ=(27.3,82.0) … WL=24357.0  OT=133.0  t=0.03s
+  rect  17 : WL≥24357+20  OT≤154-20  λ=(20.7,62.0) … infeasible (empty).
+
+[Chalmet]  Done.  17 rectangles explored  ·  13 new points found  ·  13 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=0.23s  avg/solve=0.02s  min=0.00s  max=0.04s
+[V4red |  4/8] T=150 D=6  N=3  C=3   — hybrid s=20             DONE (|YN|=13  max_gap=27.667  cpu=0.67s)
+[Chalmet]  Phase 1: extreme points  (s=10) …
+  p_A  max-WL extreme : WL=24534.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+10  OT≤720-10  λ=(720.0,24534.0) … WL=23954.0  OT=0.0  t=0.03s
+  rect   2 : WL≥23954+10  OT≤720-10  λ=(720.0,580.0) … WL=24534.0  OT=192.0  t=0.01s
+  rect   3 : WL≥23954+10  OT≤192-10  λ=(192.0,580.0) … WL=24015.0  OT=19.0  t=0.01s
+  rect   4 : WL≥24015+10  OT≤192-10  λ=(173.0,519.0) … WL=24232.0  OT=91.3  t=0.01s
+  rect   5 : WL≥23954+10  OT≤19-10  λ=(19.0,61.0) … WL=23974.0  OT=5.3  t=0.02s
+  rect   6 : WL≥24232+10  OT≤192-10  λ=(100.7,302.0) … WL=24272.0  OT=104.7  t=0.01s
+  rect   7 : WL≥24015+10  OT≤91-10  λ=(72.3,217.0) … WL=24064.0  OT=35.3  t=0.01s
+  rect   8 : WL≥23974+10  OT≤19-10  λ=(13.7,41.0) … WL=23985.0  OT=9.0  t=0.01s
+  rect   9 : WL≥24272+10  OT≤192-10  λ=(87.3,262.0) … WL=24314.0  OT=118.7  t=0.01s
+  rect  10 : WL≥24232+10  OT≤105-10  λ=(13.3,40.0) … WL=24242.0  OT=94.7  t=0.03s
+  rect  11 : WL≥24064+10  OT≤91-10  λ=(56.0,168.0) … WL=24173.0  OT=71.7  t=0.01s
+  rect  12 : WL≥24015+10  OT≤35-10  λ=(16.3,49.0) … WL=24032.0  OT=24.7  t=0.02s
+  rect  13 : WL≥23985+10  OT≤19-10  λ=(10.0,30.0) … infeasible (empty).
+  rect  14 : WL≥24314+10  OT≤192-10  λ=(73.3,220.0) … WL=24419.0  OT=153.7  t=0.01s
+  rect  15 : WL≥24272+10  OT≤119-10  λ=(14.0,42.0) … WL=24284.0  OT=108.7  t=0.05s
+  rect  16 : WL≥24242+10  OT≤105-10  λ=(10.0,30.0) … infeasible (empty).
+  rect  17 : WL≥24173+10  OT≤91-10  λ=(19.7,59.0) … WL=24192.0  OT=78.0  t=0.01s
+  rect  18 : WL≥24064+10  OT≤72-10  λ=(36.3,109.0) … WL=24096.0  OT=46.0  t=0.01s
+  rect  19 : WL≥24032+10  OT≤35-10  λ=(10.7,32.0) … infeasible (empty).
+  rect  20 : WL≥24419+10  OT≤192-10  λ=(38.3,115.0) … WL=24437.0  OT=159.7  t=0.01s
+  rect  21 : WL≥24314+10  OT≤154-10  λ=(35.0,105.0) … WL=24360.0  OT=134.0  t=0.01s
+  rect  22 : WL≥24284+10  OT≤119-10  λ=(10.0,30.0) … infeasible (empty).
+  rect  23 : WL≥24192+10  OT≤91-10  λ=(13.3,40.0) … WL=24202.0  OT=81.3  t=0.02s
+  rect  24 : WL≥24096+10  OT≤72-10  λ=(25.7,77.0) … WL=24123.0  OT=55.0  t=0.02s
+  rect  25 : WL≥24064+10  OT≤46-10  λ=(10.7,32.0) … infeasible (empty).
+  rect  26 : WL≥24437+10  OT≤192-10  λ=(32.3,97.0) … WL=24462.0  OT=168.0  t=0.01s
+  rect  27 : WL≥24360+10  OT≤154-10  λ=(19.7,59.0) … WL=24379.0  OT=140.3  t=0.01s
+  rect  28 : WL≥24314+10  OT≤134-10  λ=(15.3,46.0) … WL=24325.0  OT=122.3  t=0.04s
+  rect  29 : WL≥24202+10  OT≤91-10  λ=(10.0,30.0) … infeasible (empty).
+  rect  30 : WL≥24123+10  OT≤72-10  λ=(16.7,50.0) … WL=24139.0  OT=60.3  t=0.03s
+  rect  31 : WL≥24462+10  OT≤192-10  λ=(24.0,72.0) … WL=24491.0  OT=177.7  t=0.01s
+  rect  32 : WL≥24379+10  OT≤154-10  λ=(13.3,40.0) … WL=24389.0  OT=143.7  t=0.01s
+  rect  33 : WL≥24325+10  OT≤134-10  λ=(11.7,35.0) … infeasible (empty).
+  rect  34 : WL≥24139+10  OT≤72-10  λ=(11.3,34.0) … infeasible (empty).
+  rect  35 : WL≥24491+10  OT≤192-10  λ=(14.3,43.0) … infeasible (empty).
+  rect  36 : WL≥24389+10  OT≤154-10  λ=(10.0,30.0) … infeasible (empty).
+
+[Chalmet]  Done.  36 rectangles explored  ·  26 new points found  ·  26 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=0.45s  avg/solve=0.02s  min=0.00s  max=0.05s
+[V4red |  4/8] T=150 D=6  N=3  C=3   — hybrid s=10             DONE (|YN|=26  max_gap=14.333  cpu=1.25s)
+
+────────────────────────────────────────────────────────────────────────
+  [5/8]  V4red_T300_D6_N2_C2  (seed=42  time_limit=600s)
+────────────────────────────────────────────────────────────────────────
+[V4red |  5/8] T=300 D=6  N=2  C=2   — baseline                DONE (cpu=0.00s  WL=22595.0  OT=684.0)
+[V4red |  5/8] T=300 D=6  N=2  C=2   — base_model              ERROR: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[V4red |  5/8] T=300 D=6  N=2  C=2   — reinforced              DONE (cpu=376.93s  nodes=852079  vars=1142  constrs=924)
+[ε-constraint]  s = 20 min | solving first point (unconstrained WL)…
+  k=0 : WL=25182.0  OT=715.0  t=6.99s
+  k=1 : ε=695.0 min … WL=25120.0  OT=692.0  t=1.75s
+  k=2 : ε=672.0 min … WL=25022.0  OT=671.0  t=0.58s
+  k=3 : ε=651.0 min … WL=24908.0  OT=648.0  t=0.76s
+  k=4 : ε=628.0 min … WL=24843.0  OT=626.5  t=0.33s
+  k=5 : ε=606.5 min … WL=24699.0  OT=600.5  t=0.86s
+  k=6 : ε=580.5 min … WL=24589.0  OT=577.5  t=0.47s
+  k=7 : ε=557.5 min … WL=24520.0  OT=556.0  t=0.28s
+  k=8 : ε=536.0 min … WL=24321.0  OT=535.5  t=1.08s
+  k=9 : ε=515.5 min … WL=24197.0  OT=514.5  t=0.59s
+  k=10 : ε=494.5 min … WL=24101.0  OT=492.0  t=0.48s
+  k=11 : ε=472.0 min … WL=23948.0  OT=470.0  t=0.95s
+  k=12 : ε=450.0 min … WL=23777.0  OT=446.0  t=1.02s
+  k=13 : ε=426.0 min … WL=23641.0  OT=424.0  t=0.61s
+  k=14 : ε=404.0 min … WL=23491.0  OT=403.5  t=1.90s
+  k=15 : ε=383.5 min … WL=23371.0  OT=382.0  t=1.27s
+  k=16 : ε=362.0 min … WL=23215.0  OT=361.5  t=1.24s
+  k=17 : ε=341.5 min … WL=23082.0  OT=341.0  t=0.73s
+  k=18 : ε=321.0 min … WL=22955.0  OT=319.0  t=0.49s
+  k=19 : ε=299.0 min … WL=22801.0  OT=299.0  t=1.32s
+  k=20 : ε=279.0 min … WL=22649.0  OT=279.0  t=0.95s
+  k=21 : ε=259.0 min … WL=22547.0  OT=259.0  t=0.36s
+  k=22 : ε=239.0 min … WL=22385.0  OT=239.0  t=0.45s
+  k=23 : ε=219.0 min … WL=22222.0  OT=219.0  t=1.05s
+  k=24 : ε=199.0 min … WL=22047.0  OT=198.5  t=0.87s
+  k=25 : ε=178.5 min … WL=21865.0  OT=177.5  t=1.53s
+  k=26 : ε=157.5 min … WL=21691.0  OT=157.5  t=2.25s
+  k=27 : ε=137.5 min … WL=21499.0  OT=137.5  t=2.45s
+  k=28 : ε=117.5 min … WL=21353.0  OT=117.5  t=1.04s
+  k=29 : ε=97.5 min … WL=21154.0  OT=97.5  t=1.20s
+  k=30 : ε=77.5 min … WL=20964.0  OT=77.0  t=4.12s
+  k=31 : ε=57.0 min … WL=20785.0  OT=57.0  t=4.55s
+  k=32 : ε=37.0 min … WL=20578.0  OT=37.0  t=14.37s
+  k=33 : ε=17.0 min … WL=20356.0  OT=17.0  t=172.84s
+
+[ε-constraint]  34 total points → 34 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=231.73s  avg/solve=6.82s  min=0.28s  max=172.84s
+[V4red |  5/8] T=300 D=6  N=2  C=2   — eps s=20                DONE (|YN|=34  max_gap=26.000  cpu=233.07s)
+[ε-constraint]  s = 10 min | solving first point (unconstrained WL)…
+  k=0 : WL=25182.0  OT=715.0  t=3.45s
+  k=1 : ε=705.0 min … WL=25143.0  OT=703.5  t=2.36s
+  k=2 : ε=693.5 min … WL=25122.0  OT=692.0  t=1.18s
+  k=3 : ε=682.0 min … WL=25039.0  OT=678.5  t=1.04s
+  k=4 : ε=668.5 min … WL=25006.0  OT=667.0  t=1.10s
+  k=5 : ε=657.0 min … WL=24927.0  OT=657.0  t=0.89s
+  k=6 : ε=647.0 min … WL=24894.0  OT=644.0  t=0.64s
+  k=7 : ε=634.0 min … WL=24842.0  OT=626.5  t=0.48s
+  k=8 : ε=616.5 min … WL=24748.0  OT=612.5  t=0.90s
+  k=9 : ε=602.5 min … WL=24699.0  OT=600.5  t=0.59s
+  k=10 : ε=590.5 min … WL=24620.0  OT=589.0  t=0.84s
+  k=11 : ε=579.0 min … WL=24589.0  OT=577.5  t=0.53s
+  k=12 : ε=567.5 min … WL=24534.0  OT=560.0  t=0.28s
+  k=13 : ε=550.0 min … WL=24438.0  OT=546.0  t=0.29s
+  k=14 : ε=536.0 min … WL=24321.0  OT=535.5  t=1.17s
+  k=15 : ε=525.5 min … WL=24258.0  OT=522.0  t=1.12s
+  k=16 : ε=512.0 min … WL=24180.0  OT=512.0  t=0.89s
+  k=17 : ε=502.0 min … WL=24132.0  OT=501.0  t=0.33s
+  k=18 : ε=491.0 min … WL=24087.0  OT=489.5  t=0.26s
+  k=19 : ε=479.5 min … WL=24006.0  OT=478.0  t=0.57s
+  k=20 : ε=468.0 min … WL=23895.0  OT=467.5  t=1.19s
+  k=21 : ε=457.5 min … WL=23853.0  OT=456.0  t=1.53s
+  k=22 : ε=446.0 min … WL=23777.0  OT=446.0  t=0.94s
+  k=23 : ε=436.0 min … WL=23685.0  OT=430.5  t=1.44s
+  k=24 : ε=420.5 min … WL=23601.0  OT=419.0  t=0.80s
+  k=25 : ε=409.0 min … WL=23528.0  OT=409.0  t=0.56s
+  k=26 : ε=399.0 min … WL=23466.0  OT=396.0  t=0.47s
+  k=27 : ε=386.0 min … WL=23371.0  OT=382.0  t=1.82s
+  k=28 : ε=372.0 min … WL=23260.0  OT=371.0  t=1.70s
+  k=29 : ε=361.0 min … WL=23193.0  OT=360.0  t=1.50s
+  k=30 : ε=350.0 min … WL=23166.0  OT=349.0  t=0.92s
+  k=31 : ε=339.0 min … WL=23064.0  OT=337.0  t=0.91s
+  k=32 : ε=327.0 min … WL=23019.0  OT=325.5  t=0.46s
+  k=33 : ε=315.5 min … WL=22938.0  OT=314.0  t=0.46s
+  k=34 : ε=304.0 min … WL=22836.0  OT=303.5  t=1.70s
+  k=35 : ε=293.5 min … WL=22771.0  OT=293.5  t=1.18s
+  k=36 : ε=283.5 min … WL=22730.0  OT=283.5  t=0.39s
+  k=37 : ε=273.5 min … WL=22612.0  OT=273.0  t=0.91s
+  k=38 : ε=263.0 min … WL=22572.0  OT=263.0  t=0.52s
+  k=39 : ε=253.0 min … WL=22535.0  OT=253.0  t=0.31s
+  k=40 : ε=243.0 min … WL=22406.0  OT=243.0  t=1.07s
+  k=41 : ε=233.0 min … WL=22373.0  OT=233.0  t=0.57s
+  k=42 : ε=223.0 min … WL=22247.0  OT=223.0  t=1.37s
+  k=43 : ε=213.0 min … WL=22194.0  OT=213.0  t=1.06s
+  k=44 : ε=203.0 min … WL=22087.0  OT=203.0  t=0.91s
+  k=45 : ε=193.0 min … WL=22020.0  OT=193.0  t=1.73s
+  k=46 : ε=183.0 min … WL=21945.0  OT=183.0  t=1.09s
+  k=47 : ε=173.0 min … WL=21827.0  OT=173.0  t=3.03s
+  k=48 : ε=163.0 min … WL=21765.0  OT=163.0  t=2.05s
+  k=49 : ε=153.0 min … WL=21674.0  OT=153.0  t=1.18s
+  k=50 : ε=143.0 min … WL=21558.0  OT=143.0  t=1.65s
+  k=51 : ε=133.0 min … WL=21475.0  OT=133.0  t=2.14s
+  k=52 : ε=123.0 min … WL=21375.0  OT=123.0  t=2.17s
+  k=53 : ε=113.0 min … WL=21283.0  OT=113.0  t=3.00s
+  k=54 : ε=103.0 min … WL=21203.0  OT=103.0  t=1.63s
+  k=55 : ε=93.0 min … WL=21119.0  OT=93.0  t=1.37s
+  k=56 : ε=83.0 min … WL=21030.0  OT=83.0  t=1.12s
+  k=57 : ε=73.0 min … WL=20924.0  OT=72.5  t=3.60s
+  k=58 : ε=62.5 min … WL=20832.0  OT=62.5  t=2.26s
+  k=59 : ε=52.5 min … WL=20739.0  OT=52.5  t=3.92s
+  k=60 : ε=42.5 min … WL=20645.0  OT=42.0  t=4.62s
+  k=61 : ε=32.0 min … WL=20529.0  OT=32.0  t=12.68s
+  k=62 : ε=22.0 min … WL=20412.0  OT=22.0  t=33.62s
+  k=63 : ε=12.0 min … WL=20297.0  OT=12.0  t=60.79s
+  k=64 : ε=2.0 min … WL=20182.0  OT=2.0  t=50.52s
+
+[ε-constraint]  65 total points → 65 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=237.80s  avg/solve=3.66s  min=0.26s  max=60.79s
+[V4red |  5/8] T=300 D=6  N=2  C=2   — eps s=10                DONE (|YN|=65  max_gap=17.500  cpu=240.33s)
+[Chalmet]  Phase 1: extreme points  (s=20) …
+  p_A  max-WL extreme : WL=25182.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+20  OT≤720-20  λ=(720.0,25182.0) … WL=20154.0  OT=0.0  t=32.87s
+  rect   2 : WL≥20154+20  OT≤720-20  λ=(720.0,5028.0) … WL=22513.0  OT=247.0  t=0.07s
+  rect   3 : WL≥22513+20  OT≤720-20  λ=(473.0,2669.0) … WL=24520.0  OT=556.0  t=0.08s
+  rect   4 : WL≥20154+20  OT≤247-20  λ=(247.0,2359.0) … WL=21109.0  OT=89.0  t=0.51s
+  rect   5 : WL≥24520+20  OT≤720-20  λ=(164.0,662.0) … WL=25122.0  OT=692.0  t=0.61s
+  rect   6 : WL≥22513+20  OT≤556-20  λ=(309.0,2007.0) … WL=24087.0  OT=489.5  t=0.13s
+  rect   7 : WL≥21109+20  OT≤247-20  λ=(158.0,1404.0) … WL=21759.0  OT=161.0  t=0.34s
+  rect   8 : WL≥20154+20  OT≤89-20  λ=(89.0,955.0) … WL=20674.0  OT=43.5  t=4.62s
+  rect   9 : WL≥25122+20  OT≤720-20  λ=(28.0,60.0) … infeasible (empty).
+  rect  10 : WL≥24520+20  OT≤692-20  λ=(136.0,602.0) … WL=24842.0  OT=626.5  t=0.18s
+  rect  11 : WL≥24087+20  OT≤556-20  λ=(66.5,433.0) … WL=24118.0  OT=497.0  t=0.38s
+  rect  12 : WL≥22513+20  OT≤490-20  λ=(242.5,1574.0) … WL=23452.0  OT=392.0  t=0.20s
+  rect  13 : WL≥21759+20  OT≤247-20  λ=(86.0,754.0) … WL=21933.0  OT=180.5  t=0.31s
+  rect  14 : WL≥21109+20  OT≤161-20  λ=(72.0,650.0) … WL=21181.0  OT=98.0  t=0.81s
+  rect  15 : WL≥20674+20  OT≤89-20  λ=(45.5,435.0) … WL=20780.0  OT=55.0  t=1.39s
+  rect  16 : WL≥20154+20  OT≤44-20  λ=(43.5,520.0) … WL=20183.0  OT=2.0  t=5.83s
+  rect  17 : WL≥24842+20  OT≤692-20  λ=(65.5,280.0) … WL=25007.0  OT=667.0  t=0.61s
+  rect  18 : WL≥24520+20  OT≤626-20  λ=(70.5,322.0) … WL=24698.0  OT=600.5  t=0.58s
+  rect  19 : WL≥24118+20  OT≤556-20  λ=(59.0,402.0) … WL=24298.0  OT=526.5  t=0.56s
+  rect  20 : WL≥23452+20  OT≤490-20  λ=(97.5,635.0) … WL=23852.0  OT=456.0  t=0.34s
+  rect  21 : WL≥22513+20  OT≤392-20  λ=(145.0,939.0) … WL=23018.0  OT=325.5  t=0.30s
+  rect  22 : WL≥21933+20  OT≤247-20  λ=(66.5,580.0) … WL=22015.0  OT=190.5  t=0.45s
+  rect  23 : WL≥21181+20  OT≤161-20  λ=(63.0,578.0) … WL=21354.0  OT=117.5  t=1.04s
+  rect  24 : WL≥20780+20  OT≤89-20  λ=(34.0,329.0) … WL=20802.0  OT=58.0  t=2.69s
+  rect  25 : WL≥20183+20  OT≤44-20  λ=(41.5,491.0) … WL=20214.0  OT=4.5  t=23.36s
+  rect  26 : WL≥25007+20  OT≤692-20  λ=(25.0,115.0) … infeasible (empty).
+  rect  27 : WL≥24842+20  OT≤667-20  λ=(40.5,165.0) … WL=24895.0  OT=644.0  t=0.60s
+  rect  28 : WL≥24698+20  OT≤626-20  λ=(26.0,144.0) … infeasible (empty).
+  rect  29 : WL≥24520+20  OT≤600-20  λ=(44.5,178.0) … WL=24589.0  OT=577.5  t=0.33s
+  rect  30 : WL≥24298+20  OT≤556-20  λ=(29.5,222.0) … WL=24321.0  OT=535.5  t=1.04s
+  rect  31 : WL≥24118+20  OT≤526-20  λ=(29.5,180.0) … infeasible (empty).
+  rect  32 : WL≥23852+20  OT≤490-20  λ=(33.5,235.0) … WL=23872.0  OT=460.0  t=0.26s
+  rect  33 : WL≥23452+20  OT≤456-20  λ=(64.0,400.0) … WL=23683.0  OT=430.5  t=0.22s
+  rect  34 : WL≥23018+20  OT≤392-20  λ=(66.5,434.0) … WL=23166.0  OT=349.0  t=0.23s
+  rect  35 : WL≥22513+20  OT≤326-20  λ=(78.5,505.0) … WL=22533.0  OT=252.0  t=0.31s
+  rect  36 : WL≥22015+20  OT≤247-20  λ=(56.5,498.0) … WL=22038.0  OT=194.5  t=0.60s
+  rect  37 : WL≥21354+20  OT≤161-20  λ=(43.5,405.0) … WL=21436.0  OT=127.5  t=0.85s
+  rect  38 : WL≥20802+20  OT≤89-20  λ=(31.0,307.0) … WL=20865.0  OT=65.0  t=1.88s
+  rect  39 : WL≥20214+20  OT≤44-20  λ=(39.0,460.0) … WL=20279.0  OT=10.0  t=51.46s
+  rect  40 : WL≥24895+20  OT≤667-20  λ=(23.0,112.0) … infeasible (empty).
+  rect  41 : WL≥24589+20  OT≤600-20  λ=(23.0,109.0) … infeasible (empty).
+  rect  42 : WL≥24520+20  OT≤578-20  λ=(21.5,69.0) … infeasible (empty).
+  rect  43 : WL≥24321+20  OT≤556-20  λ=(20.5,199.0) … infeasible (empty).
+  rect  44 : WL≥23872+20  OT≤490-20  λ=(29.5,215.0) … WL=23925.0  OT=469.0  t=0.22s
+  rect  45 : WL≥23683+20  OT≤456-20  λ=(25.5,169.0) … infeasible (empty).
+  rect  46 : WL≥23452+20  OT≤430-20  λ=(38.5,231.0) … WL=23547.0  OT=410.0  t=0.32s
+  rect  47 : WL≥23166+20  OT≤392-20  λ=(43.0,286.0) … WL=23228.0  OT=362.5  t=0.48s
+  rect  48 : WL≥23018+20  OT≤349-20  λ=(23.5,148.0) … infeasible (empty).
+  rect  49 : WL≥22533+20  OT≤326-20  λ=(73.5,485.0) … WL=22728.0  OT=282.5  t=0.31s
+  rect  50 : WL≥22038+20  OT≤247-20  λ=(52.5,475.0) … WL=22078.0  OT=199.5  t=0.52s
+  rect  51 : WL≥21436+20  OT≤161-20  λ=(33.5,323.0) … WL=21536.0  OT=139.0  t=3.49s
+  rect  52 : WL≥20865+20  OT≤89-20  λ=(24.0,244.0) … WL=20891.0  OT=68.5  t=1.89s
+  rect  53 : WL≥20279+20  OT≤44-20  λ=(33.5,395.0) … WL=20426.0  OT=22.5  t=13.70s
+  rect  54 : WL≥23925+20  OT≤490-20  λ=(20.5,162.0) … infeasible (empty).
+  rect  55 : WL≥23547+20  OT≤430-20  λ=(20.5,136.0) … infeasible (empty).
+  rect  56 : WL≥23228+20  OT≤392-20  λ=(29.5,224.0) … WL=23254.0  OT=368.5  t=0.95s
+  rect  57 : WL≥22728+20  OT≤326-20  λ=(43.0,290.0) … WL=22863.0  OT=305.0  t=0.25s
+  rect  58 : WL≥22533+20  OT≤282-20  λ=(30.5,195.0) … infeasible (empty).
+  rect  59 : WL≥22078+20  OT≤247-20  λ=(47.5,435.0) … WL=22195.0  OT=213.0  t=0.68s
+  rect  60 : WL≥21536+20  OT≤161-20  λ=(22.0,223.0) … infeasible (empty).
+  rect  61 : WL≥20891+20  OT≤89-20  λ=(20.5,218.0) … infeasible (empty).
+  rect  62 : WL≥20426+20  OT≤44-20  λ=(21.0,248.0) … infeasible (empty).
+  rect  63 : WL≥23254+20  OT≤392-20  λ=(23.5,198.0) … infeasible (empty).
+  rect  64 : WL≥22863+20  OT≤326-20  λ=(20.5,155.0) … infeasible (empty).
+  rect  65 : WL≥22728+20  OT≤305-20  λ=(22.5,135.0) … infeasible (empty).
+  rect  66 : WL≥22195+20  OT≤247-20  λ=(34.0,318.0) … WL=22216.0  OT=217.0  t=0.35s
+  rect  67 : WL≥22216+20  OT≤247-20  λ=(30.0,297.0) … WL=22308.0  OT=227.0  t=0.55s
+  rect  68 : WL≥22308+20  OT≤247-20  λ=(20.0,205.0) … infeasible (empty).
+
+[Chalmet]  Done.  68 rectangles explored  ·  48 new points found  ·  49 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=164.35s  avg/solve=3.29s  min=0.00s  max=51.46s
+[V4red |  5/8] T=300 D=6  N=2  C=2   — hybrid s=20             DONE (|YN|=49  max_gap=30.500  cpu=171.60s)
+[Chalmet]  Phase 1: extreme points  (s=10) …
+  p_A  max-WL extreme : WL=25182.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+10  OT≤720-10  λ=(720.0,25182.0) … WL=20154.0  OT=0.0  t=38.38s
+  rect   2 : WL≥20154+10  OT≤720-10  λ=(720.0,5028.0) … WL=22513.0  OT=247.0  t=0.07s
+  rect   3 : WL≥22513+10  OT≤720-10  λ=(473.0,2669.0) … WL=24520.0  OT=556.0  t=0.11s
+  rect   4 : WL≥20154+10  OT≤247-10  λ=(247.0,2359.0) … WL=21109.0  OT=89.0  t=0.59s
+  rect   5 : WL≥24520+10  OT≤720-10  λ=(164.0,662.0) … WL=25122.0  OT=692.0  t=0.34s
+  rect   6 : WL≥22513+10  OT≤556-10  λ=(309.0,2007.0) … WL=24087.0  OT=489.5  t=0.15s
+  rect   7 : WL≥21109+10  OT≤247-10  λ=(158.0,1404.0) … WL=21933.0  OT=180.5  t=0.54s
+  rect   8 : WL≥20154+10  OT≤89-10  λ=(89.0,955.0) … WL=20674.0  OT=43.5  t=1.55s
+  rect   9 : WL≥25122+10  OT≤720-10  λ=(28.0,60.0) … WL=25153.0  OT=707.5  t=0.89s
+  rect  10 : WL≥24520+10  OT≤692-10  λ=(136.0,602.0) … WL=24843.0  OT=626.5  t=0.14s
+  rect  11 : WL≥24087+10  OT≤556-10  λ=(66.5,433.0) … WL=24101.0  OT=492.0  t=0.08s
+  rect  12 : WL≥22513+10  OT≤490-10  λ=(242.5,1574.0) … WL=23452.0  OT=392.0  t=0.28s
+  rect  13 : WL≥21933+10  OT≤247-10  λ=(66.5,580.0) … WL=22015.0  OT=190.5  t=0.30s
+  rect  14 : WL≥21109+10  OT≤180-10  λ=(91.5,824.0) … WL=21668.0  OT=151.0  t=0.84s
+  rect  15 : WL≥20674+10  OT≤89-10  λ=(45.5,435.0) … WL=20780.0  OT=55.0  t=1.93s
+  rect  16 : WL≥20154+10  OT≤44-10  λ=(43.5,520.0) … WL=20279.0  OT=10.0  t=26.19s
+  rect  17 : WL≥25153+10  OT≤720-10  λ=(12.5,29.0) … infeasible (empty).
+  rect  18 : WL≥25122+10  OT≤708-10  λ=(15.5,31.0) … infeasible (empty).
+  rect  19 : WL≥24843+10  OT≤692-10  λ=(65.5,279.0) … WL=25007.0  OT=667.0  t=0.46s
+  rect  20 : WL≥24520+10  OT≤626-10  λ=(70.5,323.0) … WL=24534.0  OT=560.0  t=0.85s
+  rect  21 : WL≥24101+10  OT≤556-10  λ=(64.0,419.0) … WL=24425.0  OT=542.0  t=0.51s
+  rect  22 : WL≥23452+10  OT≤490-10  λ=(97.5,635.0) … WL=23992.0  OT=475.5  t=0.27s
+  rect  23 : WL≥22513+10  OT≤392-10  λ=(145.0,939.0) … WL=23017.0  OT=325.5  t=0.25s
+  rect  24 : WL≥22015+10  OT≤247-10  λ=(56.5,498.0) … WL=22370.0  OT=231.5  t=0.44s
+  rect  25 : WL≥21668+10  OT≤180-10  λ=(29.5,265.0) … WL=21759.0  OT=161.0  t=0.65s
+  rect  26 : WL≥21109+10  OT≤151-10  λ=(62.0,559.0) … WL=21181.0  OT=98.0  t=1.06s
+  rect  27 : WL≥20780+10  OT≤89-10  λ=(34.0,329.0) … WL=20804.0  OT=58.0  t=1.95s
+  rect  28 : WL≥20674+10  OT≤55-10  λ=(11.5,106.0) … infeasible (empty).
+  rect  29 : WL≥20279+10  OT≤44-10  λ=(33.5,395.0) … WL=20522.0  OT=30.5  t=30.15s
+  rect  30 : WL≥25007+10  OT≤692-10  λ=(25.0,115.0) … WL=25022.0  OT=671.0  t=0.30s
+  rect  31 : WL≥24843+10  OT≤667-10  λ=(40.5,164.0) … WL=24895.0  OT=644.0  t=1.14s
+  rect  32 : WL≥24534+10  OT≤626-10  λ=(66.5,309.0) … WL=24699.0  OT=600.5  t=0.29s
+  rect  33 : WL≥24425+10  OT≤556-10  λ=(14.0,95.0) … WL=24437.0  OT=546.0  t=0.23s
+  rect  34 : WL≥24101+10  OT≤542-10  λ=(50.0,324.0) … WL=24118.0  OT=497.0  t=0.47s
+  rect  35 : WL≥23992+10  OT≤490-10  λ=(14.0,95.0) … WL=24004.0  OT=478.0  t=0.18s
+  rect  36 : WL≥23452+10  OT≤476-10  λ=(83.5,540.0) … WL=23466.0  OT=396.0  t=0.17s
+  rect  37 : WL≥23017+10  OT≤392-10  λ=(66.5,435.0) … WL=23033.0  OT=328.0  t=0.37s
+  rect  38 : WL≥22513+10  OT≤326-10  λ=(78.5,504.0) … WL=22923.0  OT=311.5  t=0.19s
+  rect  39 : WL≥22370+10  OT≤247-10  λ=(15.5,143.0) … WL=22380.0  OT=236.5  t=0.23s
+  rect  40 : WL≥22015+10  OT≤232-10  λ=(41.0,355.0) … WL=22038.0  OT=194.5  t=0.56s
+  rect  41 : WL≥21759+10  OT≤180-10  λ=(19.5,174.0) … WL=21792.0  OT=166.5  t=1.37s
+  rect  42 : WL≥21181+10  OT≤151-10  λ=(53.0,487.0) … WL=21252.0  OT=106.5  t=0.70s
+  rect  43 : WL≥20804+10  OT≤89-10  λ=(31.0,305.0) … WL=20951.0  OT=73.5  t=2.07s
+  rect  44 : WL≥20522+10  OT≤44-10  λ=(13.0,152.0) … WL=20547.0  OT=33.5  t=4.80s
+  rect  45 : WL≥20279+10  OT≤30-10  λ=(20.5,243.0) … WL=20308.0  OT=12.5  t=14.18s
+  rect  46 : WL≥25022+10  OT≤692-10  λ=(21.0,100.0) … WL=25039.0  OT=678.5  t=0.41s
+  rect  47 : WL≥24895+10  OT≤667-10  λ=(23.0,112.0) … WL=24910.0  OT=648.0  t=0.61s
+  rect  48 : WL≥24843+10  OT≤644-10  λ=(17.5,52.0) … infeasible (empty).
+  rect  49 : WL≥24699+10  OT≤626-10  λ=(26.0,144.0) … WL=24748.0  OT=612.5  t=0.20s
+  rect  50 : WL≥24534+10  OT≤600-10  λ=(40.5,165.0) … WL=24589.0  OT=577.5  t=0.62s
+  rect  51 : WL≥24437+10  OT≤556-10  λ=(10.0,83.0) … infeasible (empty).
+  rect  52 : WL≥24118+10  OT≤542-10  λ=(45.0,307.0) … WL=24130.0  OT=501.0  t=0.44s
+  rect  53 : WL≥24004+10  OT≤490-10  λ=(11.5,83.0) … infeasible (empty).
+  rect  54 : WL≥23466+10  OT≤476-10  λ=(79.5,526.0) … WL=23852.0  OT=456.0  t=0.30s
+  rect  55 : WL≥23033+10  OT≤392-10  λ=(64.0,419.0) … WL=23356.0  OT=378.0  t=0.26s
+  rect  56 : WL≥22923+10  OT≤326-10  λ=(14.0,94.0) … WL=22937.0  OT=314.0  t=0.25s
+  rect  57 : WL≥22513+10  OT≤312-10  λ=(64.5,410.0) … WL=22531.0  OT=251.0  t=0.26s
+  rect  58 : WL≥22380+10  OT≤247-10  λ=(10.5,133.0) … infeasible (empty).
+  rect  59 : WL≥22038+10  OT≤232-10  λ=(37.0,332.0) … WL=22078.0  OT=199.5  t=0.51s
+  rect  60 : WL≥21792+10  OT≤180-10  λ=(14.0,141.0) … WL=21807.0  OT=170.5  t=1.10s
+  rect  61 : WL≥21252+10  OT≤151-10  λ=(44.5,416.0) … WL=21354.0  OT=117.5  t=0.58s
+  rect  62 : WL≥20951+10  OT≤89-10  λ=(15.5,158.0) … WL=20961.0  OT=76.0  t=1.91s
+  rect  63 : WL≥20804+10  OT≤74-10  λ=(15.5,147.0) … WL=20831.0  OT=62.0  t=2.23s
+  rect  64 : WL≥20547+10  OT≤44-10  λ=(10.0,127.0) … infeasible (empty).
+  rect  65 : WL≥20308+10  OT≤30-10  λ=(18.0,214.0) … WL=20330.0  OT=14.5  t=23.29s
+  rect  66 : WL≥25039+10  OT≤692-10  λ=(13.5,83.0) … infeasible (empty).
+  rect  67 : WL≥24910+10  OT≤667-10  λ=(19.0,97.0) … WL=24924.0  OT=655.5  t=0.66s
+  rect  68 : WL≥24748+10  OT≤626-10  λ=(14.0,95.0) … infeasible (empty).
+  rect  69 : WL≥24699+10  OT≤612-10  λ=(12.0,49.0) … infeasible (empty).
+  rect  70 : WL≥24589+10  OT≤600-10  λ=(23.0,110.0) … WL=24605.0  OT=585.0  t=0.31s
+  rect  71 : WL≥24534+10  OT≤578-10  λ=(17.5,55.0) … infeasible (empty).
+  rect  72 : WL≥24130+10  OT≤542-10  λ=(41.0,295.0) … WL=24300.0  OT=526.5  t=0.28s
+  rect  73 : WL≥23852+10  OT≤476-10  λ=(19.5,140.0) … WL=23872.0  OT=460.0  t=0.21s
+  rect  74 : WL≥23466+10  OT≤456-10  λ=(60.0,386.0) … WL=23685.0  OT=430.5  t=0.66s
+  rect  75 : WL≥23356+10  OT≤392-10  λ=(14.0,96.0) … WL=23370.0  OT=382.0  t=0.16s
+  rect  76 : WL≥23033+10  OT≤378-10  λ=(50.0,323.0) … WL=23166.0  OT=349.0  t=0.26s
+  rect  77 : WL≥22937+10  OT≤326-10  λ=(11.5,80.0) … infeasible (empty).
+  rect  78 : WL≥22531+10  OT≤312-10  λ=(60.5,392.0) … WL=22727.0  OT=282.5  t=0.26s
+  rect  79 : WL≥22078+10  OT≤232-10  λ=(32.0,292.0) … WL=22195.0  OT=213.0  t=0.73s
+  rect  80 : WL≥21807+10  OT≤180-10  λ=(10.0,126.0) … infeasible (empty).
+  rect  81 : WL≥21354+10  OT≤151-10  λ=(33.5,314.0) … WL=21368.0  OT=120.0  t=0.63s
+  rect  82 : WL≥21252+10  OT≤118-10  λ=(11.0,102.0) … infeasible (empty).
+  rect  83 : WL≥20961+10  OT≤89-10  λ=(13.0,148.0) … WL=20980.0  OT=78.5  t=1.69s
+  rect  84 : WL≥20831+10  OT≤74-10  λ=(11.5,120.0) … infeasible (empty).
+  rect  85 : WL≥20330+10  OT≤30-10  λ=(16.0,192.0) … WL=20395.0  OT=20.0  t=11.72s
+  rect  86 : WL≥24924+10  OT≤667-10  λ=(11.5,83.0) … infeasible (empty).
+  rect  87 : WL≥24605+10  OT≤600-10  λ=(15.5,94.0) … WL=24620.0  OT=589.0  t=0.43s
+  rect  88 : WL≥24300+10  OT≤542-10  λ=(15.5,125.0) … infeasible (empty).
+  rect  89 : WL≥24130+10  OT≤526-10  λ=(25.5,170.0) … WL=24157.0  OT=508.5  t=0.21s
+  rect  90 : WL≥23872+10  OT≤476-10  λ=(15.5,120.0) … infeasible (empty).
+  rect  91 : WL≥23685+10  OT≤456-10  λ=(25.5,167.0) … WL=23777.0  OT=446.0  t=0.42s
+  rect  92 : WL≥23466+10  OT≤430-10  λ=(34.5,219.0) … WL=23589.0  OT=416.5  t=0.19s
+  rect  93 : WL≥23370+10  OT≤392-10  λ=(10.0,82.0) … infeasible (empty).
+  rect  94 : WL≥23166+10  OT≤378-10  λ=(29.0,190.0) … WL=23180.0  OT=353.0  t=1.20s
+  rect  95 : WL≥23033+10  OT≤349-10  λ=(21.0,133.0) … WL=23050.0  OT=333.0  t=0.23s
+  rect  96 : WL≥22727+10  OT≤312-10  λ=(29.0,196.0) … WL=22742.0  OT=285.0  t=0.17s
+  rect  97 : WL≥22531+10  OT≤282-10  λ=(31.5,196.0) … WL=22541.0  OT=256.0  t=0.24s
+  rect  98 : WL≥22195+10  OT≤232-10  λ=(18.5,175.0) … WL=22217.0  OT=217.0  t=0.39s
+  rect  99 : WL≥22078+10  OT≤213-10  λ=(13.5,117.0) … infeasible (empty).
+  rect 100 : WL≥21368+10  OT≤151-10  λ=(31.0,300.0) … WL=21435.0  OT=127.5  t=0.68s
+  rect 101 : WL≥20980+10  OT≤89-10  λ=(10.5,129.0) … infeasible (empty).
+  rect 102 : WL≥20395+10  OT≤30-10  λ=(10.5,127.0) … infeasible (empty).
+  rect 103 : WL≥24620+10  OT≤600-10  λ=(11.5,79.0) … infeasible (empty).
+  rect 104 : WL≥24157+10  OT≤526-10  λ=(18.0,143.0) … WL=24180.0  OT=512.0  t=0.25s
+  rect 105 : WL≥23777+10  OT≤456-10  λ=(10.0,75.0) … infeasible (empty).
+  rect 106 : WL≥23685+10  OT≤446-10  λ=(15.5,92.0) … infeasible (empty).
+  rect 107 : WL≥23589+10  OT≤430-10  λ=(14.0,96.0) … WL=23601.0  OT=419.0  t=0.24s
+  rect 108 : WL≥23466+10  OT≤416-10  λ=(20.5,123.0) … WL=23524.0  OT=406.5  t=0.20s
+  rect 109 : WL≥23180+10  OT≤378-10  λ=(25.0,176.0) … WL=23228.0  OT=362.5  t=0.92s
+  rect 110 : WL≥23050+10  OT≤349-10  λ=(16.0,116.0) … WL=23064.0  OT=337.0  t=0.30s
+  rect 111 : WL≥22742+10  OT≤312-10  λ=(26.5,181.0) … WL=22766.0  OT=291.0  t=0.39s
+  rect 112 : WL≥22541+10  OT≤282-10  λ=(26.5,186.0) … WL=22573.0  OT=263.0  t=0.19s
+  rect 113 : WL≥22217+10  OT≤232-10  λ=(14.5,153.0) … WL=22242.0  OT=220.5  t=0.33s
+  rect 114 : WL≥21435+10  OT≤151-10  λ=(23.5,233.0) … WL=21445.0  OT=129.5  t=1.51s
+  rect 115 : WL≥24180+10  OT≤526-10  λ=(14.5,120.0) … WL=24197.0  OT=514.5  t=0.30s
+  rect 116 : WL≥23601+10  OT≤430-10  λ=(11.5,84.0) … infeasible (empty).
+  rect 117 : WL≥23524+10  OT≤416-10  λ=(10.0,65.0) … infeasible (empty).
+  rect 118 : WL≥23228+10  OT≤378-10  λ=(15.5,128.0) … WL=23241.0  OT=368.0  t=0.88s
+  rect 119 : WL≥23064+10  OT≤349-10  λ=(12.0,102.0) … infeasible (empty).
+  rect 120 : WL≥22766+10  OT≤312-10  λ=(20.5,157.0) … WL=22796.0  OT=296.5  t=0.98s
+  rect 121 : WL≥22573+10  OT≤282-10  λ=(19.5,154.0) … WL=22588.0  OT=266.5  t=0.26s
+  rect 122 : WL≥22242+10  OT≤232-10  λ=(11.0,128.0) … infeasible (empty).
+  rect 123 : WL≥21445+10  OT≤151-10  λ=(21.5,223.0) … WL=21456.0  OT=131.0  t=1.53s
+  rect 124 : WL≥24197+10  OT≤526-10  λ=(12.0,103.0) … infeasible (empty).
+  rect 125 : WL≥23241+10  OT≤378-10  λ=(10.0,115.0) … infeasible (empty).
+  rect 126 : WL≥22796+10  OT≤312-10  λ=(15.0,127.0) … WL=22806.0  OT=301.5  t=0.54s
+  rect 127 : WL≥22588+10  OT≤282-10  λ=(16.0,139.0) … WL=22603.0  OT=268.5  t=0.24s
+  rect 128 : WL≥21456+10  OT≤151-10  λ=(20.0,212.0) … WL=21475.0  OT=133.0  t=1.45s
+  rect 129 : WL≥22806+10  OT≤312-10  λ=(10.0,117.0) … infeasible (empty).
+  rect 130 : WL≥22603+10  OT≤282-10  λ=(14.0,124.0) … infeasible (empty).
+  rect 131 : WL≥21475+10  OT≤151-10  λ=(18.0,193.0) … WL=21531.0  OT=138.5  t=1.22s
+  rect 132 : WL≥21531+10  OT≤151-10  λ=(12.5,137.0) … WL=21541.0  OT=140.0  t=0.35s
+  rect 133 : WL≥21541+10  OT≤151-10  λ=(11.0,127.0) … infeasible (empty).
+
+[Chalmet]  Done.  133 rectangles explored  ·  98 new points found  ·  99 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=207.58s  avg/solve=2.08s  min=0.00s  max=38.38s
+[V4red |  5/8] T=300 D=6  N=2  C=2   — hybrid s=10             DONE (|YN|=99  max_gap=17.500  cpu=284.31s)
+
+────────────────────────────────────────────────────────────────────────
+  [6/8]  V4red_T300_D6_N2_C3  (seed=42  time_limit=600s)
+────────────────────────────────────────────────────────────────────────
+[V4red |  6/8] T=300 D=6  N=2  C=3   — baseline                DONE (cpu=0.00s  WL=32502.0  OT=670.0)
+[V4red |  6/8] T=300 D=6  N=2  C=3   — base_model              ERROR: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[V4red |  6/8] T=300 D=6  N=2  C=3   — reinforced              DONE (cpu=21.68s  nodes=30832  vars=1142  constrs=924)
+[ε-constraint]  s = 20 min | solving first point (unconstrained WL)…
+  k=0 : WL=34522.0  OT=450.3  t=0.10s
+  k=1 : ε=430.3 min … WL=34461.0  OT=430.0  t=0.12s
+  k=2 : ε=410.0 min … WL=34108.0  OT=410.0  t=0.42s
+  k=3 : ε=390.0 min … WL=34048.0  OT=390.0  t=0.25s
+  k=4 : ε=370.0 min … WL=33906.0  OT=369.0  t=0.25s
+  k=5 : ε=349.0 min … WL=33777.0  OT=348.0  t=0.24s
+  k=6 : ε=328.0 min … WL=33487.0  OT=327.0  t=0.53s
+  k=7 : ε=307.0 min … WL=33360.0  OT=306.7  t=0.40s
+  k=8 : ε=286.7 min … WL=33141.0  OT=286.0  t=0.62s
+  k=9 : ε=266.0 min … WL=33001.0  OT=265.3  t=0.42s
+  k=10 : ε=245.3 min … WL=32793.0  OT=244.3  t=0.44s
+  k=11 : ε=224.3 min … WL=32585.0  OT=224.0  t=0.35s
+  k=12 : ε=204.0 min … WL=32348.0  OT=204.0  t=0.34s
+  k=13 : ε=184.0 min … WL=32210.0  OT=184.0  t=0.39s
+  k=14 : ε=164.0 min … WL=31961.0  OT=164.0  t=0.35s
+  k=15 : ε=144.0 min … WL=31827.0  OT=144.0  t=0.26s
+  k=16 : ε=124.0 min … WL=31509.0  OT=124.0  t=0.39s
+  k=17 : ε=104.0 min … WL=31354.0  OT=104.0  t=0.53s
+  k=18 : ε=84.0 min … WL=31114.0  OT=83.7  t=0.56s
+  k=19 : ε=63.7 min … WL=30841.0  OT=62.7  t=0.46s
+  k=20 : ε=42.7 min … WL=30485.0  OT=42.0  t=0.52s
+  k=21 : ε=22.0 min … WL=30121.0  OT=21.7  t=0.80s
+  k=22 : ε=1.7 min … WL=29830.0  OT=1.7  t=0.66s
+
+[ε-constraint]  23 total points → 23 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=9.40s  avg/solve=0.41s  min=0.10s  max=0.80s
+[V4red |  6/8] T=300 D=6  N=2  C=3   — eps s=20                DONE (|YN|=23  max_gap=21.000  cpu=10.13s)
+[ε-constraint]  s = 10 min | solving first point (unconstrained WL)…
+  k=0 : WL=34522.0  OT=450.3  t=0.10s
+  k=1 : ε=440.3 min … WL=34489.0  OT=439.3  t=0.13s
+  k=2 : ε=429.3 min … WL=34459.0  OT=429.3  t=0.41s
+  k=3 : ε=419.3 min … WL=34317.0  OT=418.3  t=1.00s
+  k=4 : ε=408.3 min … WL=34103.0  OT=408.3  t=0.45s
+  k=5 : ε=398.3 min … WL=34071.0  OT=397.7  t=0.46s
+  k=6 : ε=387.7 min … WL=34040.0  OT=387.3  t=0.36s
+  k=7 : ε=377.3 min … WL=34010.0  OT=377.3  t=0.17s
+  k=8 : ε=367.3 min … WL=33898.0  OT=366.3  t=1.21s
+  k=9 : ε=356.3 min … WL=33865.0  OT=356.3  t=0.21s
+  k=10 : ε=346.3 min … WL=33707.0  OT=346.0  t=0.47s
+  k=11 : ε=336.0 min … WL=33563.0  OT=335.3  t=0.47s
+  k=12 : ε=325.3 min … WL=33482.0  OT=325.3  t=0.49s
+  k=13 : ε=315.3 min … WL=33450.0  OT=314.7  t=0.66s
+  k=14 : ε=304.7 min … WL=33352.0  OT=304.0  t=0.38s
+  k=15 : ε=294.0 min … WL=33250.0  OT=294.0  t=0.45s
+  k=16 : ε=284.0 min … WL=33134.0  OT=283.7  t=0.62s
+  k=17 : ε=273.7 min … WL=33048.0  OT=273.7  t=0.29s
+  k=18 : ε=263.7 min … WL=32927.0  OT=262.7  t=0.46s
+  k=19 : ε=252.7 min … WL=32846.0  OT=252.7  t=1.14s
+  k=20 : ε=242.7 min … WL=32786.0  OT=242.0  t=0.38s
+  k=21 : ε=232.0 min … WL=32689.0  OT=231.0  t=0.27s
+  k=22 : ε=221.0 min … WL=32570.0  OT=220.7  t=0.53s
+  k=23 : ε=210.7 min … WL=32427.0  OT=210.7  t=0.63s
+  k=24 : ε=200.7 min … WL=32338.0  OT=200.7  t=0.29s
+  k=25 : ε=190.7 min … WL=32298.0  OT=189.7  t=0.23s
+  k=26 : ε=179.7 min … WL=32138.0  OT=178.7  t=0.41s
+  k=27 : ε=168.7 min … WL=31975.0  OT=168.7  t=0.59s
+  k=28 : ε=158.7 min … WL=31939.0  OT=158.7  t=0.76s
+  k=29 : ε=148.7 min … WL=31840.0  OT=147.7  t=0.24s
+  k=30 : ε=137.7 min … WL=31739.0  OT=137.7  t=0.58s
+  k=31 : ε=127.7 min … WL=31606.0  OT=127.0  t=0.39s
+  k=32 : ε=117.0 min … WL=31482.0  OT=117.0  t=0.29s
+  k=33 : ε=107.0 min … WL=31363.0  OT=107.0  t=1.08s
+  k=34 : ε=97.0 min … WL=31261.0  OT=96.7  t=0.56s
+  k=35 : ε=86.7 min … WL=31123.0  OT=86.7  t=0.43s
+  k=36 : ε=76.7 min … WL=30989.0  OT=76.3  t=0.43s
+  k=37 : ε=66.3 min … WL=30858.0  OT=66.3  t=0.56s
+  k=38 : ε=56.3 min … WL=30690.0  OT=56.3  t=0.46s
+  k=39 : ε=46.3 min … WL=30569.0  OT=46.3  t=0.45s
+  k=40 : ε=36.3 min … WL=30378.0  OT=36.0  t=0.55s
+  k=41 : ε=26.0 min … WL=30156.0  OT=25.7  t=0.71s
+  k=42 : ε=15.7 min … WL=30070.0  OT=15.7  t=0.94s
+  k=43 : ε=5.7 min … WL=29879.0  OT=5.7  t=1.18s
+
+[ε-constraint]  44 total points → 44 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=22.87s  avg/solve=0.52s  min=0.10s  max=1.21s
+[V4red |  6/8] T=300 D=6  N=2  C=3   — eps s=10                DONE (|YN|=44  max_gap=11.000  cpu=24.52s)
+[Chalmet]  Phase 1: extreme points  (s=20) …
+  p_A  max-WL extreme : WL=34520.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+20  OT≤720-20  λ=(720.0,34520.0) … WL=29827.0  OT=0.7  t=0.55s
+  rect   2 : WL≥29827+20  OT≤720-20  λ=(719.3,4693.0) … WL=34435.0  OT=421.3  t=0.04s
+  rect   3 : WL≥34435+20  OT≤720-20  λ=(298.7,85.0) … WL=34522.0  OT=450.3  t=0.05s
+  rect   4 : WL≥29827+20  OT≤421-20  λ=(420.7,4608.0) … WL=31449.0  OT=107.7  t=0.11s
+  rect   5 : WL≥34435+20  OT≤450-20  λ=(29.0,87.0) … WL=34462.0  OT=430.3  t=0.09s
+  rect   6 : WL≥31449+20  OT≤421-20  λ=(313.7,2986.0) … WL=32764.0  OT=235.3  t=0.08s
+  rect   7 : WL≥29827+20  OT≤108-20  λ=(107.0,1622.0) … WL=30671.0  OT=50.0  t=0.19s
+  rect   8 : WL≥34462+20  OT≤450-20  λ=(20.0,60.0) … infeasible (empty).
+  rect   9 : WL≥32764+20  OT≤421-20  λ=(186.0,1671.0) … WL=33865.0  OT=356.3  t=0.05s
+  rect  10 : WL≥31449+20  OT≤235-20  λ=(127.7,1315.0) … WL=32294.0  OT=188.3  t=0.18s
+  rect  11 : WL≥30671+20  OT≤108-20  λ=(57.7,778.0) … WL=30947.0  OT=68.7  t=0.26s
+  rect  12 : WL≥29827+20  OT≤50-20  λ=(49.3,844.0) … WL=30045.0  OT=13.7  t=0.47s
+  rect  13 : WL≥33865+20  OT≤421-20  λ=(65.0,570.0) … WL=33886.0  OT=362.3  t=0.22s
+  rect  14 : WL≥32764+20  OT≤356-20  λ=(121.0,1101.0) … WL=33426.0  OT=309.3  t=0.15s
+  rect  15 : WL≥32294+20  OT≤235-20  λ=(47.0,470.0) … WL=32314.0  OT=192.7  t=0.13s
+  rect  16 : WL≥31449+20  OT≤188-20  λ=(80.7,845.0) … WL=31828.0  OT=144.0  t=0.23s
+  rect  17 : WL≥30947+20  OT≤108-20  λ=(39.0,502.0) … WL=31111.0  OT=83.3  t=0.36s
+  rect  18 : WL≥30045+20  OT≤50-20  λ=(36.3,626.0) … WL=30069.0  OT=15.3  t=1.26s
+  rect  19 : WL≥33886+20  OT≤421-20  λ=(59.0,549.0) … WL=34006.0  OT=377.0  t=0.06s
+  rect  20 : WL≥33426+20  OT≤356-20  λ=(47.0,439.0) … WL=33446.0  OT=313.3  t=0.29s
+  rect  21 : WL≥32764+20  OT≤309-20  λ=(74.0,662.0) … WL=33031.0  OT=268.0  t=0.33s
+  rect  22 : WL≥32314+20  OT≤235-20  λ=(42.7,450.0) … WL=32334.0  OT=199.3  t=0.52s
+  rect  23 : WL≥31828+20  OT≤188-20  λ=(44.3,466.0) … WL=31929.0  OT=156.0  t=0.65s
+  rect  24 : WL≥31449+20  OT≤144-20  λ=(36.3,379.0) … WL=31469.0  OT=112.7  t=0.49s
+  rect  25 : WL≥31111+20  OT≤108-20  λ=(24.3,338.0) … infeasible (empty).
+  rect  26 : WL≥30069+20  OT≤50-20  λ=(34.7,602.0) … WL=30115.0  OT=19.7  t=1.50s
+  rect  27 : WL≥34006+20  OT≤421-20  λ=(44.3,429.0) … WL=34026.0  OT=382.7  t=0.30s
+  rect  28 : WL≥33446+20  OT≤356-20  λ=(43.0,419.0) … WL=33466.0  OT=320.0  t=0.25s
+  rect  29 : WL≥33031+20  OT≤309-20  λ=(41.3,395.0) … WL=33051.0  OT=274.7  t=0.40s
+  rect  30 : WL≥32764+20  OT≤268-20  λ=(32.7,267.0) … WL=32784.0  OT=241.3  t=0.13s
+  rect  31 : WL≥32334+20  OT≤235-20  λ=(36.0,430.0) … WL=32418.0  OT=207.7  t=0.31s
+  rect  32 : WL≥31929+20  OT≤188-20  λ=(32.3,365.0) … WL=31956.0  OT=162.3  t=0.59s
+  rect  33 : WL≥31469+20  OT≤144-20  λ=(31.3,359.0) … WL=31491.0  OT=118.0  t=0.49s
+  rect  34 : WL≥30115+20  OT≤50-20  λ=(30.3,556.0) … WL=30151.0  OT=24.7  t=0.89s
+  rect  35 : WL≥34026+20  OT≤421-20  λ=(38.7,409.0) … WL=34046.0  OT=389.3  t=0.28s
+  rect  36 : WL≥33466+20  OT≤356-20  λ=(36.3,399.0) … WL=33486.0  OT=326.7  t=0.53s
+  rect  37 : WL≥33051+20  OT≤309-20  λ=(34.7,375.0) … WL=33132.0  OT=283.3  t=0.46s
+  rect  38 : WL≥32784+20  OT≤268-20  λ=(26.7,247.0) … WL=32804.0  OT=248.0  t=0.49s
+  rect  39 : WL≥32418+20  OT≤235-20  λ=(27.7,346.0) … WL=32442.0  OT=212.3  t=0.56s
+  rect  40 : WL≥31956+20  OT≤188-20  λ=(26.0,338.0) … infeasible (empty).
+  rect  41 : WL≥31491+20  OT≤144-20  λ=(26.0,337.0) … infeasible (empty).
+  rect  42 : WL≥30151+20  OT≤50-20  λ=(25.3,520.0) … WL=30184.0  OT=27.3  t=1.08s
+  rect  43 : WL≥34046+20  OT≤421-20  λ=(32.0,389.0) … WL=34066.0  OT=396.0  t=0.27s
+  rect  44 : WL≥33486+20  OT≤356-20  λ=(29.7,379.0) … WL=33556.0  OT=333.3  t=0.23s
+  rect  45 : WL≥33132+20  OT≤309-20  λ=(26.0,294.0) … infeasible (empty).
+  rect  46 : WL≥32804+20  OT≤268-20  λ=(20.0,227.0) … infeasible (empty).
+  rect  47 : WL≥32442+20  OT≤235-20  λ=(23.0,322.0) … infeasible (empty).
+  rect  48 : WL≥30184+20  OT≤50-20  λ=(22.7,487.0) … infeasible (empty).
+  rect  49 : WL≥34066+20  OT≤421-20  λ=(25.3,369.0) … infeasible (empty).
+  rect  50 : WL≥33556+20  OT≤356-20  λ=(23.0,309.0) … infeasible (empty).
+
+[Chalmet]  Done.  50 rectangles explored  ·  40 new points found  ·  41 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=15.55s  avg/solve=0.37s  min=0.00s  max=1.50s
+[V4red |  6/8] T=300 D=6  N=2  C=3   — hybrid s=20             DONE (|YN|=41  max_gap=26.000  cpu=22.07s)
+[Chalmet]  Phase 1: extreme points  (s=10) …
+  p_A  max-WL extreme : WL=34520.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+10  OT≤720-10  λ=(720.0,34520.0) … WL=29827.0  OT=0.7  t=0.73s
+  rect   2 : WL≥29827+10  OT≤720-10  λ=(719.3,4693.0) … WL=34435.0  OT=421.3  t=0.05s
+  rect   3 : WL≥34435+10  OT≤720-10  λ=(298.7,85.0) … WL=34521.0  OT=450.0  t=0.08s
+  rect   4 : WL≥29827+10  OT≤421-10  λ=(420.7,4608.0) … WL=31449.0  OT=107.7  t=0.09s
+  rect   5 : WL≥34435+10  OT≤450-10  λ=(28.7,86.0) … WL=34484.0  OT=438.3  t=0.06s
+  rect   6 : WL≥31449+10  OT≤421-10  λ=(313.7,2986.0) … WL=32764.0  OT=235.3  t=0.09s
+  rect   7 : WL≥29827+10  OT≤108-10  λ=(107.0,1622.0) … WL=30671.0  OT=50.0  t=0.39s
+  rect   8 : WL≥34484+10  OT≤450-10  λ=(11.7,37.0) … infeasible (empty).
+  rect   9 : WL≥34435+10  OT≤438-10  λ=(17.0,49.0) … WL=34456.0  OT=428.3  t=0.07s
+  rect  10 : WL≥32764+10  OT≤421-10  λ=(186.0,1671.0) … WL=33868.0  OT=356.7  t=0.05s
+  rect  11 : WL≥31449+10  OT≤235-10  λ=(127.7,1315.0) … WL=32292.0  OT=188.3  t=0.16s
+  rect  12 : WL≥30671+10  OT≤108-10  λ=(57.7,778.0) … WL=30950.0  OT=68.7  t=0.32s
+  rect  13 : WL≥29827+10  OT≤50-10  λ=(49.3,844.0) … WL=30365.0  OT=32.0  t=0.52s
+  rect  14 : WL≥34456+10  OT≤438-10  λ=(10.0,28.0) … infeasible (empty).
+  rect  15 : WL≥33868+10  OT≤421-10  λ=(64.7,567.0) … WL=33878.0  OT=360.0  t=0.30s
+  rect  16 : WL≥32764+10  OT≤357-10  λ=(121.3,1104.0) … WL=33425.0  OT=309.3  t=0.36s
+  rect  17 : WL≥32292+10  OT≤235-10  λ=(47.0,472.0) … WL=32306.0  OT=191.0  t=0.24s
+  rect  18 : WL≥31449+10  OT≤188-10  λ=(80.7,843.0) … WL=31830.0  OT=144.3  t=0.17s
+  rect  19 : WL≥30950+10  OT≤108-10  λ=(39.0,499.0) … WL=31244.0  OT=93.3  t=0.32s
+  rect  20 : WL≥30671+10  OT≤69-10  λ=(18.7,279.0) … WL=30681.0  OT=53.3  t=0.47s
+  rect  21 : WL≥30365+10  OT≤50-10  λ=(18.0,306.0) … WL=30478.0  OT=39.7  t=0.62s
+  rect  22 : WL≥29827+10  OT≤32-10  λ=(31.3,538.0) … WL=30043.0  OT=13.7  t=0.44s
+  rect  23 : WL≥33878+10  OT≤421-10  λ=(61.3,557.0) … WL=33888.0  OT=363.0  t=0.15s
+  rect  24 : WL≥33425+10  OT≤357-10  λ=(47.3,443.0) … WL=33442.0  OT=312.0  t=0.14s
+  rect  25 : WL≥32764+10  OT≤309-10  λ=(74.0,661.0) … WL=32774.0  OT=238.3  t=0.15s
+  rect  26 : WL≥32306+10  OT≤235-10  λ=(44.3,458.0) … WL=32317.0  OT=193.7  t=0.13s
+  rect  27 : WL≥31830+10  OT≤188-10  λ=(44.0,462.0) … WL=31932.0  OT=156.3  t=0.10s
+  rect  28 : WL≥31449+10  OT≤144-10  λ=(36.7,381.0) … WL=31459.0  OT=111.0  t=0.11s
+  rect  29 : WL≥31244+10  OT≤108-10  λ=(14.3,205.0) … WL=31257.0  OT=96.0  t=0.30s
+  rect  30 : WL≥30950+10  OT≤93-10  λ=(24.7,294.0) … WL=31111.0  OT=83.3  t=0.20s
+  rect  31 : WL≥30681+10  OT≤69-10  λ=(15.3,269.0) … WL=30732.0  OT=58.3  t=0.17s
+  rect  32 : WL≥30478+10  OT≤50-10  λ=(10.3,193.0) … infeasible (empty).
+  rect  33 : WL≥30043+10  OT≤32-10  λ=(18.3,322.0) … WL=30069.0  OT=15.3  t=0.34s
+  rect  34 : WL≥29827+10  OT≤14-10  λ=(13.0,216.0) … WL=29852.0  OT=3.7  t=0.49s
+  rect  35 : WL≥33888+10  OT≤421-10  λ=(58.3,547.0) … WL=34008.0  OT=377.0  t=0.12s
+  rect  36 : WL≥33442+10  OT≤357-10  λ=(44.7,426.0) … WL=33452.0  OT=315.3  t=0.13s
+  rect  37 : WL≥32774+10  OT≤309-10  λ=(71.0,651.0) … WL=33031.0  OT=268.0  t=0.19s
+  rect  38 : WL≥32317+10  OT≤235-10  λ=(41.7,447.0) … WL=32327.0  OT=197.0  t=0.16s
+  rect  39 : WL≥31932+10  OT≤188-10  λ=(32.0,360.0) … WL=32072.0  OT=171.3  t=0.31s
+  rect  40 : WL≥31830+10  OT≤156-10  λ=(12.0,102.0) … infeasible (empty).
+  rect  41 : WL≥31459+10  OT≤144-10  λ=(33.3,371.0) … WL=31469.0  OT=112.7  t=0.19s
+  rect  42 : WL≥31257+10  OT≤108-10  λ=(11.7,192.0) … infeasible (empty).
+  rect  43 : WL≥31111+10  OT≤93-10  λ=(10.0,133.0) … infeasible (empty).
+  rect  44 : WL≥30950+10  OT≤83-10  λ=(14.7,161.0) … WL=30977.0  OT=73.3  t=0.15s
+  rect  45 : WL≥30732+10  OT≤69-10  λ=(10.3,218.0) … infeasible (empty).
+  rect  46 : WL≥30069+10  OT≤32-10  λ=(16.7,296.0) … WL=30113.0  OT=19.7  t=0.28s
+  rect  47 : WL≥29852+10  OT≤14-10  λ=(10.0,191.0) … infeasible (empty).
+  rect  48 : WL≥34008+10  OT≤421-10  λ=(44.3,427.0) … WL=34018.0  OT=380.0  t=0.15s
+  rect  49 : WL≥33888+10  OT≤377-10  λ=(14.0,120.0) … WL=33898.0  OT=366.7  t=0.20s
+  rect  50 : WL≥33452+10  OT≤357-10  λ=(41.3,416.0) … WL=33689.0  OT=340.7  t=0.20s
+  rect  51 : WL≥33031+10  OT≤309-10  λ=(41.3,394.0) … WL=33041.0  OT=271.3  t=0.14s
+  rect  52 : WL≥32774+10  OT≤268-10  λ=(29.7,257.0) … WL=32784.0  OT=241.3  t=0.14s
+  rect  53 : WL≥32327+10  OT≤235-10  λ=(38.3,437.0) … WL=32567.0  OT=219.7  t=0.13s
+  rect  54 : WL≥32072+10  OT≤188-10  λ=(17.0,220.0) … WL=32086.0  OT=172.7  t=0.19s
+  rect  55 : WL≥31932+10  OT≤171-10  λ=(15.0,140.0) … WL=31942.0  OT=159.7  t=0.17s
+  rect  56 : WL≥31469+10  OT≤144-10  λ=(31.7,361.0) … WL=31591.0  OT=124.3  t=0.16s
+  rect  57 : WL≥30977+10  OT≤83-10  λ=(10.0,134.0) … infeasible (empty).
+  rect  58 : WL≥30113+10  OT≤32-10  λ=(12.3,252.0) … infeasible (empty).
+  rect  59 : WL≥34018+10  OT≤421-10  λ=(41.3,417.0) … WL=34028.0  OT=383.3  t=0.12s
+  rect  60 : WL≥33898+10  OT≤377-10  λ=(10.3,110.0) … infeasible (empty).
+  rect  61 : WL≥33689+10  OT≤357-10  λ=(16.0,179.0) … WL=33699.0  OT=343.3  t=0.34s
+  rect  62 : WL≥33452+10  OT≤341-10  λ=(25.3,237.0) … WL=33462.0  OT=318.7  t=0.28s
+  rect  63 : WL≥33041+10  OT≤309-10  λ=(38.0,384.0) … WL=33248.0  OT=293.7  t=0.32s
+  rect  64 : WL≥32784+10  OT≤268-10  λ=(26.7,247.0) … WL=32906.0  OT=256.0  t=0.11s
+  rect  65 : WL≥32567+10  OT≤235-10  λ=(15.7,197.0) … WL=32577.0  OT=223.0  t=0.21s
+  rect  66 : WL≥32327+10  OT≤220-10  λ=(22.7,240.0) … WL=32418.0  OT=207.7  t=0.16s
+  rect  67 : WL≥32086+10  OT≤188-10  λ=(15.7,206.0) … WL=32102.0  OT=175.3  t=0.16s
+  rect  68 : WL≥31942+10  OT≤171-10  λ=(11.7,130.0) … infeasible (empty).
+  rect  69 : WL≥31591+10  OT≤144-10  λ=(20.0,239.0) … WL=31656.0  OT=131.0  t=0.22s
+  rect  70 : WL≥31469+10  OT≤124-10  λ=(11.7,122.0) … infeasible (empty).
+  rect  71 : WL≥34028+10  OT≤421-10  λ=(38.0,407.0) … WL=34038.0  OT=386.7  t=0.12s
+  rect  72 : WL≥33699+10  OT≤357-10  λ=(13.3,169.0) … WL=33709.0  OT=346.7  t=0.21s
+  rect  73 : WL≥33462+10  OT≤341-10  λ=(22.0,227.0) … WL=33473.0  OT=322.3  t=0.18s
+  rect  74 : WL≥33248+10  OT≤309-10  λ=(15.7,177.0) … WL=33264.0  OT=296.3  t=0.18s
+  rect  75 : WL≥33041+10  OT≤294-10  λ=(22.3,207.0) … WL=33133.0  OT=283.3  t=0.13s
+  rect  76 : WL≥32906+10  OT≤268-10  λ=(12.0,125.0) … infeasible (empty).
+  rect  77 : WL≥32784+10  OT≤256-10  λ=(14.7,122.0) … WL=32794.0  OT=244.7  t=0.25s
+  rect  78 : WL≥32577+10  OT≤235-10  λ=(12.3,187.0) … WL=32587.0  OT=224.7  t=0.25s
+  rect  79 : WL≥32418+10  OT≤220-10  λ=(12.0,149.0) … infeasible (empty).
+  rect  80 : WL≥32327+10  OT≤208-10  λ=(10.7,91.0) … infeasible (empty).
+  rect  81 : WL≥32102+10  OT≤188-10  λ=(13.0,190.0) … WL=32134.0  OT=178.0  t=0.13s
+  rect  82 : WL≥31656+10  OT≤144-10  λ=(13.3,174.0) … WL=31670.0  OT=133.7  t=0.14s
+  rect  83 : WL≥34038+10  OT≤421-10  λ=(34.7,397.0) … WL=34295.0  OT=411.0  t=0.30s
+  rect  84 : WL≥33709+10  OT≤357-10  λ=(10.0,159.0) … infeasible (empty).
+  rect  85 : WL≥33473+10  OT≤341-10  λ=(18.3,216.0) … WL=33483.0  OT=325.7  t=0.19s
+  rect  86 : WL≥33264+10  OT≤309-10  λ=(13.0,161.0) … WL=33285.0  OT=299.0  t=0.24s
+  rect  87 : WL≥33133+10  OT≤294-10  λ=(10.3,115.0) … infeasible (empty).
+  rect  88 : WL≥33041+10  OT≤283-10  λ=(12.0,92.0) … infeasible (empty).
+  rect  89 : WL≥32794+10  OT≤256-10  λ=(11.3,112.0) … infeasible (empty).
+  rect  90 : WL≥32587+10  OT≤235-10  λ=(10.7,177.0) … infeasible (empty).
+  rect  91 : WL≥32134+10  OT≤188-10  λ=(10.3,158.0) … infeasible (empty).
+  rect  92 : WL≥31670+10  OT≤144-10  λ=(10.7,160.0) … infeasible (empty).
+  rect  93 : WL≥34295+10  OT≤421-10  λ=(10.3,140.0) … infeasible (empty).
+  rect  94 : WL≥34038+10  OT≤411-10  λ=(24.3,257.0) … WL=34048.0  OT=390.0  t=0.14s
+  rect  95 : WL≥33483+10  OT≤341-10  λ=(15.0,206.0) … WL=33493.0  OT=329.0  t=0.52s
+  rect  96 : WL≥33285+10  OT≤309-10  λ=(10.3,140.0) … infeasible (empty).
+  rect  97 : WL≥34048+10  OT≤411-10  λ=(21.0,247.0) … WL=34059.0  OT=393.7  t=0.23s
+  rect  98 : WL≥33493+10  OT≤341-10  λ=(11.7,196.0) … infeasible (empty).
+  rect  99 : WL≥34059+10  OT≤411-10  λ=(17.3,236.0) … WL=34069.0  OT=397.0  t=0.21s
+  rect 100 : WL≥34069+10  OT≤411-10  λ=(14.0,226.0) … WL=34079.0  OT=400.3  t=0.31s
+  rect 101 : WL≥34079+10  OT≤411-10  λ=(10.7,216.0) … infeasible (empty).
+
+[Chalmet]  Done.  101 rectangles explored  ·  74 new points found  ·  75 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=16.51s  avg/solve=0.22s  min=0.00s  max=0.73s
+[V4red |  6/8] T=300 D=6  N=2  C=3   — hybrid s=10             DONE (|YN|=75  max_gap=12.333  cpu=24.86s)
+
+────────────────────────────────────────────────────────────────────────
+  [7/8]  V4red_T300_D6_N3_C2  (seed=42  time_limit=600s)
+────────────────────────────────────────────────────────────────────────
+[V4red |  7/8] T=300 D=6  N=3  C=2   — baseline                DONE (cpu=0.00s  WL=22595.0  OT=684.0)
+[V4red |  7/8] T=300 D=6  N=3  C=2   — base_model              ERROR: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[V4red |  7/8] T=300 D=6  N=3  C=2   — reinforced              DONE (cpu=246.01s  nodes=477701  vars=1142  constrs=924)
+[ε-constraint]  s = 20 min | solving first point (unconstrained WL)…
+  k=0 : WL=25182.0  OT=715.0  t=3.42s
+  k=1 : ε=695.0 min … WL=25120.0  OT=692.0  t=1.17s
+  k=2 : ε=672.0 min … WL=25022.0  OT=671.0  t=0.39s
+  k=3 : ε=651.0 min … WL=24908.0  OT=648.0  t=0.59s
+  k=4 : ε=628.0 min … WL=24843.0  OT=626.5  t=0.29s
+  k=5 : ε=606.5 min … WL=24699.0  OT=600.5  t=0.81s
+  k=6 : ε=580.5 min … WL=24589.0  OT=577.5  t=0.45s
+  k=7 : ε=557.5 min … WL=24520.0  OT=556.0  t=0.25s
+  k=8 : ε=536.0 min … WL=24321.0  OT=535.5  t=0.82s
+  k=9 : ε=515.5 min … WL=24197.0  OT=514.5  t=0.59s
+  k=10 : ε=494.5 min … WL=24101.0  OT=492.0  t=0.42s
+  k=11 : ε=472.0 min … WL=23948.0  OT=470.0  t=0.81s
+  k=12 : ε=450.0 min … WL=23777.0  OT=446.0  t=0.92s
+  k=13 : ε=426.0 min … WL=23641.0  OT=424.0  t=0.53s
+  k=14 : ε=404.0 min … WL=23491.0  OT=403.5  t=1.38s
+  k=15 : ε=383.5 min … WL=23371.0  OT=382.0  t=0.86s
+  k=16 : ε=362.0 min … WL=23215.0  OT=361.5  t=0.88s
+  k=17 : ε=341.5 min … WL=23082.0  OT=341.0  t=0.51s
+  k=18 : ε=321.0 min … WL=22955.0  OT=319.0  t=0.49s
+  k=19 : ε=299.0 min … WL=22801.0  OT=299.0  t=0.89s
+  k=20 : ε=279.0 min … WL=22649.0  OT=279.0  t=0.82s
+  k=21 : ε=259.0 min … WL=22547.0  OT=259.0  t=0.32s
+  k=22 : ε=239.0 min … WL=22385.0  OT=239.0  t=0.44s
+  k=23 : ε=219.0 min … WL=22222.0  OT=219.0  t=1.05s
+  k=24 : ε=199.0 min … WL=22047.0  OT=198.5  t=0.81s
+  k=25 : ε=178.5 min … WL=21865.0  OT=177.5  t=1.24s
+  k=26 : ε=157.5 min … WL=21691.0  OT=157.5  t=1.94s
+  k=27 : ε=137.5 min … WL=21499.0  OT=137.5  t=2.07s
+  k=28 : ε=117.5 min … WL=21353.0  OT=117.5  t=0.99s
+  k=29 : ε=97.5 min … WL=21154.0  OT=97.5  t=1.10s
+  k=30 : ε=77.5 min … WL=20964.0  OT=77.0  t=2.04s
+  k=31 : ε=57.0 min … WL=20785.0  OT=57.0  t=2.17s
+  k=32 : ε=37.0 min … WL=20578.0  OT=37.0  t=7.58s
+  k=33 : ε=17.0 min … WL=20356.0  OT=17.0  t=107.41s
+
+[ε-constraint]  34 total points → 34 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=146.44s  avg/solve=4.31s  min=0.25s  max=107.41s
+[V4red |  7/8] T=300 D=6  N=3  C=2   — eps s=20                DONE (|YN|=34  max_gap=26.000  cpu=147.55s)
+[ε-constraint]  s = 10 min | solving first point (unconstrained WL)…
+  k=0 : WL=25182.0  OT=715.0  t=3.38s
+  k=1 : ε=705.0 min … WL=25143.0  OT=703.5  t=2.16s
+  k=2 : ε=693.5 min … WL=25122.0  OT=692.0  t=1.11s
+  k=3 : ε=682.0 min … WL=25039.0  OT=678.5  t=0.91s
+  k=4 : ε=668.5 min … WL=25006.0  OT=667.0  t=0.74s
+  k=5 : ε=657.0 min … WL=24927.0  OT=657.0  t=0.84s
+  k=6 : ε=647.0 min … WL=24894.0  OT=644.0  t=0.54s
+  k=7 : ε=634.0 min … WL=24842.0  OT=626.5  t=0.45s
+  k=8 : ε=616.5 min … WL=24748.0  OT=612.5  t=0.80s
+  k=9 : ε=602.5 min … WL=24699.0  OT=600.5  t=0.55s
+  k=10 : ε=590.5 min … WL=24620.0  OT=589.0  t=0.79s
+  k=11 : ε=579.0 min … WL=24589.0  OT=577.5  t=0.45s
+  k=12 : ε=567.5 min … WL=24534.0  OT=560.0  t=0.23s
+  k=13 : ε=550.0 min … WL=24438.0  OT=546.0  t=0.27s
+  k=14 : ε=536.0 min … WL=24321.0  OT=535.5  t=0.82s
+  k=15 : ε=525.5 min … WL=24258.0  OT=522.0  t=0.94s
+  k=16 : ε=512.0 min … WL=24180.0  OT=512.0  t=0.62s
+  k=17 : ε=502.0 min … WL=24132.0  OT=501.0  t=0.33s
+  k=18 : ε=491.0 min … WL=24087.0  OT=489.5  t=0.24s
+  k=19 : ε=479.5 min … WL=24006.0  OT=478.0  t=0.42s
+  k=20 : ε=468.0 min … WL=23895.0  OT=467.5  t=1.12s
+  k=21 : ε=457.5 min … WL=23853.0  OT=456.0  t=1.00s
+  k=22 : ε=446.0 min … WL=23777.0  OT=446.0  t=0.83s
+  k=23 : ε=436.0 min … WL=23685.0  OT=430.5  t=0.86s
+  k=24 : ε=420.5 min … WL=23601.0  OT=419.0  t=0.51s
+  k=25 : ε=409.0 min … WL=23528.0  OT=409.0  t=0.44s
+  k=26 : ε=399.0 min … WL=23466.0  OT=396.0  t=0.36s
+  k=27 : ε=386.0 min … WL=23371.0  OT=382.0  t=1.29s
+  k=28 : ε=372.0 min … WL=23260.0  OT=371.0  t=1.08s
+  k=29 : ε=361.0 min … WL=23193.0  OT=360.0  t=1.11s
+  k=30 : ε=350.0 min … WL=23166.0  OT=349.0  t=0.71s
+  k=31 : ε=339.0 min … WL=23064.0  OT=337.0  t=0.74s
+  k=32 : ε=327.0 min … WL=23019.0  OT=325.5  t=0.36s
+  k=33 : ε=315.5 min … WL=22938.0  OT=314.0  t=0.34s
+  k=34 : ε=304.0 min … WL=22836.0  OT=303.5  t=1.01s
+  k=35 : ε=293.5 min … WL=22771.0  OT=293.5  t=0.99s
+  k=36 : ε=283.5 min … WL=22730.0  OT=283.5  t=0.37s
+  k=37 : ε=273.5 min … WL=22612.0  OT=273.0  t=0.75s
+  k=38 : ε=263.0 min … WL=22572.0  OT=263.0  t=0.47s
+  k=39 : ε=253.0 min … WL=22535.0  OT=253.0  t=0.29s
+  k=40 : ε=243.0 min … WL=22406.0  OT=243.0  t=0.90s
+  k=41 : ε=233.0 min … WL=22373.0  OT=233.0  t=0.49s
+  k=42 : ε=223.0 min … WL=22247.0  OT=223.0  t=1.01s
+  k=43 : ε=213.0 min … WL=22194.0  OT=213.0  t=0.86s
+  k=44 : ε=203.0 min … WL=22087.0  OT=203.0  t=0.69s
+  k=45 : ε=193.0 min … WL=22020.0  OT=193.0  t=1.27s
+  k=46 : ε=183.0 min … WL=21945.0  OT=183.0  t=0.72s
+  k=47 : ε=173.0 min … WL=21827.0  OT=173.0  t=1.92s
+  k=48 : ε=163.0 min … WL=21765.0  OT=163.0  t=1.66s
+  k=49 : ε=153.0 min … WL=21674.0  OT=153.0  t=1.01s
+  k=50 : ε=143.0 min … WL=21558.0  OT=143.0  t=1.54s
+  k=51 : ε=133.0 min … WL=21475.0  OT=133.0  t=1.75s
+  k=52 : ε=123.0 min … WL=21375.0  OT=123.0  t=1.98s
+  k=53 : ε=113.0 min … WL=21283.0  OT=113.0  t=2.44s
+  k=54 : ε=103.0 min … WL=21203.0  OT=103.0  t=1.42s
+  k=55 : ε=93.0 min … WL=21119.0  OT=93.0  t=1.24s
+  k=56 : ε=83.0 min … WL=21030.0  OT=83.0  t=0.93s
+  k=57 : ε=73.0 min … WL=20925.0  OT=73.0  t=2.12s
+  k=58 : ε=63.0 min … WL=20833.0  OT=63.0  t=5.91s
+  k=59 : ε=53.0 min … WL=20740.0  OT=53.0  t=3.67s
+  k=60 : ε=43.0 min … WL=20648.0  OT=43.0  t=4.84s
+  k=61 : ε=33.0 min … WL=20538.0  OT=33.0  t=6.00s
+  k=62 : ε=23.0 min … WL=20427.0  OT=23.0  t=63.80s
+  k=63 : ε=13.0 min … WL=20309.0  OT=13.0  t=85.29s
+  k=64 : ε=3.0 min … WL=20189.0  OT=3.0  t=185.49s
+
+[ε-constraint]  65 total points → 65 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=410.21s  avg/solve=6.31s  min=0.23s  max=185.49s
+[V4red |  7/8] T=300 D=6  N=3  C=2   — eps s=10                DONE (|YN|=65  max_gap=17.500  cpu=412.26s)
+[Chalmet]  Phase 1: extreme points  (s=20) …
+  p_A  max-WL extreme : WL=25182.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+20  OT≤720-20  λ=(720.0,25182.0) … WL=20154.0  OT=0.0  t=23.96s
+  rect   2 : WL≥20154+20  OT≤720-20  λ=(720.0,5028.0) … WL=22513.0  OT=247.0  t=0.06s
+  rect   3 : WL≥22513+20  OT≤720-20  λ=(473.0,2669.0) … WL=24520.0  OT=556.0  t=0.08s
+  rect   4 : WL≥20154+20  OT≤247-20  λ=(247.0,2359.0) … WL=21109.0  OT=89.0  t=0.46s
+  rect   5 : WL≥24520+20  OT≤720-20  λ=(164.0,662.0) … WL=25122.0  OT=692.0  t=0.54s
+  rect   6 : WL≥22513+20  OT≤556-20  λ=(309.0,2007.0) … WL=24087.0  OT=489.5  t=0.14s
+  rect   7 : WL≥21109+20  OT≤247-20  λ=(158.0,1404.0) … WL=21759.0  OT=161.0  t=0.39s
+  rect   8 : WL≥20154+20  OT≤89-20  λ=(89.0,955.0) … WL=20674.0  OT=43.5  t=4.21s
+  rect   9 : WL≥25122+20  OT≤720-20  λ=(28.0,60.0) … infeasible (empty).
+  rect  10 : WL≥24520+20  OT≤692-20  λ=(136.0,602.0) … WL=24842.0  OT=626.5  t=0.18s
+  rect  11 : WL≥24087+20  OT≤556-20  λ=(66.5,433.0) … WL=24118.0  OT=497.0  t=0.37s
+  rect  12 : WL≥22513+20  OT≤490-20  λ=(242.5,1574.0) … WL=23452.0  OT=392.0  t=0.17s
+  rect  13 : WL≥21759+20  OT≤247-20  λ=(86.0,754.0) … WL=21933.0  OT=180.5  t=0.29s
+  rect  14 : WL≥21109+20  OT≤161-20  λ=(72.0,650.0) … WL=21181.0  OT=98.0  t=0.74s
+  rect  15 : WL≥20674+20  OT≤89-20  λ=(45.5,435.0) … WL=20780.0  OT=55.0  t=1.30s
+  rect  16 : WL≥20154+20  OT≤44-20  λ=(43.5,520.0) … WL=20201.0  OT=3.5  t=6.04s
+  rect  17 : WL≥24842+20  OT≤692-20  λ=(65.5,280.0) … WL=25007.0  OT=667.0  t=0.44s
+  rect  18 : WL≥24520+20  OT≤626-20  λ=(70.5,322.0) … WL=24698.0  OT=600.5  t=0.29s
+  rect  19 : WL≥24118+20  OT≤556-20  λ=(59.0,402.0) … WL=24298.0  OT=526.5  t=0.31s
+  rect  20 : WL≥23452+20  OT≤490-20  λ=(97.5,635.0) … WL=23852.0  OT=456.0  t=0.19s
+  rect  21 : WL≥22513+20  OT≤392-20  λ=(145.0,939.0) … WL=23018.0  OT=325.5  t=0.16s
+  rect  22 : WL≥21933+20  OT≤247-20  λ=(66.5,580.0) … WL=22015.0  OT=190.5  t=0.33s
+  rect  23 : WL≥21181+20  OT≤161-20  λ=(63.0,578.0) … WL=21354.0  OT=117.5  t=0.58s
+  rect  24 : WL≥20780+20  OT≤89-20  λ=(34.0,329.0) … WL=20802.0  OT=58.0  t=1.22s
+  rect  25 : WL≥20201+20  OT≤44-20  λ=(40.0,473.0) … WL=20308.0  OT=12.5  t=32.11s
+  rect  26 : WL≥25007+20  OT≤692-20  λ=(25.0,115.0) … infeasible (empty).
+  rect  27 : WL≥24842+20  OT≤667-20  λ=(40.5,165.0) … WL=24895.0  OT=644.0  t=0.44s
+  rect  28 : WL≥24698+20  OT≤626-20  λ=(26.0,144.0) … infeasible (empty).
+  rect  29 : WL≥24520+20  OT≤600-20  λ=(44.5,178.0) … WL=24589.0  OT=577.5  t=0.24s
+  rect  30 : WL≥24298+20  OT≤556-20  λ=(29.5,222.0) … WL=24320.0  OT=535.5  t=0.54s
+  rect  31 : WL≥24118+20  OT≤526-20  λ=(29.5,180.0) … infeasible (empty).
+  rect  32 : WL≥23852+20  OT≤490-20  λ=(33.5,235.0) … WL=23872.0  OT=460.0  t=0.20s
+  rect  33 : WL≥23452+20  OT≤456-20  λ=(64.0,400.0) … WL=23683.0  OT=430.5  t=0.15s
+  rect  34 : WL≥23018+20  OT≤392-20  λ=(66.5,434.0) … WL=23166.0  OT=349.0  t=0.17s
+  rect  35 : WL≥22513+20  OT≤326-20  λ=(78.5,505.0) … WL=22533.0  OT=252.0  t=0.24s
+  rect  36 : WL≥22015+20  OT≤247-20  λ=(56.5,498.0) … WL=22038.0  OT=194.5  t=0.43s
+  rect  37 : WL≥21354+20  OT≤161-20  λ=(43.5,405.0) … WL=21436.0  OT=127.5  t=0.58s
+  rect  38 : WL≥20802+20  OT≤89-20  λ=(31.0,307.0) … WL=20865.0  OT=65.0  t=1.07s
+  rect  39 : WL≥20308+20  OT≤44-20  λ=(31.0,366.0) … WL=20426.0  OT=22.5  t=19.47s
+  rect  40 : WL≥24895+20  OT≤667-20  λ=(23.0,112.0) … infeasible (empty).
+  rect  41 : WL≥24589+20  OT≤600-20  λ=(23.0,109.0) … infeasible (empty).
+  rect  42 : WL≥24520+20  OT≤578-20  λ=(21.5,69.0) … infeasible (empty).
+  rect  43 : WL≥24320+20  OT≤556-20  λ=(20.5,200.0) … infeasible (empty).
+  rect  44 : WL≥23872+20  OT≤490-20  λ=(29.5,215.0) … WL=23925.0  OT=469.0  t=0.18s
+  rect  45 : WL≥23683+20  OT≤456-20  λ=(25.5,169.0) … infeasible (empty).
+  rect  46 : WL≥23452+20  OT≤430-20  λ=(38.5,231.0) … WL=23547.0  OT=410.0  t=0.25s
+  rect  47 : WL≥23166+20  OT≤392-20  λ=(43.0,286.0) … WL=23228.0  OT=362.5  t=0.38s
+  rect  48 : WL≥23018+20  OT≤349-20  λ=(23.5,148.0) … infeasible (empty).
+  rect  49 : WL≥22533+20  OT≤326-20  λ=(73.5,485.0) … WL=22728.0  OT=282.5  t=0.26s
+  rect  50 : WL≥22038+20  OT≤247-20  λ=(52.5,475.0) … WL=22078.0  OT=199.5  t=0.40s
+  rect  51 : WL≥21436+20  OT≤161-20  λ=(33.5,323.0) … WL=21536.0  OT=139.0  t=2.07s
+  rect  52 : WL≥20865+20  OT≤89-20  λ=(24.0,244.0) … WL=20891.0  OT=68.5  t=1.28s
+  rect  53 : WL≥20426+20  OT≤44-20  λ=(21.0,248.0) … infeasible (empty).
+  rect  54 : WL≥23925+20  OT≤490-20  λ=(20.5,162.0) … infeasible (empty).
+  rect  55 : WL≥23547+20  OT≤430-20  λ=(20.5,136.0) … infeasible (empty).
+  rect  56 : WL≥23228+20  OT≤392-20  λ=(29.5,224.0) … WL=23254.0  OT=368.5  t=0.74s
+  rect  57 : WL≥22728+20  OT≤326-20  λ=(43.0,290.0) … WL=22863.0  OT=305.0  t=0.22s
+  rect  58 : WL≥22533+20  OT≤282-20  λ=(30.5,195.0) … infeasible (empty).
+  rect  59 : WL≥22078+20  OT≤247-20  λ=(47.5,435.0) … WL=22195.0  OT=213.0  t=0.55s
+  rect  60 : WL≥21536+20  OT≤161-20  λ=(22.0,223.0) … infeasible (empty).
+  rect  61 : WL≥20891+20  OT≤89-20  λ=(20.5,218.0) … infeasible (empty).
+  rect  62 : WL≥23254+20  OT≤392-20  λ=(23.5,198.0) … infeasible (empty).
+  rect  63 : WL≥22863+20  OT≤326-20  λ=(20.5,155.0) … infeasible (empty).
+  rect  64 : WL≥22728+20  OT≤305-20  λ=(22.5,135.0) … infeasible (empty).
+  rect  65 : WL≥22195+20  OT≤247-20  λ=(34.0,318.0) … WL=22216.0  OT=217.0  t=0.26s
+  rect  66 : WL≥22216+20  OT≤247-20  λ=(30.0,297.0) … WL=22308.0  OT=227.0  t=0.37s
+  rect  67 : WL≥22308+20  OT≤247-20  λ=(20.0,205.0) … infeasible (empty).
+
+[Chalmet]  Done.  67 rectangles explored  ·  47 new points found  ·  48 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=108.31s  avg/solve=2.21s  min=0.00s  max=32.11s
+[V4red |  7/8] T=300 D=6  N=3  C=2   — hybrid s=20             DONE (|YN|=48  max_gap=30.500  cpu=114.07s)
+[Chalmet]  Phase 1: extreme points  (s=10) …
+  p_A  max-WL extreme : WL=25182.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+10  OT≤720-10  λ=(720.0,25182.0) … WL=20154.0  OT=0.0  t=23.72s
+  rect   2 : WL≥20154+10  OT≤720-10  λ=(720.0,5028.0) … WL=22513.0  OT=247.0  t=0.06s
+  rect   3 : WL≥22513+10  OT≤720-10  λ=(473.0,2669.0) … WL=24520.0  OT=556.0  t=0.08s
+  rect   4 : WL≥20154+10  OT≤247-10  λ=(247.0,2359.0) … WL=21109.0  OT=89.0  t=0.45s
+  rect   5 : WL≥24520+10  OT≤720-10  λ=(164.0,662.0) … WL=25122.0  OT=692.0  t=0.24s
+  rect   6 : WL≥22513+10  OT≤556-10  λ=(309.0,2007.0) … WL=24087.0  OT=489.5  t=0.12s
+  rect   7 : WL≥21109+10  OT≤247-10  λ=(158.0,1404.0) … WL=21933.0  OT=180.5  t=0.39s
+  rect   8 : WL≥20154+10  OT≤89-10  λ=(89.0,955.0) … WL=20674.0  OT=43.5  t=1.04s
+  rect   9 : WL≥25122+10  OT≤720-10  λ=(28.0,60.0) … WL=25153.0  OT=707.5  t=0.68s
+  rect  10 : WL≥24520+10  OT≤692-10  λ=(136.0,602.0) … WL=24843.0  OT=626.5  t=0.11s
+  rect  11 : WL≥24087+10  OT≤556-10  λ=(66.5,433.0) … WL=24101.0  OT=492.0  t=0.08s
+  rect  12 : WL≥22513+10  OT≤490-10  λ=(242.5,1574.0) … WL=23452.0  OT=392.0  t=0.21s
+  rect  13 : WL≥21933+10  OT≤247-10  λ=(66.5,580.0) … WL=22015.0  OT=190.5  t=0.24s
+  rect  14 : WL≥21109+10  OT≤180-10  λ=(91.5,824.0) … WL=21668.0  OT=151.0  t=0.64s
+  rect  15 : WL≥20674+10  OT≤89-10  λ=(45.5,435.0) … WL=20780.0  OT=55.0  t=1.18s
+  rect  16 : WL≥20154+10  OT≤44-10  λ=(43.5,520.0) … WL=20279.0  OT=10.0  t=16.06s
+  rect  17 : WL≥25153+10  OT≤720-10  λ=(12.5,29.0) … infeasible (empty).
+  rect  18 : WL≥25122+10  OT≤708-10  λ=(15.5,31.0) … infeasible (empty).
+  rect  19 : WL≥24843+10  OT≤692-10  λ=(65.5,279.0) … WL=25007.0  OT=667.0  t=0.36s
+  rect  20 : WL≥24520+10  OT≤626-10  λ=(70.5,323.0) … WL=24534.0  OT=560.0  t=0.72s
+  rect  21 : WL≥24101+10  OT≤556-10  λ=(64.0,419.0) … WL=24425.0  OT=542.0  t=0.23s
+  rect  22 : WL≥23452+10  OT≤490-10  λ=(97.5,635.0) … WL=23992.0  OT=475.5  t=0.20s
+  rect  23 : WL≥22513+10  OT≤392-10  λ=(145.0,939.0) … WL=23017.0  OT=325.5  t=0.30s
+  rect  24 : WL≥22015+10  OT≤247-10  λ=(56.5,498.0) … WL=22370.0  OT=231.5  t=0.51s
+  rect  25 : WL≥21668+10  OT≤180-10  λ=(29.5,265.0) … WL=21759.0  OT=161.0  t=0.55s
+  rect  26 : WL≥21109+10  OT≤151-10  λ=(62.0,559.0) … WL=21181.0  OT=98.0  t=0.62s
+  rect  27 : WL≥20780+10  OT≤89-10  λ=(34.0,329.0) … WL=20804.0  OT=58.0  t=1.35s
+  rect  28 : WL≥20674+10  OT≤55-10  λ=(11.5,106.0) … infeasible (empty).
+  rect  29 : WL≥20279+10  OT≤44-10  λ=(33.5,395.0) … WL=20522.0  OT=30.5  t=24.15s
+  rect  30 : WL≥25007+10  OT≤692-10  λ=(25.0,115.0) … WL=25022.0  OT=671.0  t=0.28s
+  rect  31 : WL≥24843+10  OT≤667-10  λ=(40.5,164.0) … WL=24895.0  OT=644.0  t=0.58s
+  rect  32 : WL≥24534+10  OT≤626-10  λ=(66.5,309.0) … WL=24699.0  OT=600.5  t=0.21s
+  rect  33 : WL≥24425+10  OT≤556-10  λ=(14.0,95.0) … WL=24437.0  OT=546.0  t=0.14s
+  rect  34 : WL≥24101+10  OT≤542-10  λ=(50.0,324.0) … WL=24118.0  OT=497.0  t=0.36s
+  rect  35 : WL≥23992+10  OT≤490-10  λ=(14.0,95.0) … WL=24004.0  OT=478.0  t=0.21s
+  rect  36 : WL≥23452+10  OT≤476-10  λ=(83.5,540.0) … WL=23466.0  OT=396.0  t=0.13s
+  rect  37 : WL≥23017+10  OT≤392-10  λ=(66.5,435.0) … WL=23033.0  OT=328.0  t=0.27s
+  rect  38 : WL≥22513+10  OT≤326-10  λ=(78.5,504.0) … WL=22923.0  OT=311.5  t=0.14s
+  rect  39 : WL≥22370+10  OT≤247-10  λ=(15.5,143.0) … WL=22380.0  OT=236.5  t=0.19s
+  rect  40 : WL≥22015+10  OT≤232-10  λ=(41.0,355.0) … WL=22038.0  OT=194.5  t=0.38s
+  rect  41 : WL≥21759+10  OT≤180-10  λ=(19.5,174.0) … WL=21792.0  OT=166.5  t=0.92s
+  rect  42 : WL≥21181+10  OT≤151-10  λ=(53.0,487.0) … WL=21252.0  OT=106.5  t=0.48s
+  rect  43 : WL≥20804+10  OT≤89-10  λ=(31.0,305.0) … WL=20951.0  OT=73.5  t=1.44s
+  rect  44 : WL≥20522+10  OT≤44-10  λ=(13.0,152.0) … WL=20547.0  OT=33.5  t=2.68s
+  rect  45 : WL≥20279+10  OT≤30-10  λ=(20.5,243.0) … WL=20308.0  OT=12.5  t=11.24s
+  rect  46 : WL≥25022+10  OT≤692-10  λ=(21.0,100.0) … WL=25039.0  OT=678.5  t=0.35s
+  rect  47 : WL≥24895+10  OT≤667-10  λ=(23.0,112.0) … WL=24910.0  OT=648.0  t=0.46s
+  rect  48 : WL≥24843+10  OT≤644-10  λ=(17.5,52.0) … infeasible (empty).
+  rect  49 : WL≥24699+10  OT≤626-10  λ=(26.0,144.0) … WL=24748.0  OT=612.5  t=0.18s
+  rect  50 : WL≥24534+10  OT≤600-10  λ=(40.5,165.0) … WL=24589.0  OT=577.5  t=0.56s
+  rect  51 : WL≥24437+10  OT≤556-10  λ=(10.0,83.0) … infeasible (empty).
+  rect  52 : WL≥24118+10  OT≤542-10  λ=(45.0,307.0) … WL=24130.0  OT=501.0  t=0.41s
+  rect  53 : WL≥24004+10  OT≤490-10  λ=(11.5,83.0) … infeasible (empty).
+  rect  54 : WL≥23466+10  OT≤476-10  λ=(79.5,526.0) … WL=23852.0  OT=456.0  t=0.23s
+  rect  55 : WL≥23033+10  OT≤392-10  λ=(64.0,419.0) … WL=23356.0  OT=378.0  t=0.23s
+  rect  56 : WL≥22923+10  OT≤326-10  λ=(14.0,94.0) … WL=22937.0  OT=314.0  t=0.23s
+  rect  57 : WL≥22513+10  OT≤312-10  λ=(64.5,410.0) … WL=22531.0  OT=251.0  t=0.25s
+  rect  58 : WL≥22380+10  OT≤247-10  λ=(10.5,133.0) … infeasible (empty).
+  rect  59 : WL≥22038+10  OT≤232-10  λ=(37.0,332.0) … WL=22078.0  OT=199.5  t=0.40s
+  rect  60 : WL≥21792+10  OT≤180-10  λ=(14.0,141.0) … WL=21807.0  OT=170.5  t=0.91s
+  rect  61 : WL≥21252+10  OT≤151-10  λ=(44.5,416.0) … WL=21354.0  OT=117.5  t=0.49s
+  rect  62 : WL≥20951+10  OT≤89-10  λ=(15.5,158.0) … WL=20961.0  OT=76.0  t=0.94s
+  rect  63 : WL≥20804+10  OT≤74-10  λ=(15.5,147.0) … WL=20831.0  OT=62.0  t=1.26s
+  rect  64 : WL≥20547+10  OT≤44-10  λ=(10.0,127.0) … infeasible (empty).
+  rect  65 : WL≥20308+10  OT≤30-10  λ=(18.0,214.0) … WL=20330.0  OT=14.5  t=11.85s
+  rect  66 : WL≥25039+10  OT≤692-10  λ=(13.5,83.0) … infeasible (empty).
+  rect  67 : WL≥24910+10  OT≤667-10  λ=(19.0,97.0) … WL=24924.0  OT=655.5  t=0.52s
+  rect  68 : WL≥24748+10  OT≤626-10  λ=(14.0,95.0) … infeasible (empty).
+  rect  69 : WL≥24699+10  OT≤612-10  λ=(12.0,49.0) … infeasible (empty).
+  rect  70 : WL≥24589+10  OT≤600-10  λ=(23.0,110.0) … WL=24605.0  OT=585.0  t=0.31s
+  rect  71 : WL≥24534+10  OT≤578-10  λ=(17.5,55.0) … infeasible (empty).
+  rect  72 : WL≥24130+10  OT≤542-10  λ=(41.0,295.0) … WL=24300.0  OT=526.5  t=0.23s
+  rect  73 : WL≥23852+10  OT≤476-10  λ=(19.5,140.0) … WL=23872.0  OT=460.0  t=0.21s
+  rect  74 : WL≥23466+10  OT≤456-10  λ=(60.0,386.0) … WL=23685.0  OT=430.5  t=0.46s
+  rect  75 : WL≥23356+10  OT≤392-10  λ=(14.0,96.0) … WL=23370.0  OT=382.0  t=0.15s
+  rect  76 : WL≥23033+10  OT≤378-10  λ=(50.0,323.0) … WL=23166.0  OT=349.0  t=0.25s
+  rect  77 : WL≥22937+10  OT≤326-10  λ=(11.5,80.0) … infeasible (empty).
+  rect  78 : WL≥22531+10  OT≤312-10  λ=(60.5,392.0) … WL=22727.0  OT=282.5  t=0.25s
+  rect  79 : WL≥22078+10  OT≤232-10  λ=(32.0,292.0) … WL=22195.0  OT=213.0  t=0.50s
+  rect  80 : WL≥21807+10  OT≤180-10  λ=(10.0,126.0) … infeasible (empty).
+  rect  81 : WL≥21354+10  OT≤151-10  λ=(33.5,314.0) … WL=21368.0  OT=120.0  t=0.62s
+  rect  82 : WL≥21252+10  OT≤118-10  λ=(11.0,102.0) … infeasible (empty).
+  rect  83 : WL≥20961+10  OT≤89-10  λ=(13.0,148.0) … WL=20980.0  OT=78.5  t=1.19s
+  rect  84 : WL≥20831+10  OT≤74-10  λ=(11.5,120.0) … infeasible (empty).
+  rect  85 : WL≥20330+10  OT≤30-10  λ=(16.0,192.0) … WL=20395.0  OT=20.0  t=9.08s
+  rect  86 : WL≥24924+10  OT≤667-10  λ=(11.5,83.0) … infeasible (empty).
+  rect  87 : WL≥24605+10  OT≤600-10  λ=(15.5,94.0) … WL=24620.0  OT=589.0  t=0.30s
+  rect  88 : WL≥24300+10  OT≤542-10  λ=(15.5,125.0) … infeasible (empty).
+  rect  89 : WL≥24130+10  OT≤526-10  λ=(25.5,170.0) … WL=24157.0  OT=508.5  t=0.21s
+  rect  90 : WL≥23872+10  OT≤476-10  λ=(15.5,120.0) … infeasible (empty).
+  rect  91 : WL≥23685+10  OT≤456-10  λ=(25.5,167.0) … WL=23777.0  OT=446.0  t=0.36s
+  rect  92 : WL≥23466+10  OT≤430-10  λ=(34.5,219.0) … WL=23589.0  OT=416.5  t=0.18s
+  rect  93 : WL≥23370+10  OT≤392-10  λ=(10.0,82.0) … infeasible (empty).
+  rect  94 : WL≥23166+10  OT≤378-10  λ=(29.0,190.0) … WL=23180.0  OT=353.0  t=1.08s
+  rect  95 : WL≥23033+10  OT≤349-10  λ=(21.0,133.0) … WL=23050.0  OT=333.0  t=0.20s
+  rect  96 : WL≥22727+10  OT≤312-10  λ=(29.0,196.0) … WL=22742.0  OT=285.0  t=0.14s
+  rect  97 : WL≥22531+10  OT≤282-10  λ=(31.5,196.0) … WL=22541.0  OT=256.0  t=0.19s
+  rect  98 : WL≥22195+10  OT≤232-10  λ=(18.5,175.0) … WL=22217.0  OT=217.0  t=0.39s
+  rect  99 : WL≥22078+10  OT≤213-10  λ=(13.5,117.0) … infeasible (empty).
+  rect 100 : WL≥21368+10  OT≤151-10  λ=(31.0,300.0) … WL=21435.0  OT=127.5  t=0.68s
+  rect 101 : WL≥20980+10  OT≤89-10  λ=(10.5,129.0) … infeasible (empty).
+  rect 102 : WL≥20395+10  OT≤30-10  λ=(10.5,127.0) … infeasible (empty).
+  rect 103 : WL≥24620+10  OT≤600-10  λ=(11.5,79.0) … infeasible (empty).
+  rect 104 : WL≥24157+10  OT≤526-10  λ=(18.0,143.0) … WL=24180.0  OT=512.0  t=0.25s
+  rect 105 : WL≥23777+10  OT≤456-10  λ=(10.0,75.0) … infeasible (empty).
+  rect 106 : WL≥23685+10  OT≤446-10  λ=(15.5,92.0) … infeasible (empty).
+  rect 107 : WL≥23589+10  OT≤430-10  λ=(14.0,96.0) … WL=23601.0  OT=419.0  t=0.33s
+  rect 108 : WL≥23466+10  OT≤416-10  λ=(20.5,123.0) … WL=23524.0  OT=406.5  t=0.21s
+  rect 109 : WL≥23180+10  OT≤378-10  λ=(25.0,176.0) … WL=23228.0  OT=362.5  t=0.80s
+  rect 110 : WL≥23050+10  OT≤349-10  λ=(16.0,116.0) … WL=23064.0  OT=337.0  t=0.26s
+  rect 111 : WL≥22742+10  OT≤312-10  λ=(26.5,181.0) … WL=22766.0  OT=291.0  t=0.37s
+  rect 112 : WL≥22541+10  OT≤282-10  λ=(26.5,186.0) … WL=22573.0  OT=263.0  t=0.20s
+  rect 113 : WL≥22217+10  OT≤232-10  λ=(14.5,153.0) … WL=22242.0  OT=220.5  t=0.33s
+  rect 114 : WL≥21435+10  OT≤151-10  λ=(23.5,233.0) … WL=21445.0  OT=129.5  t=1.54s
+  rect 115 : WL≥24180+10  OT≤526-10  λ=(14.5,120.0) … WL=24197.0  OT=514.5  t=0.30s
+  rect 116 : WL≥23601+10  OT≤430-10  λ=(11.5,84.0) … infeasible (empty).
+  rect 117 : WL≥23524+10  OT≤416-10  λ=(10.0,65.0) … infeasible (empty).
+  rect 118 : WL≥23228+10  OT≤378-10  λ=(15.5,128.0) … WL=23241.0  OT=368.0  t=0.87s
+  rect 119 : WL≥23064+10  OT≤349-10  λ=(12.0,102.0) … infeasible (empty).
+  rect 120 : WL≥22766+10  OT≤312-10  λ=(20.5,157.0) … WL=22796.0  OT=296.5  t=0.90s
+  rect 121 : WL≥22573+10  OT≤282-10  λ=(19.5,154.0) … WL=22588.0  OT=266.5  t=0.26s
+  rect 122 : WL≥22242+10  OT≤232-10  λ=(11.0,128.0) … infeasible (empty).
+  rect 123 : WL≥21445+10  OT≤151-10  λ=(21.5,223.0) … WL=21456.0  OT=131.0  t=1.41s
+  rect 124 : WL≥24197+10  OT≤526-10  λ=(12.0,103.0) … infeasible (empty).
+  rect 125 : WL≥23241+10  OT≤378-10  λ=(10.0,115.0) … infeasible (empty).
+  rect 126 : WL≥22796+10  OT≤312-10  λ=(15.0,127.0) … WL=22806.0  OT=301.5  t=0.48s
+  rect 127 : WL≥22588+10  OT≤282-10  λ=(16.0,139.0) … WL=22603.0  OT=268.5  t=0.19s
+  rect 128 : WL≥21456+10  OT≤151-10  λ=(20.0,212.0) … WL=21475.0  OT=133.0  t=1.18s
+  rect 129 : WL≥22806+10  OT≤312-10  λ=(10.0,117.0) … infeasible (empty).
+  rect 130 : WL≥22603+10  OT≤282-10  λ=(14.0,124.0) … infeasible (empty).
+  rect 131 : WL≥21475+10  OT≤151-10  λ=(18.0,193.0) … WL=21531.0  OT=138.5  t=1.03s
+  rect 132 : WL≥21531+10  OT≤151-10  λ=(12.5,137.0) … WL=21541.0  OT=140.0  t=0.33s
+  rect 133 : WL≥21541+10  OT≤151-10  λ=(11.0,127.0) … infeasible (empty).
+
+[Chalmet]  Done.  133 rectangles explored  ·  98 new points found  ·  99 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=144.65s  avg/solve=1.45s  min=0.00s  max=24.15s
+[V4red |  7/8] T=300 D=6  N=3  C=2   — hybrid s=10             DONE (|YN|=99  max_gap=17.500  cpu=374.85s)
+
+────────────────────────────────────────────────────────────────────────
+  [8/8]  V4red_T300_D6_N3_C3  (seed=42  time_limit=600s)
+────────────────────────────────────────────────────────────────────────
+[V4red |  8/8] T=300 D=6  N=3  C=3   — baseline                DONE (cpu=0.00s  WL=32502.0  OT=670.0)
+[V4red |  8/8] T=300 D=6  N=3  C=3   — base_model              ERROR: Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+[V4red |  8/8] T=300 D=6  N=3  C=3   — reinforced              DONE (cpu=19.02s  nodes=30832  vars=1142  constrs=924)
+[ε-constraint]  s = 20 min | solving first point (unconstrained WL)…
+  k=0 : WL=34522.0  OT=450.3  t=0.14s
+  k=1 : ε=430.3 min … WL=34461.0  OT=430.0  t=0.21s
+  k=2 : ε=410.0 min … WL=34108.0  OT=410.0  t=0.57s
+  k=3 : ε=390.0 min … WL=34048.0  OT=390.0  t=0.32s
+  k=4 : ε=370.0 min … WL=33906.0  OT=369.0  t=0.25s
+  k=5 : ε=349.0 min … WL=33777.0  OT=348.0  t=0.24s
+  k=6 : ε=328.0 min … WL=33487.0  OT=327.0  t=0.63s
+  k=7 : ε=307.0 min … WL=33360.0  OT=306.7  t=0.43s
+  k=8 : ε=286.7 min … WL=33141.0  OT=286.0  t=0.60s
+  k=9 : ε=266.0 min … WL=33001.0  OT=265.3  t=0.46s
+  k=10 : ε=245.3 min … WL=32793.0  OT=244.3  t=0.43s
+  k=11 : ε=224.3 min … WL=32585.0  OT=224.0  t=0.35s
+  k=12 : ε=204.0 min … WL=32348.0  OT=204.0  t=0.38s
+  k=13 : ε=184.0 min … WL=32210.0  OT=184.0  t=0.45s
+  k=14 : ε=164.0 min … WL=31961.0  OT=164.0  t=0.36s
+  k=15 : ε=144.0 min … WL=31827.0  OT=144.0  t=0.27s
+  k=16 : ε=124.0 min … WL=31509.0  OT=124.0  t=0.45s
+  k=17 : ε=104.0 min … WL=31354.0  OT=104.0  t=0.64s
+  k=18 : ε=84.0 min … WL=31114.0  OT=83.7  t=0.61s
+  k=19 : ε=63.7 min … WL=30841.0  OT=62.7  t=0.52s
+  k=20 : ε=42.7 min … WL=30485.0  OT=42.0  t=0.40s
+  k=21 : ε=22.0 min … WL=30121.0  OT=21.7  t=0.67s
+  k=22 : ε=1.7 min … WL=29830.0  OT=1.7  t=0.65s
+
+[ε-constraint]  23 total points → 23 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=10.05s  avg/solve=0.44s  min=0.14s  max=0.67s
+[V4red |  8/8] T=300 D=6  N=3  C=3   — eps s=20                DONE (|YN|=23  max_gap=21.000  cpu=10.82s)
+[ε-constraint]  s = 10 min | solving first point (unconstrained WL)…
+  k=0 : WL=34522.0  OT=450.3  t=0.11s
+  k=1 : ε=440.3 min … WL=34489.0  OT=439.3  t=0.11s
+  k=2 : ε=429.3 min … WL=34459.0  OT=429.3  t=0.39s
+  k=3 : ε=419.3 min … WL=34317.0  OT=418.3  t=0.88s
+  k=4 : ε=408.3 min … WL=34103.0  OT=408.3  t=0.45s
+  k=5 : ε=398.3 min … WL=34071.0  OT=397.7  t=0.26s
+  k=6 : ε=387.7 min … WL=34040.0  OT=387.3  t=0.40s
+  k=7 : ε=377.3 min … WL=34010.0  OT=377.3  t=0.17s
+  k=8 : ε=367.3 min … WL=33898.0  OT=366.3  t=0.80s
+  k=9 : ε=356.3 min … WL=33865.0  OT=356.3  t=0.19s
+  k=10 : ε=346.3 min … WL=33707.0  OT=346.0  t=0.46s
+  k=11 : ε=336.0 min … WL=33563.0  OT=335.3  t=0.46s
+  k=12 : ε=325.3 min … WL=33482.0  OT=325.3  t=0.54s
+  k=13 : ε=315.3 min … WL=33450.0  OT=314.7  t=0.69s
+  k=14 : ε=304.7 min … WL=33352.0  OT=304.0  t=0.37s
+  k=15 : ε=294.0 min … WL=33250.0  OT=294.0  t=0.49s
+  k=16 : ε=284.0 min … WL=33134.0  OT=283.7  t=0.64s
+  k=17 : ε=273.7 min … WL=33048.0  OT=273.7  t=0.28s
+  k=18 : ε=263.7 min … WL=32927.0  OT=262.7  t=0.46s
+  k=19 : ε=252.7 min … WL=32846.0  OT=252.7  t=1.05s
+  k=20 : ε=242.7 min … WL=32786.0  OT=242.0  t=0.36s
+  k=21 : ε=232.0 min … WL=32689.0  OT=231.0  t=0.34s
+  k=22 : ε=221.0 min … WL=32570.0  OT=220.7  t=0.58s
+  k=23 : ε=210.7 min … WL=32427.0  OT=210.7  t=0.65s
+  k=24 : ε=200.7 min … WL=32338.0  OT=200.7  t=0.29s
+  k=25 : ε=190.7 min … WL=32298.0  OT=189.7  t=0.23s
+  k=26 : ε=179.7 min … WL=32138.0  OT=178.7  t=0.40s
+  k=27 : ε=168.7 min … WL=31975.0  OT=168.7  t=0.64s
+  k=28 : ε=158.7 min … WL=31939.0  OT=158.7  t=0.57s
+  k=29 : ε=148.7 min … WL=31840.0  OT=147.7  t=0.29s
+  k=30 : ε=137.7 min … WL=31739.0  OT=137.7  t=0.69s
+  k=31 : ε=127.7 min … WL=31606.0  OT=127.0  t=0.42s
+  k=32 : ε=117.0 min … WL=31482.0  OT=117.0  t=0.29s
+  k=33 : ε=107.0 min … WL=31363.0  OT=107.0  t=0.76s
+  k=34 : ε=97.0 min … WL=31261.0  OT=96.7  t=0.60s
+  k=35 : ε=86.7 min … WL=31123.0  OT=86.7  t=0.39s
+  k=36 : ε=76.7 min … WL=30989.0  OT=76.3  t=0.39s
+  k=37 : ε=66.3 min … WL=30858.0  OT=66.3  t=0.43s
+  k=38 : ε=56.3 min … WL=30690.0  OT=56.3  t=0.40s
+  k=39 : ε=46.3 min … WL=30569.0  OT=46.3  t=0.52s
+  k=40 : ε=36.3 min … WL=30378.0  OT=36.0  t=0.45s
+  k=41 : ε=26.0 min … WL=30156.0  OT=25.7  t=0.78s
+  k=42 : ε=15.7 min … WL=30070.0  OT=15.7  t=0.68s
+  k=43 : ε=5.7 min … WL=29879.0  OT=5.7  t=0.77s
+
+[ε-constraint]  44 total points → 44 efficient solutions on Pareto front.
+[ε-constraint]  CPU time : total=21.17s  avg/solve=0.48s  min=0.11s  max=1.05s
+[V4red |  8/8] T=300 D=6  N=3  C=3   — eps s=10                DONE (|YN|=44  max_gap=11.000  cpu=22.70s)
+[Chalmet]  Phase 1: extreme points  (s=20) …
+  p_A  max-WL extreme : WL=34520.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+20  OT≤720-20  λ=(720.0,34520.0) … WL=29827.0  OT=0.7  t=0.43s
+  rect   2 : WL≥29827+20  OT≤720-20  λ=(719.3,4693.0) … WL=34435.0  OT=421.3  t=0.03s
+  rect   3 : WL≥34435+20  OT≤720-20  λ=(298.7,85.0) … WL=34522.0  OT=450.3  t=0.03s
+  rect   4 : WL≥29827+20  OT≤421-20  λ=(420.7,4608.0) … WL=31449.0  OT=107.7  t=0.06s
+  rect   5 : WL≥34435+20  OT≤450-20  λ=(29.0,87.0) … WL=34462.0  OT=430.3  t=0.06s
+  rect   6 : WL≥31449+20  OT≤421-20  λ=(313.7,2986.0) … WL=32764.0  OT=235.3  t=0.05s
+  rect   7 : WL≥29827+20  OT≤108-20  λ=(107.0,1622.0) … WL=30671.0  OT=50.0  t=0.12s
+  rect   8 : WL≥34462+20  OT≤450-20  λ=(20.0,60.0) … infeasible (empty).
+  rect   9 : WL≥32764+20  OT≤421-20  λ=(186.0,1671.0) … WL=33865.0  OT=356.3  t=0.03s
+  rect  10 : WL≥31449+20  OT≤235-20  λ=(127.7,1315.0) … WL=32294.0  OT=188.3  t=0.11s
+  rect  11 : WL≥30671+20  OT≤108-20  λ=(57.7,778.0) … WL=30947.0  OT=68.7  t=0.18s
+  rect  12 : WL≥29827+20  OT≤50-20  λ=(49.3,844.0) … WL=30045.0  OT=13.7  t=0.42s
+  rect  13 : WL≥33865+20  OT≤421-20  λ=(65.0,570.0) … WL=33886.0  OT=362.3  t=0.19s
+  rect  14 : WL≥32764+20  OT≤356-20  λ=(121.0,1101.0) … WL=33426.0  OT=309.3  t=0.14s
+  rect  15 : WL≥32294+20  OT≤235-20  λ=(47.0,470.0) … WL=32314.0  OT=192.7  t=0.09s
+  rect  16 : WL≥31449+20  OT≤188-20  λ=(80.7,845.0) … WL=31828.0  OT=144.0  t=0.16s
+  rect  17 : WL≥30947+20  OT≤108-20  λ=(39.0,502.0) … WL=31111.0  OT=83.3  t=0.34s
+  rect  18 : WL≥30045+20  OT≤50-20  λ=(36.3,626.0) … WL=30069.0  OT=15.3  t=0.87s
+  rect  19 : WL≥33886+20  OT≤421-20  λ=(59.0,549.0) … WL=34006.0  OT=377.0  t=0.04s
+  rect  20 : WL≥33426+20  OT≤356-20  λ=(47.0,439.0) … WL=33446.0  OT=313.3  t=0.18s
+  rect  21 : WL≥32764+20  OT≤309-20  λ=(74.0,662.0) … WL=33031.0  OT=268.0  t=0.13s
+  rect  22 : WL≥32314+20  OT≤235-20  λ=(42.7,450.0) … WL=32334.0  OT=199.3  t=0.13s
+  rect  23 : WL≥31828+20  OT≤188-20  λ=(44.3,466.0) … WL=31929.0  OT=156.0  t=0.21s
+  rect  24 : WL≥31449+20  OT≤144-20  λ=(36.3,379.0) … WL=31469.0  OT=112.7  t=0.14s
+  rect  25 : WL≥31111+20  OT≤108-20  λ=(24.3,338.0) … infeasible (empty).
+  rect  26 : WL≥30069+20  OT≤50-20  λ=(34.7,602.0) … WL=30115.0  OT=19.7  t=0.48s
+  rect  27 : WL≥34006+20  OT≤421-20  λ=(44.3,429.0) … WL=34026.0  OT=382.7  t=0.11s
+  rect  28 : WL≥33446+20  OT≤356-20  λ=(43.0,419.0) … WL=33466.0  OT=320.0  t=0.17s
+  rect  29 : WL≥33031+20  OT≤309-20  λ=(41.3,395.0) … WL=33051.0  OT=274.7  t=0.24s
+  rect  30 : WL≥32764+20  OT≤268-20  λ=(32.7,267.0) … WL=32784.0  OT=241.3  t=0.11s
+  rect  31 : WL≥32334+20  OT≤235-20  λ=(36.0,430.0) … WL=32418.0  OT=207.7  t=0.16s
+  rect  32 : WL≥31929+20  OT≤188-20  λ=(32.3,365.0) … WL=31956.0  OT=162.3  t=0.25s
+  rect  33 : WL≥31469+20  OT≤144-20  λ=(31.3,359.0) … WL=31491.0  OT=118.0  t=0.17s
+  rect  34 : WL≥30115+20  OT≤50-20  λ=(30.3,556.0) … WL=30151.0  OT=24.7  t=0.46s
+  rect  35 : WL≥34026+20  OT≤421-20  λ=(38.7,409.0) … WL=34046.0  OT=389.3  t=0.16s
+  rect  36 : WL≥33466+20  OT≤356-20  λ=(36.3,399.0) … WL=33486.0  OT=326.7  t=0.29s
+  rect  37 : WL≥33051+20  OT≤309-20  λ=(34.7,375.0) … WL=33132.0  OT=283.3  t=0.16s
+  rect  38 : WL≥32784+20  OT≤268-20  λ=(26.7,247.0) … WL=32804.0  OT=248.0  t=0.20s
+  rect  39 : WL≥32418+20  OT≤235-20  λ=(27.7,346.0) … WL=32442.0  OT=212.3  t=0.25s
+  rect  40 : WL≥31956+20  OT≤188-20  λ=(26.0,338.0) … infeasible (empty).
+  rect  41 : WL≥31491+20  OT≤144-20  λ=(26.0,337.0) … infeasible (empty).
+  rect  42 : WL≥30151+20  OT≤50-20  λ=(25.3,520.0) … WL=30184.0  OT=27.3  t=0.51s
+  rect  43 : WL≥34046+20  OT≤421-20  λ=(32.0,389.0) … WL=34066.0  OT=396.0  t=0.52s
+  rect  44 : WL≥33486+20  OT≤356-20  λ=(29.7,379.0) … WL=33556.0  OT=333.3  t=0.27s
+  rect  45 : WL≥33132+20  OT≤309-20  λ=(26.0,294.0) … infeasible (empty).
+  rect  46 : WL≥32804+20  OT≤268-20  λ=(20.0,227.0) … infeasible (empty).
+  rect  47 : WL≥32442+20  OT≤235-20  λ=(23.0,322.0) … infeasible (empty).
+  rect  48 : WL≥30184+20  OT≤50-20  λ=(22.7,487.0) … infeasible (empty).
+  rect  49 : WL≥34066+20  OT≤421-20  λ=(25.3,369.0) … infeasible (empty).
+  rect  50 : WL≥33556+20  OT≤356-20  λ=(23.0,309.0) … infeasible (empty).
+
+[Chalmet]  Done.  50 rectangles explored  ·  40 new points found  ·  41 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=8.70s  avg/solve=0.21s  min=0.00s  max=0.87s
+[V4red |  8/8] T=300 D=6  N=3  C=3   — hybrid s=20             DONE (|YN|=41  max_gap=26.000  cpu=12.33s)
+[Chalmet]  Phase 1: extreme points  (s=10) …
+  p_A  max-WL extreme : WL=34520.0  OT=720.0
+  p_B  min-OT extreme : WL=0.0  OT=0.0
+
+[Chalmet]  Phase 2: rectangle exploration …
+  rect   1 : WL≥0+10  OT≤720-10  λ=(720.0,34520.0) … WL=29827.0  OT=0.7  t=0.56s
+  rect   2 : WL≥29827+10  OT≤720-10  λ=(719.3,4693.0) … WL=34435.0  OT=421.3  t=0.03s
+  rect   3 : WL≥34435+10  OT≤720-10  λ=(298.7,85.0) … WL=34521.0  OT=450.0  t=0.04s
+  rect   4 : WL≥29827+10  OT≤421-10  λ=(420.7,4608.0) … WL=31449.0  OT=107.7  t=0.06s
+  rect   5 : WL≥34435+10  OT≤450-10  λ=(28.7,86.0) … WL=34484.0  OT=438.3  t=0.04s
+  rect   6 : WL≥31449+10  OT≤421-10  λ=(313.7,2986.0) … WL=32764.0  OT=235.3  t=0.05s
+  rect   7 : WL≥29827+10  OT≤108-10  λ=(107.0,1622.0) … WL=30671.0  OT=50.0  t=0.18s
+  rect   8 : WL≥34484+10  OT≤450-10  λ=(11.7,37.0) … infeasible (empty).
+  rect   9 : WL≥34435+10  OT≤438-10  λ=(17.0,49.0) … WL=34456.0  OT=428.3  t=0.05s
+  rect  10 : WL≥32764+10  OT≤421-10  λ=(186.0,1671.0) … WL=33868.0  OT=356.7  t=0.03s
+  rect  11 : WL≥31449+10  OT≤235-10  λ=(127.7,1315.0) … WL=32292.0  OT=188.3  t=0.07s
+  rect  12 : WL≥30671+10  OT≤108-10  λ=(57.7,778.0) … WL=30950.0  OT=68.7  t=0.19s
+  rect  13 : WL≥29827+10  OT≤50-10  λ=(49.3,844.0) … WL=30365.0  OT=32.0  t=0.25s
+  rect  14 : WL≥34456+10  OT≤438-10  λ=(10.0,28.0) … infeasible (empty).
+  rect  15 : WL≥33868+10  OT≤421-10  λ=(64.7,567.0) … WL=33878.0  OT=360.0  t=0.12s
+  rect  16 : WL≥32764+10  OT≤357-10  λ=(121.3,1104.0) … WL=33425.0  OT=309.3  t=0.14s
+  rect  17 : WL≥32292+10  OT≤235-10  λ=(47.0,472.0) … WL=32306.0  OT=191.0  t=0.09s
+  rect  18 : WL≥31449+10  OT≤188-10  λ=(80.7,843.0) … WL=31830.0  OT=144.3  t=0.10s
+  rect  19 : WL≥30950+10  OT≤108-10  λ=(39.0,499.0) … WL=31244.0  OT=93.3  t=0.16s
+  rect  20 : WL≥30671+10  OT≤69-10  λ=(18.7,279.0) … WL=30681.0  OT=53.3  t=0.19s
+  rect  21 : WL≥30365+10  OT≤50-10  λ=(18.0,306.0) … WL=30478.0  OT=39.7  t=0.33s
+  rect  22 : WL≥29827+10  OT≤32-10  λ=(31.3,538.0) … WL=30043.0  OT=13.7  t=0.28s
+  rect  23 : WL≥33878+10  OT≤421-10  λ=(61.3,557.0) … WL=33888.0  OT=363.0  t=0.11s
+  rect  24 : WL≥33425+10  OT≤357-10  λ=(47.3,443.0) … WL=33442.0  OT=312.0  t=0.10s
+  rect  25 : WL≥32764+10  OT≤309-10  λ=(74.0,661.0) … WL=32774.0  OT=238.3  t=0.14s
+  rect  26 : WL≥32306+10  OT≤235-10  λ=(44.3,458.0) … WL=32317.0  OT=193.7  t=0.14s
+  rect  27 : WL≥31830+10  OT≤188-10  λ=(44.0,462.0) … WL=31932.0  OT=156.3  t=0.10s
+  rect  28 : WL≥31449+10  OT≤144-10  λ=(36.7,381.0) … WL=31459.0  OT=111.0  t=0.10s
+  rect  29 : WL≥31244+10  OT≤108-10  λ=(14.3,205.0) … WL=31257.0  OT=96.0  t=0.29s
+  rect  30 : WL≥30950+10  OT≤93-10  λ=(24.7,294.0) … WL=31111.0  OT=83.3  t=0.20s
+  rect  31 : WL≥30681+10  OT≤69-10  λ=(15.3,269.0) … WL=30732.0  OT=58.3  t=0.17s
+  rect  32 : WL≥30478+10  OT≤50-10  λ=(10.3,193.0) … infeasible (empty).
+  rect  33 : WL≥30043+10  OT≤32-10  λ=(18.3,322.0) … WL=30069.0  OT=15.3  t=0.36s
+  rect  34 : WL≥29827+10  OT≤14-10  λ=(13.0,216.0) … WL=29852.0  OT=3.7  t=0.52s
+  rect  35 : WL≥33888+10  OT≤421-10  λ=(58.3,547.0) … WL=34008.0  OT=377.0  t=0.12s
+  rect  36 : WL≥33442+10  OT≤357-10  λ=(44.7,426.0) … WL=33452.0  OT=315.3  t=0.13s
+  rect  37 : WL≥32774+10  OT≤309-10  λ=(71.0,651.0) … WL=33031.0  OT=268.0  t=0.19s
+  rect  38 : WL≥32317+10  OT≤235-10  λ=(41.7,447.0) … WL=32327.0  OT=197.0  t=0.16s
+  rect  39 : WL≥31932+10  OT≤188-10  λ=(32.0,360.0) … WL=32072.0  OT=171.3  t=0.26s
+  rect  40 : WL≥31830+10  OT≤156-10  λ=(12.0,102.0) … infeasible (empty).
+  rect  41 : WL≥31459+10  OT≤144-10  λ=(33.3,371.0) … WL=31469.0  OT=112.7  t=0.13s
+  rect  42 : WL≥31257+10  OT≤108-10  λ=(11.7,192.0) … infeasible (empty).
+  rect  43 : WL≥31111+10  OT≤93-10  λ=(10.0,133.0) … infeasible (empty).
+  rect  44 : WL≥30950+10  OT≤83-10  λ=(14.7,161.0) … WL=30977.0  OT=73.3  t=0.12s
+  rect  45 : WL≥30732+10  OT≤69-10  λ=(10.3,218.0) … infeasible (empty).
+  rect  46 : WL≥30069+10  OT≤32-10  λ=(16.7,296.0) … WL=30113.0  OT=19.7  t=0.30s
+  rect  47 : WL≥29852+10  OT≤14-10  λ=(10.0,191.0) … infeasible (empty).
+  rect  48 : WL≥34008+10  OT≤421-10  λ=(44.3,427.0) … WL=34018.0  OT=380.0  t=0.15s
+  rect  49 : WL≥33888+10  OT≤377-10  λ=(14.0,120.0) … WL=33898.0  OT=366.7  t=0.23s
+  rect  50 : WL≥33452+10  OT≤357-10  λ=(41.3,416.0) … WL=33689.0  OT=340.7  t=0.21s
+  rect  51 : WL≥33031+10  OT≤309-10  λ=(41.3,394.0) … WL=33041.0  OT=271.3  t=0.18s
+  rect  52 : WL≥32774+10  OT≤268-10  λ=(29.7,257.0) … WL=32784.0  OT=241.3  t=0.14s
+  rect  53 : WL≥32327+10  OT≤235-10  λ=(38.3,437.0) … WL=32567.0  OT=219.7  t=0.12s
+  rect  54 : WL≥32072+10  OT≤188-10  λ=(17.0,220.0) … WL=32086.0  OT=172.7  t=0.18s
+  rect  55 : WL≥31932+10  OT≤171-10  λ=(15.0,140.0) … WL=31942.0  OT=159.7  t=0.18s
+  rect  56 : WL≥31469+10  OT≤144-10  λ=(31.7,361.0) … WL=31591.0  OT=124.3  t=0.17s
+  rect  57 : WL≥30977+10  OT≤83-10  λ=(10.0,134.0) … infeasible (empty).
+  rect  58 : WL≥30113+10  OT≤32-10  λ=(12.3,252.0) … infeasible (empty).
+  rect  59 : WL≥34018+10  OT≤421-10  λ=(41.3,417.0) … WL=34028.0  OT=383.3  t=0.11s
+  rect  60 : WL≥33898+10  OT≤377-10  λ=(10.3,110.0) … infeasible (empty).
+  rect  61 : WL≥33689+10  OT≤357-10  λ=(16.0,179.0) … WL=33699.0  OT=343.3  t=0.28s
+  rect  62 : WL≥33452+10  OT≤341-10  λ=(25.3,237.0) … WL=33462.0  OT=318.7  t=0.26s
+  rect  63 : WL≥33041+10  OT≤309-10  λ=(38.0,384.0) … WL=33248.0  OT=293.7  t=0.20s
+  rect  64 : WL≥32784+10  OT≤268-10  λ=(26.7,247.0) … WL=32906.0  OT=256.0  t=0.07s
+  rect  65 : WL≥32567+10  OT≤235-10  λ=(15.7,197.0) … WL=32577.0  OT=223.0  t=0.17s
+  rect  66 : WL≥32327+10  OT≤220-10  λ=(22.7,240.0) … WL=32418.0  OT=207.7  t=0.16s
+  rect  67 : WL≥32086+10  OT≤188-10  λ=(15.7,206.0) … WL=32102.0  OT=175.3  t=0.13s
+  rect  68 : WL≥31942+10  OT≤171-10  λ=(11.7,130.0) … infeasible (empty).
+  rect  69 : WL≥31591+10  OT≤144-10  λ=(20.0,239.0) … WL=31656.0  OT=131.0  t=0.20s
+  rect  70 : WL≥31469+10  OT≤124-10  λ=(11.7,122.0) … infeasible (empty).
+  rect  71 : WL≥34028+10  OT≤421-10  λ=(38.0,407.0) … WL=34038.0  OT=386.7  t=0.12s
+  rect  72 : WL≥33699+10  OT≤357-10  λ=(13.3,169.0) … WL=33709.0  OT=346.7  t=0.20s
+  rect  73 : WL≥33462+10  OT≤341-10  λ=(22.0,227.0) … WL=33473.0  OT=322.3  t=0.18s
+  rect  74 : WL≥33248+10  OT≤309-10  λ=(15.7,177.0) … WL=33264.0  OT=296.3  t=0.16s
+  rect  75 : WL≥33041+10  OT≤294-10  λ=(22.3,207.0) … WL=33133.0  OT=283.3  t=0.12s
+  rect  76 : WL≥32906+10  OT≤268-10  λ=(12.0,125.0) … infeasible (empty).
+  rect  77 : WL≥32784+10  OT≤256-10  λ=(14.7,122.0) … WL=32794.0  OT=244.7  t=0.25s
+  rect  78 : WL≥32577+10  OT≤235-10  λ=(12.3,187.0) … WL=32587.0  OT=224.7  t=0.49s
+  rect  79 : WL≥32418+10  OT≤220-10  λ=(12.0,149.0) … infeasible (empty).
+  rect  80 : WL≥32327+10  OT≤208-10  λ=(10.7,91.0) … infeasible (empty).
+  rect  81 : WL≥32102+10  OT≤188-10  λ=(13.0,190.0) … WL=32134.0  OT=178.0  t=0.26s
+  rect  82 : WL≥31656+10  OT≤144-10  λ=(13.3,174.0) … WL=31670.0  OT=133.7  t=0.20s
+  rect  83 : WL≥34038+10  OT≤421-10  λ=(34.7,397.0) … WL=34295.0  OT=411.0  t=0.22s
+  rect  84 : WL≥33709+10  OT≤357-10  λ=(10.0,159.0) … infeasible (empty).
+  rect  85 : WL≥33473+10  OT≤341-10  λ=(18.3,216.0) … WL=33483.0  OT=325.7  t=0.19s
+  rect  86 : WL≥33264+10  OT≤309-10  λ=(13.0,161.0) … WL=33285.0  OT=299.0  t=0.21s
+  rect  87 : WL≥33133+10  OT≤294-10  λ=(10.3,115.0) … infeasible (empty).
+  rect  88 : WL≥33041+10  OT≤283-10  λ=(12.0,92.0) … infeasible (empty).
+  rect  89 : WL≥32794+10  OT≤256-10  λ=(11.3,112.0) … infeasible (empty).
+  rect  90 : WL≥32587+10  OT≤235-10  λ=(10.7,177.0) … infeasible (empty).
+  rect  91 : WL≥32134+10  OT≤188-10  λ=(10.3,158.0) … infeasible (empty).
+  rect  92 : WL≥31670+10  OT≤144-10  λ=(10.7,160.0) … infeasible (empty).
+  rect  93 : WL≥34295+10  OT≤421-10  λ=(10.3,140.0) … infeasible (empty).
+  rect  94 : WL≥34038+10  OT≤411-10  λ=(24.3,257.0) … WL=34048.0  OT=390.0  t=0.13s
+  rect  95 : WL≥33483+10  OT≤341-10  λ=(15.0,206.0) … WL=33493.0  OT=329.0  t=0.30s
+  rect  96 : WL≥33285+10  OT≤309-10  λ=(10.3,140.0) … infeasible (empty).
+  rect  97 : WL≥34048+10  OT≤411-10  λ=(21.0,247.0) … WL=34059.0  OT=393.7  t=0.13s
+  rect  98 : WL≥33493+10  OT≤341-10  λ=(11.7,196.0) … infeasible (empty).
+  rect  99 : WL≥34059+10  OT≤411-10  λ=(17.3,236.0) … WL=34069.0  OT=397.0  t=0.15s
+  rect 100 : WL≥34069+10  OT≤411-10  λ=(14.0,226.0) … WL=34079.0  OT=400.3  t=0.30s
+  rect 101 : WL≥34079+10  OT≤411-10  λ=(10.7,216.0) … infeasible (empty).
+
+[Chalmet]  Done.  101 rectangles explored  ·  74 new points found  ·  75 efficient solutions on Pareto front.
+[Chalmet]  CPU time : total=13.37s  avg/solve=0.18s  min=0.00s  max=0.56s
+[V4red |  8/8] T=300 D=6  N=3  C=3   — hybrid s=10             DONE (|YN|=75  max_gap=12.333  cpu=20.34s)
+
+════════════════════════════════════════════════════════════════════════
+  Volet 4 réduit DONE — 8 instances × 7 runs = 56 rows
+  CSV      → /home/fk/vie/fac/M2/UES/MULTI_OBJECTIVE SOLVERS/Project 2/IMPLEMENTATION/results/results_volet4_reduit.csv
+  Figures  → /home/fk/vie/fac/M2/UES/MULTI_OBJECTIVE SOLVERS/Project 2/IMPLEMENTATION/results/figures/reduit_v4
+  Schedules→ /home/fk/vie/fac/M2/UES/MULTI_OBJECTIVE SOLVERS/Project 2/IMPLEMENTATION/results/schedules/reduit_v4
+  2026-10-20 16:06:39
+════════════════════════════════════════════════════════════════════════

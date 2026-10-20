@@ -1,0 +1,53 @@
+Volet 1 — État de l’art
+
+Nature combinatoire du problème OCP, difficulté
+Revue littérature planification hospitalière multi-objectif
+Positionnement du papier Dagistanli & Azizoğlu
+
+Volet 2 — Modèle et méthodes
+
+Modèle de base → modèle renforcé (PL) : ensembles éligibles, O_star, Load[d]
+Algorithme baseline : DayState, priorité aux traitements les plus longs
+ε-contrainte : deux phases, paramètre s, garanties théoriques
+Chalmet : exploration rectangles, points supportés seulement
+Limites du modèle : contrainte 6, sessions fixes à 3, pas de pauses infirmières
+
+Volet 3 — Étude de XE et YN sur instances synthétiques
+
+Instance fil conducteur : ref (T=75, D=6, N=2, C=5, seed=42)
+
+Calculer YN avec ε-contrainte et Chalmet sur ref → superposer les deux fronts → ε-contrainte trouve-t-elle tout ? Chalmet manque-t-il des points non supportés ?
+Comparer à la baseline : où se situe le point baseline dans YN ? Amplitude du gain ? (mesures : WL_baseline, OT_baseline, distance au front)
+Conflictualité : YN étendu ou concentré ?
+Analyse de sensibilité — un paramètre à la fois, ref comme référence :
+Effet T : small (T=30) → ref (T=75) → large (T=150)
+Effet D : ref (D=6) → bigD (D=9)
+Effet N : ref (N=2) → bigN (N=3)
+Effet C : ref (C=5) → bigC (C=6)
+Mesures : |YN|, étendue WL (WL_max−WL_min), étendue OT (OT_max−OT_min), cpu_time, WL_baseline, OT_baseline, gain potentiel sur baseline
+
+Volet 4 — Instances réalistes sous tension
+
+Mêmes mesures que volet 3, instances tendues
+
+realiste-med : T=75, D=6, N=(2,3), C=(5,6), seeds=3
+realiste-large : T=150, D=6, N=(2,3), C=(5,6), seeds=3
+Quels patients planifiés, quels jours, heures sup par jour ?
+Comparaison baseline : sur quelles journées le gain est-il le plus marqué ? Pour quelles classes ?
+Comparaison avec volet 3 : le front se contracte-t-il sous tension ?
+Mesures : |YN|, étendue WL, étendue OT, cpu_time, WL_baseline, OT_baseline, heures sup par jour, taux de patients planifiés par classe
+
+Volet 5 — Force de proposition
+
+Toujours sur ref (T=75, D=6, N=2, C=5, seed=42) → fronts directement comparables
+
+Contrainte 6 : situation cliniquement incohérente → identifier, corriger, mesurer impact sur YN (mesures : |YN| avant/après, étendue avant/après)
+Questions ouvertes (théorique, non développées) :
+Sessions variables par patient (pas forcément 3) → que changerait-il dans le modèle ?
+Pauses infirmières absentes → comment intégrer ?
+Multi-unités → problème de plus court chemin → hors scope, juste mentionné
+Extension pharmacie :
+v1 — contrainte slot : ∑ x[i,d] ≤ P_d — paramètre P_d par jour. Analyse de sensibilité sur P_d : loose → serré → impact sur |YN|
+v2 — contrainte temps pondéré : ∑ p_i · x[i,d] ≤ Np_d · R_d — paramètre Np_d. Analyse de sensibilité sur Np_d : 2 → 1 pharmacien → impact sur |YN|
+Résultat visuel : trois fronts superposés sur ref (base / v1 / v2)
+Mesures : |YN|, étendue WL, étendue OT pour chaque version → quantifier la contraction
